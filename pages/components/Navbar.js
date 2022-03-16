@@ -68,24 +68,50 @@ export default function Header() {
                                                     <div className={css.dropdowncontent3}>
                                                         <Row>
                                                             <Col>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">4F GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgt">5F GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">5FP GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">5HP GT</Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
+                                                                    <a>4F GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgt">
+                                                                    <a>5F GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">
+                                                                    <a>5FP GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">
+                                                                    <a>5HP GT</a>
+                                                                </Link>
 
                                                             </Col>
                                                             <Col>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6fgt">6F GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">6HP GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">6HP GTE</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8fgt">8F GT</Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6fgt">
+                                                                    <a>6F GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">
+                                                                    <a>6HP GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">
+                                                                    <a>6HP GTE</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8fgt">
+                                                                    <a>8F GT</a>
+                                                                </Link>
                                                             </Col>
                                                             <Col>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hblack">8H GTE BLACK</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgt">8H GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">8H GTE Hybrid</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/10fgt">10F GT</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">12H GTE Hybrid</Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hblack">
+                                                                    <a>8H GTE BLACK</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
+                                                                    <a>8H GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
+                                                                    <a>8H GTE Hybrid</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/10fgt">
+                                                                    <a>10F GT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
+                                                                    <a>12H GTE Hybrid</a>
+                                                                </Link>
                                                             </Col>
                                                         </Row>
                                                     </div>
@@ -99,18 +125,33 @@ export default function Header() {
                                                         <Row>
                                                             <Col>
                                                                 <div>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b457">B 457</Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b670a">B 670A</Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h457">H 457</Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h458">H 458</Link>
-
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b457">
+                                                                        <a>B 457</a>
+                                                                    </Link>
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b670a">
+                                                                        <a>B 670A</a>
+                                                                    </Link>
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h457">
+                                                                        <a>H 457</a>
+                                                                    </Link>
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h458">
+                                                                        <a>H 458</a>
+                                                                    </Link>
                                                                 </div>
                                                             </Col>
                                                             <Col>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s250">S 250</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s350">S 350</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s450">S 450</Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">S 550</Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s250">
+                                                                    <a>S 250</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s350">
+                                                                    <a>S 350</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s450">
+                                                                    <a>S 450</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">
+                                                                    <a>S 550</a>
+                                                                </Link>
                                                             </Col>
                                                         </Row>
                                                     </div>
@@ -118,11 +159,11 @@ export default function Header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <Link href="/sobrenos">
-                                        <Link className={css.textheader}>SOBRE A PESA FOREST</Link>
+                                    <Link href="/sobrenos" className={css.textheader}>
+                                        <a>SOBRE A PESA FOREST</a>
                                     </Link>
-                                    <Link href="/contato">
-                                        <Link className={css.textheader}>CONTATO</Link>
+                                    <Link href="/contato" className={css.textheader}>
+                                        <a>CONTATO</a>
                                     </Link>
                                 </div>
                             </Col>
