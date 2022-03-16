@@ -1,0 +1,104 @@
+
+.bgform {
+    background-color: #DBDBDB;
+    padding: 30px 0 100px 0;
+}
+.ttmaq2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(75, 75, 75, 0.32);
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), #bdbdbd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.ttmaq1{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-size: 55px;
+    margin-top: -55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textocontato {
+    color: #000000;
+    font-size: 15px;
+    font-family: Univers;
+    text-align: center;
+    padding: 0 300px 20px 300px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.label{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-size: 23px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.inputform{
+    width: 100%;
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 10px 20px 10px 20px;
+    color: #000000;
+    font-family: Univers;
+    border-radius: 3px;
+
+}
+.inputform:focus{
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    outline: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    transition: 0.5s;
+}
+
+.textcheckbox {
+    color: #6b6b6b;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-family: Univers;
+}
+
+.botaomensagem {
+    background-color: #ffffff;
+    padding: 13px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 3px;
+    font-family: Univers;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.botaomensagem:hover{
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    color: #000000;
+    transition: 1s;
+}
+.botaomensagem:active{
+    background-color: rgba(213, 213, 213, 0.8);
+    transition: 0.1s;
+}

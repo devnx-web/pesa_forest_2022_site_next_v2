@@ -1,0 +1,256 @@
+
+.bgsobre {
+    background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(32,32,32,0) 100%);
+}
+
+.cardcateg{
+    background: transparent linear-gradient(239deg, #242424 0%, #575757 100%);
+    padding: 30px;
+    margin-top: -60px;
+    margin-bottom: 70px;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-color: #565656;
+}
+
+.textocard {
+    color: #ffffff;
+    font-size: 21px;
+    margin-top: 10px;
+    font-family: Univers;
+}
+
+
+.bgpage {
+    background: linear-gradient(90deg, rgb(196, 197, 204) 0%, rgba(255,255,255,1) 100%);
+    padding: 70px 0 400px 0;
+}
+
+.ttmaq2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(75, 75, 75);
+    font-family: "Bebas Neue";
+    font-size: 130px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -15px;
+
+}
+
+.ttmaq1{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 88px;
+    margin-top: -90px;
+    margin-left: 2px;
+}
+.textomaq{
+    color: #000000;
+    font-size: 14px;
+    font-family: "Univers";
+}
+
+.botaosaber {
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.30);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.30);
+    width: 180px;
+    text-align: center;
+    padding: 8px 8px 6px 8px;
+    border-radius: 2px;
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: solid;
+    border-width: 1px;
+    border-color: transparent;
+    transition: 1s;
+}
+.botaosaber:hover {
+    border-color: #a1a1a1;
+    transition: 1s;
+}
+.botaosaber:active {
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(77, 77, 77, 0.5);
+    box-shadow: 0px 0px 5px 3px rgba(77, 77, 77, 0.5);
+}
+.alinhado{
+    display: flex;
+}
+
+.imgmaquina {
+    background-image: url('../../../../public/pth18.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+}
+
+.botaodetalhes{
+    background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgb(31, 31, 31) 100%);
+    text-align: center;
+    padding: 19px 0 0 0;
+    color: #8b8f9b;
+    font-family: "Univers", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-height: 75px;
+    width: 100%;
+    font-weight: 600;
+}
+.botaodetalhes2{
+    background: transparent;
+    text-align: center;
+    padding: 19px 0 0 0;
+    color: #000000;
+    font-family: "Univers";
+    font-size: 14px;
+    border: solid;
+    border-width: 1px;
+    border-color: #9a9a9a;
+    cursor: pointer;
+    /* min-width: 128px; */
+    transition: 0.8s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-height: 75px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.ttdetalhes {
+    color: #000000;
+    font-size: 35px;
+    font-family: "Bebas Neue";
+    margin-top: 130px;
+}
+
+.textconh {
+    color: #000000;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: "Univers";
+}
+
+.alinhamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    padding: 30px 20px 20px 20px;
+    border: solid;
+    border-width: 1px;
+
+    border-top: none;
+    margin-top: -15px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-color: #9a9a9a;
+
+}
+.destaque{
+    font-family: "Bebas Neue";
+}
+
+.s250{
+    background-image: url('../../../../public/s450.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: right;
+}
+
+
+
+.textocard{
+    color: #000000;
+    font-size: 14px;
+    font-family: "Univers";
+}
+.ttdetalhes2 {
+    color: #000000;
+    font-size: 35px;
+    font-family: "Bebas Neue";
+    margin-top: 40px;
+}
+@media (max-width: 1000px) {
+    .ocultamob {
+        display: none;
+    }
+    .card {
+        padding: 30px 20px 20px 20px;
+        border: solid;
+        border-width: 1px;
+        border-top: none;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-color: #9a9a9a;
+    }
+    .botaodetalhes{
+        background: linear-gradient(212deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 100%);
+        text-align: center;
+        padding: 19px 10px 5px 10px;
+        color: #8b8f9b;
+        font-family: "Univers", sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        min-height: 65px;
+        min-width: 160px;
+        font-weight: 600;
+    }
+    .botaodetalhes2{
+        background: transparent;
+        text-align: center;
+        padding: 19px 10px 5px 10px;
+        color: #000000;
+        font-family: "Univers";
+        font-size: 15px;
+        border: solid;
+        border-width: 1px;
+        border-color: #9a9a9a;
+        cursor: pointer;
+        /* min-width: 128px; */
+        transition: 0.8s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        min-height: 65px;
+        min-width: 160px;
+        font-weight: 600;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+    .ocultadesk {
+        display: none;
+    }
+}
+
+

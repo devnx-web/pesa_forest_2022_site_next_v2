@@ -1,0 +1,104 @@
+
+.bgmaq{
+    background-color: #c4c4c4;
+    padding: 40px 0 0 0;
+}
+
+.ttmaq2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(136, 136, 136);
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), rgba(0, 0, 0, 0.4));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.ttmaq1{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: -60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.nomemaq2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(136, 136, 136);
+    font-family: "Bebas Neue";
+    font-size: 110px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), rgba(0, 0, 0, 0.4));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.nomemaq1{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 75px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.textomaq{
+    color: #000000;
+    font-family: Univers;
+}
+
+.botaosaber {
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px;
+    color: #000000;
+    font-weight: 600;
+    font-family: Univers;
+    cursor: pointer;
+    font-size: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.4);
+    margin-left: 5px;
+}
+
+.botaosaber:hover {
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: #000000;
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.botaosaber:active {
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    transition: 0.1s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.4);
+}
+
+.bgslide{
+    background-image: url("../../public/maquinapth18.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}

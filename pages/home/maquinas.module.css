@@ -1,0 +1,202 @@
+
+
+.bgmaq {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 50%, rgb(0, 0, 0) 100%), url("../../public/bgmaq.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0 150px 0;
+    background-attachment: fixed;
+}
+
+.ttmaq {
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 45px;
+    margin-top: 70px;
+}
+.subconhe {
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+
+}
+.ttnossa2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.15);
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), #5d5d5d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    line-height: 65px;
+
+}
+.ttnossa1{
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: -60px;
+    background-image: linear-gradient(to bottom, #ffffff, #ececec, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.borda{
+    width: 400px;
+    height: 4px;
+    margin-top: -15px;
+    background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.textohistoria {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Univers";
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+
+.link:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+.botaosaber{
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    width: 130px;
+    padding: 8px 8px 6px 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: "Bebas Neue";
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 0.8s;
+    margin-bottom: -50px;
+}
+.botaosaber:hover{
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+    transition: 0.8s;
+}
+.bgslide {
+    background-image: url("../../public/maquinaslide.png");
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+    width: 95%;
+}
+.bgslide2 {
+    background-image: url("../../public/maquinaslide2.png");
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+    width: 95%;
+}
+.bgslide3 {
+    background-image: url("../../public/maquinaslide3.png");
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.position{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+}
+.nomemaq{
+    color: #ececec;
+    font-family: "Bebas Neue";
+    font-size: 22px;
+}
+.botaoler{
+    background-color: #101010;
+    padding: 3px;
+    text-align: center;
+    width: 80px;
+    border-radius: 3px;
+    color: #b2b2b2;
+    font-size: 11px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 1s;
+    border: solid;
+    border-color: #101010;
+    border-width: 2px;
+}
+.botaoler:hover{
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color: #343434;
+    border-radius: 3px;
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+}
+.botaoler:active{
+    background-color: #343434;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 600px) {
+    .ocultamob {
+        display: none;
+    }
+    .ttmaq {
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+        font-family: "Bebas Neue";
+        font-size: 45px;
+        margin-top: 70px;
+    }
+    .borda{
+        width: 200px;
+        height: 4px;
+        margin-top: -15px;
+        background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    }
+}
+
+
+
+@media (min-width: 600px) {
+    .ocultadesk {
+        display: none;
+    }
+
+}

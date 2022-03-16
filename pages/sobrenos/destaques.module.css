@@ -1,0 +1,100 @@
+.title{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    margin-bottom: -13px;
+    color: #000000;
+    font-weight: bold;
+}
+.bordatt {
+    width: 200px;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    margin-bottom: 40px;
+}
+.maquina1{
+    background-image: url("../../public/pth18.png");
+    height: 200px;
+    background-size: contain;
+    border-radius: 5px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.maquina2{
+    background-image: url("../../public/maquinas/ptl20.png");
+    height: 200px;
+    background-size: contain;
+    border-radius: 5px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.maquina3{
+    background-image: url("../../public/s550.png");
+    height: 200px;
+    background-size: contain;
+    border-radius: 5px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.maquina4{
+    background-image: url("../../public/maquinas/5fp-gt.png");
+    height: 200px;
+    background-size: contain;
+    border-radius: 5px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.name{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+
+}
+
+.bgmaquina{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(215, 215, 215, 0.50);
+    box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 0.50);
+    padding: 15px 15px 25px 15px;
+    background: #ffffff;
+}
+
+.button{
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: #000000;
+    width: 130px;
+    padding: 8px 8px 6px 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: "Bebas Neue";
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 0.8s;
+    margin-bottom: -50px;
+}
+
+.button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+.textomaq{
+    color: #000000;
+    font-size: 15px;
+    font-family: Univers;
+}
+
+.bgpage{
+    background: linear-gradient(180deg, rgba(255,255,255,0) 30%, rgba(219,219,219,1) 100%);
+}

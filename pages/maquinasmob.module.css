@@ -1,0 +1,25 @@
+
+.bgmaquinasmob {
+    background: linear-gradient(342deg, rgba(30,30,30,1) 0%, rgb(0, 0, 0) 70%, rgba(0,0,0,1) 100%);
+    padding-top: 80px ;
+}
+.titulomaq{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Bebas Neue";
+    font-weight: 100;
+}
+.marcamaquinas{
+    color: #dadada;
+    font-size: 32px;
+    font-family: "Bebas Neue";
+    font-weight: 100;
+    margin-top: 35px;
+}
+.nomemaquinas{
+    color: #d7d7d7;
+    font-size: 25px;
+    font-family: "Bebas Neue";
+    margin-top: 10px;
+    text-decoration-line: underline;
+}

@@ -14,3 +14,105 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Univers';
+  src: url('../public/fonts/univers-medium.ttf');
+}
+
+
+/*Mobile Maquinas*/
+
+
+@media (max-width: 600px) {
+  .ocultamob {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 600px) {
+  .ocultadesk {
+    display: none;
+  }
+}
+
+.bgmobile {
+  background: linear-gradient(141deg, rgba(255, 255, 255, 0.11) 0%, rgba(153,153,153,0) 50%, rgba(0,0,0,0) 50%, rgba(255, 255, 255, 0.08) 100%);
+  background-color: black;
+  height: 480px;
+  background-size: cover;
+  background-position: left;
+}
+
+.ttmaq2{
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(75, 75, 75);
+  font-family: "Bebas Neue";
+  font-size: 85px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), rgba(255, 255, 255, 0.09));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 100px;
+}
+
+.ttmaq1{
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: -65px;
+}
+.textomob{
+  color: #f2f2f2;
+  font-family: "Bebas Neue";
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 2px;
+
+}
+
+
+.desc{
+  padding: 70px 0 50px 0;
+}
+
+.textodesc{
+  color: #000000;
+  font-size: 15px;
+  font-family: Univers;
+  font-weight: 600;
+}
+
+.botaodw {
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.30);
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.30);
+
+  text-align: center;
+  padding: 8px 8px 6px 8px;
+  border-radius: 2px;
+  font-family: "Bebas Neue";
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: solid;
+  border-width: 1px;
+  border-color: transparent;
+  transition: 1s;
+}
+.botaodw:hover {
+  border-color: #a1a1a1;
+  transition: 1s;
+}
+.botaodw:active {
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(77, 77, 77, 0.5);
+  box-shadow: 0px 0px 5px 3px rgba(77, 77, 77, 0.5);
+}

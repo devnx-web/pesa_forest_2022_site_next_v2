@@ -1,0 +1,84 @@
+
+.bgpage{
+    background-image: linear-gradient(100deg, rgb(225, 225, 225) 0%, rgba(255, 255, 255, 0) 100%), url("../../public/fundo2.png");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.titulopage{
+    color: rgba(0, 0, 0, 0.84);
+    font-family: "Bebas Neue";
+    font-weight: 100;
+    font-size: 38px;
+}
+
+.pessoa {
+    border-radius: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.textoopn{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Univers";
+}
+
+.cardopn {
+    background: #ffffff;
+    padding: 25px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(72, 72, 72, 0.20);
+    border-radius: 10px;
+    width: 97%;
+
+}
+
+.nome {
+    font-size: 20px;
+    font-family: "Bebas Neue";
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.categoria {
+    font-size: 20px;
+    font-family: "Bebas Neue";
+}
+.textoav {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Univers";
+}
+@media (min-width: 600px) {
+    .paddingslide
+    {
+        padding-left: 110px;
+    }
+
+}
+@media (max-width: 600px) {
+    .bgpage{
+        background-image: linear-gradient(100deg, rgb(225, 225, 225) 0%, rgba(255, 255, 255, 0) 100%), url("../../public/fundo2.png");
+        background-position: center;
+        background-size: cover;
+        padding: 100px 0 0 0;
+    }
+    .cardopn {
+        background: #ffffff;
+        padding: 25px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgba(72, 72, 72, 0.20);
+        border-radius: 10px;
+        width: 93%;
+        margin-bottom: 80px;
+        margin-top: 25px;
+    }
+}

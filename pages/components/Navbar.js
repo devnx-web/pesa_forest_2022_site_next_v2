@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import Link from "next/link";
 
-export default function Header() {
+export default function Navbar() {
 
     return (
         <div className={css.ocultamob}>
