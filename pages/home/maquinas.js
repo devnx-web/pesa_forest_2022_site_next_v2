@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Link from "next/link";
 
 
 
@@ -48,23 +49,23 @@ export default function Maquinas() {
             }
         ]
     };
-    return(
+    return (
         <div className={css.bgmaq}>
             <Container>
                 <div className={'pb-2 pb-md-0'}>
-                   <h2 className={css.ttmaq}>MÁQUINAS</h2>
+                    <h2 className={css.ttmaq}>MÁQUINAS</h2>
                 </div>
                 <Row>
                     <Col md="6">
                         <div>
                             <Slider {...settings}>
                                 <div style={{ width: 250 }}>
-                                  <div className={css.bgslide}>
-                                    <div className={css.position}>
-                                        <h3 className={css.nomemaq}>PTL 20</h3>
-                                        <div className={css.botaoler}>LER MAIS</div>
+                                    <div className={css.bgslide}>
+                                        <div className={css.position}>
+                                            <h3 className={css.nomemaq}>PTL 20</h3>
+                                            <div className={css.botaoler}>LER MAIS</div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                                 <div style={{ width: 250 }}>
                                     <div className={css.bgslide2}>
@@ -98,9 +99,11 @@ export default function Maquinas() {
                                 </p>
                             </div>
                             <div>
-                              <div className={css.botaosaber}>
-                                  <a className={css.link} href="/sobrenos">SABER MAIS</a>
-                              </div>
+                                <div className={css.botaosaber}>
+                                    <Link href="/sobrenos">
+                                        <a className={css.link}>SABER MAIS</a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </Col>

@@ -20,19 +20,19 @@ export default function Headermob() {
                     <div className={css.div}></div>
                 </label>
                 <ul className={css["menu"] + " " + css["ul"]}>
-                    <Link className={css.a} href="/">
+                    <Link className={css.a} to="/">
                         <li className={css.li}>inicio</li>
                     </Link>
-                    <Link className={css.a} href="/maquinasmob">
+                    <Link className={css.a} to="/maquinasmob">
                         <li className={css.li}>máquinas</li>
                     </Link>
-                    <Link className={css.a} href="/sobrenos">
+                    <Link className={css.a} to="/sobrenos">
                         <li className={css.li}>sobre a pesa forest</li>
                     </Link>
-                    <Link className={css.a} href="/contato">
+                    <Link className={css.a} to="/contato">
                         <li className={css.li}>contato</li>
                     </Link>
-                    <Link href="#">
+                    <Link to="#">
                         Entrar em Contato
                     </Link>
                 </ul>

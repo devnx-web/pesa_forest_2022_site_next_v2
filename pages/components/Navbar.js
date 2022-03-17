@@ -10,13 +10,13 @@ export default function Navbar() {
     return (
         <div className={css.ocultamob}>
             <div className={css.bgheader}>
-                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+                <Link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
                 <Container>
                     <div>
                         <Row style={{ alignItems: 'center' }}>
                             <Col md="2">
                                 {/*Logo Forest*/}
-                                <Link href="/"><Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} /></Link>
+                                <Link to="/"><Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} /></Link>
                             </Col>
                             <Col>
                                 {/*Titulos do Header*/}
