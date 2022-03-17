@@ -8,15 +8,18 @@ import Maqpth18mob from "./home/maqpth18mob";
 import Operacao from "./home/operacao";
 import Opinioes from "./home/opinioes";
 import Formulario from "../components1/contactForm2";
-import css from "../../components/header.module.css";
+import css from "./components/header.module.css";
 import React from "react";
 import Headermob from "../components1/headermob";
+import Header from './components/header';
+import Footer from './components/Footer';
 
 
 export default function Home() {
   return (
   <div>
     <div>
+      <Header/>
       <Banner/>
       <Maquinas/>
       <div className={css.ocultamob}>
@@ -28,6 +31,7 @@ export default function Home() {
       <Operacao/>
       <Opinioes/>
       <Formulario/>
+      <Footer/>
     </div>
   </div>
   )
