@@ -12,8 +12,8 @@ export default function Mobile(){
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>H 458</h1>
-                    <h1 className={'ttmaq1'}>H 458</h1>
+                    <h1 className={'ttmaq2'}>H 457</h1>
+                    <h1 className={'ttmaq1'}>H 457</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet

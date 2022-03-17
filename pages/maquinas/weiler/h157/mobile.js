@@ -3,7 +3,7 @@ import { Container, Row, Col} from 'reactstrap'
 import Link from "next/link";
 import Image from "next/image";
 import css from "../../../components/header.module.css";
-import img from "../../../../public/maquinas/b458.png"
+import img from "../../../../public/maquinas/b457.png"
 
 
 export default function Mobile(){
@@ -12,8 +12,8 @@ export default function Mobile(){
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>H 458</h1>
-                    <h1 className={'ttmaq1'}>H 458</h1>
+                    <h1 className={'ttmaq2'}>H157</h1>
+                    <h1 className={'ttmaq1'}>H157</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet

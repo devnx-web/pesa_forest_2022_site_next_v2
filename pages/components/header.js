@@ -102,7 +102,7 @@ export default function Header() {
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/s250">S 250</a>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/s350">S 350</a>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/s450">S 450</a>
-                                                                 <a className={css.nomemaq} href="/maquinas/weiler/h458">S 550</a>
+                                                                 <a className={css.nomemaq} href="/maquinas/weiler/s550">S 550</a>
                                                             </div>
                                                         </Col>
                                                     </Row>

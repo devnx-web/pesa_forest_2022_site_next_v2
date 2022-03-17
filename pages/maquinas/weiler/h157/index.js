@@ -13,12 +13,12 @@ import Footercop from "../../../components/footercop";
 import Mobile from "./mobile";
 
 
-export default function H458() {
+export default function H157() {
     return (
         <div>
             <div>
-                 <Header/>
-                 <Headermob/>
+                <Header/>
+                <Headermob/>
                 <div className={'ocultamob'}>
                     <Banner/>
                     <Sobre/>
@@ -28,7 +28,6 @@ export default function H458() {
                 </div>
                 <Footer/>
                 <Footercop/>
-                 
             </div>
         </div>
     )
