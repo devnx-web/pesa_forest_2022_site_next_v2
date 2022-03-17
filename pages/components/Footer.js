@@ -1,9 +1,9 @@
-import css from './footer.module.css'
 import React from "react";
 import Image from "next/image";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'reactstrap';
 import Link from "next/link";
+import { Container, Row, Col } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './footer.module.css'
 
 export default function Footer() {
     return (

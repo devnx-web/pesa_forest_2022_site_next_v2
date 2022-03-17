@@ -1,13 +1,12 @@
 import style from './sobre.module.css'
 import css from './sobre.module.css'
-import React, {useState} from "react";
-import Image from "next/image";
+import React, { useState } from "react";
 import { Container, Row, Col } from 'reactstrap';
 
 
-export default function Sobre(){
+export default function Sobre() {
     const [tab, setTab] = useState('RESUMO')
-    return(
+    return (
         <div className={style.bgsobre}>
             <Container className={'pt-5 pb-5'}>
                 <div className={css.ocultamob}>

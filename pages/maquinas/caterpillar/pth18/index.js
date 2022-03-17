@@ -1,11 +1,6 @@
-
-
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../../../../styles/Home.module.css'
 import Sobre from "./sobre";
 import Mobile from "./mobile";
-import Banner from "./banner";
+import Banner from './banner'
 import Header from '../../../components/header';
 import Footer from '../../../components/Footer';
 
@@ -15,13 +10,13 @@ export default function Pth18() {
         <div>
             <div>
                 <div className={'ocultamob'}>
-                    <Header/>
-                <Banner/>
-                <Sobre/>
-                <Footer/>
+                    <Header />
+                    <Banner />
+                    <Sobre />
+                    <Footer />
                 </div>
                 <div className={'ocultadesk'}>
-                 <Mobile/>
+                    <Mobile />
                 </div>
             </div>
         </div>

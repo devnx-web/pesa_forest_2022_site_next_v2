@@ -3,10 +3,6 @@ import css from './sobre.module.css'
 import React, {useState} from "react";
 import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
-import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
-import Maqpth18mob from "../../../home/maqpth18mob";
-import Header from '../../../components/header';
-import Footer from '../../../components/Footer';
 
 
 export default function Sobre(){

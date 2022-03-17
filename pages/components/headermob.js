@@ -1,14 +1,10 @@
-import { Container, Row, Col } from 'reactstrap'
-import Image from "next/image";
 import React from "react";
 import css from "./headermob.module.css";
-import { Navigation } from 'react-minimal-side-navigation';
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 import Link from "next/link";
 
 
 export default function Headermob() {
-
     return (
         <nav className={css.navigation}>
             <div className={css["menuToggle"] + " " + css["div"]}>

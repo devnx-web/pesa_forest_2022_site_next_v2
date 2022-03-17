@@ -1,4 +1,4 @@
-import Banner from "./banner";
+import Banner from './banner'
 import React from "react";
 import Sobre from "./sobre";
 import Mobile from "../8fgt/mobile";
