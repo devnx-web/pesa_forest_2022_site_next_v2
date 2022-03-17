@@ -23,8 +23,8 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            A Caterpillar oferece uma linha completa de equipamentos florestais para atender às necessidades de sua aplicação - das principais máquinas que auxiliam na construção de estradas, em serrarias e reflorestamento, até máquinas criadas para fins específicos, que colhem, extraem e carregam, a linha de produtos da Caterpillar é tudo o que você precisa para terminar o trabalho.
-                                        </p>
+                                        A PESA Forest oferece uma linha completa de equipamentos florestais para atender às necessidades de sua aplicação - das principais máquinas que auxiliam na construção de estradas, em serrarias e reflorestamento, até máquinas criadas para fins específicos, que colhem, extraem e carregam.
+                                        Conta com uma linha de produtos de grandes marcas como Caterpillar, Weiller, Quadco, e Logmax . É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal. </p>
                                     </div>
                                 </Col>
                             </Row>

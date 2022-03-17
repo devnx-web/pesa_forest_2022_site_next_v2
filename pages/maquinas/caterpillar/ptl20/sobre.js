@@ -7,6 +7,7 @@ import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinarespon
 import Maqpth18mob from "../../../home/maqpth18mob";
 
 
+
 export default function Sobre(){
     const [tab, setTab] = useState('RESUMO')
     return(

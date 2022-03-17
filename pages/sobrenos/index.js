@@ -1,12 +1,12 @@
-import Header from "../../components/header";
+import Header from "../components/header";
 import Banner from "./banner";
 import React from "react";
-import Headermob from "../../components/headermob";
+import Headermob from "../components/headermob";
 import Sobre from "./sobre";
-import Footer from "../../components/footer";
-import Footercop from "../../components/footercop";
+import Footer from "../components/footer";
+import Footercop from "../components/footercop";
 import Mobile from "./mobile";
-import Formulario from "../../components/contatoForm.js";
+import Formulario from "../components/contatoForm";
 import {Form} from "reactstrap";
 import Destaques from "./destaques";
 
@@ -15,6 +15,8 @@ export default function Sobrenos() {
     return (
         <div>
             <div>
+                <Header/>
+                <Headermob/>
 
                 <div className={'ocultamob'}>
                     <Banner/>
@@ -31,6 +33,8 @@ export default function Sobrenos() {
                 <div className={'ocultadesk'}>
                     <Mobile/>
                 </div>
+                <Footer/>
+                <Footercop/>
 
             </div>
         </div>

@@ -25,7 +25,7 @@ export default function Header() {
                                     <a className={css.textheader}>INICIO</a>
                                 </Link>
                                 <div className={css.dropdown}>
-                                     <button className={css.dropbtn}><a className={css.link} href="/maquinas"> MÁQUINAS </a> <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} /></button>
+                                     <button className={css.dropbtn}><a className={css.link} href="/maquinas"> PRODUTOS </a> <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} /></button>
                                     <div className={css.dropdowncontent}>
                                         <div>
                                             <div className={css.dropdown2}>

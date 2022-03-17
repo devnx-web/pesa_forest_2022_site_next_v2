@@ -1,5 +1,5 @@
 
-import api from "../pages/providers/api"
+import api from "../../pages/providers/api"
 import React, {useState} from 'react'
 import css from "./contactForm.module.scss"
 import { toast, ToastContainer } from 'react-nextjs-toast'

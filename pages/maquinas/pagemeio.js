@@ -10,12 +10,11 @@ export default function Pagemeio(){
             <Container>
                 <div>
                    <h2 className={css.ttmaq2}>LOREM ISPUM DOLOR</h2>
-                   <h2 className={css.ttmaq1}>LOREM ISPUM DOLOR</h2>
+                   <h2 className={css.ttmaq1}> Versatilidade e produtividade para a <br></br>sua operação florestal.</h2>
                 </div>
                 <div>
                     <p className={css.textopage}>
-                        Para entrar em contato conosco, basta preencher o formulário abaixo! <br/> Nossa equipe está pronta para te atender!
-                    </p>
+                    A agilidade e eficiência de marcas referência no setor florestal.  Solicite atendimento <br/> através de nosso formulário de contato!                    </p>
                 </div>
                 <div style={{paddingLeft: 220, paddingRight: 220}}>
                     <Row>
@@ -42,7 +41,7 @@ export default function Pagemeio(){
                         <Col xs="12" sm="12" md="6">
                             <div className={css.cardpage}>
                                 <div>
-                                    <h4 className={css.subtt}>MÁQUINAS</h4>
+                                    <h4 className={css.subtt}>CABEÇOTES</h4>
                                     <h4 className={css.ttcard}>Log Max</h4>
                                 </div>
                                 <p className={css.textocard}>
