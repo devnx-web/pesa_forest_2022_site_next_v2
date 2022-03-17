@@ -36,8 +36,8 @@ export default function Header() {
                                                 <div className={css.dropdowncontent2}>
                                                     <div>
                                                         <a className={css.nomemaq} href="/maquinas/caterpillar/pth18">PTH 18</a>
-                                                        <a className={css.nomemaq} href="/maquinas/caterpillar/pth18">PTH 20</a>
-                                                        <a className={css.nomemaq} href="/maquinas/caterpillar/pth18">PTL 20</a>
+                                                        <a className={css.nomemaq} href="/maquinas/caterpillar/pth20">PTH 20</a>
+                                                        <a className={css.nomemaq} href="/maquinas/caterpillar/ptl20">PTL 20</a>
                                                     </div>
                                                 </div>
                                             </div>
