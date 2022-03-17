@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col} from 'reactstrap'
 import Link from "next/link";
 import Image from "next/image";
-import css from "../../../../components/header.module.css";
+import css from "../../../components/headermob";
 
 
 export default function Mobile(){
