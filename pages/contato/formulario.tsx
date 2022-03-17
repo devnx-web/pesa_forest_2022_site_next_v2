@@ -1,7 +1,7 @@
 import css from './formulario.module.css'
 import React from 'react';
 import {Container} from 'reactstrap';
-import ContactForm from "../../components/contatoForm"
+import ContactForm from "../components/contatoForm"
 
 export default function Formulario() {
 
