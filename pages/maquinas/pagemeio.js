@@ -9,7 +9,7 @@ export default function Pagemeio(){
         <div className={css.bgpage}>
             <Container>
                 <div>
-                   <h2 className={css.ttmaq2}>LOREM ISPUM DOLOR</h2>
+                   <h2 className={css.ttmaq2}>PESA FOREST</h2>
                    <h2 className={css.ttmaq1}> Versatilidade e produtividade para a <br></br>sua operação florestal.</h2>
                 </div>
                 <div>
@@ -23,6 +23,9 @@ export default function Pagemeio(){
                                <div>
                                    <h4 className={css.subtt}>MÁQUINAS</h4>
                                    <h4 className={css.ttcard}>Cartepillar</h4>
+                                   <div className={'imgposi'}>
+                            <Image src="/maquinas/pth20-harvester.png" alt="maquina" width={500} height={400} />
+                        </div>
                                </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
@@ -64,7 +67,10 @@ export default function Pagemeio(){
                             <div className={css.cardpage}>
                                 <div>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
-                                    <h4 className={css.ttcard}>Cartepillar</h4>
+                                    <h4 className={css.ttcard}>LOGSET</h4>
+                                    <div className={'imgposi'}>
+                            <Image src="/maquinas/5f-gt-transparente.png" alt="maquina" width={500} height={400} />
+                        </div>
                                 </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
@@ -84,7 +90,10 @@ export default function Pagemeio(){
                             <div className={css.cardpage}>
                                 <div>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
-                                    <h4 className={css.ttcard}>Log Max</h4>
+                                    <h4 className={css.ttcard}>WEILER</h4>
+                                    <div className={'imgposi'}>
+                            <Image src="/maquinas/b458.png" alt="maquina" width={500} height={400} />
+                        </div>
                                 </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.

@@ -13,6 +13,7 @@ import React from "react";
 import Headermob from "../components1/headermob";
 import Header from './components/header';
 import Footer from './components/Footer';
+import Footercop from './components/footercop'
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
       <Opinioes/>
       <Formulario/>
       <Footer/>
+      <Footercop/>
     </div>
   </div>
   )

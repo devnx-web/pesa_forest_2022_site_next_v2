@@ -121,9 +121,12 @@ export default function Header() {
                         </Col>
                         <Col md="2">
                             {/*Botão header Entre em contato*/}
-                            <div className={css.botaoctt}>
+
+                            <Link href="/contato">
+                             <a className={css.botaoctt}>
                                 Entrar em Contato
-                            </div>
+                            </a>
+                            </Link>
                         </Col>
                     </Row>
 

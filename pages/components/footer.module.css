@@ -13,12 +13,13 @@
 }
 
 .link{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 .link:hover{
     color: black;
+    text-decoration: none;
 }
 
 .bgfooter {
@@ -102,6 +103,7 @@
     font-size: 23px;
     margin-top: 40px;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .textofooter {
@@ -111,4 +113,5 @@
     font-weight: 400;
     margin-bottom: 15px;
     font-family: "Univers";
+    text-decoration: none;
 }
