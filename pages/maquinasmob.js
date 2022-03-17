@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
-import Headermob from "../components/headermob";
 import css from './maquinasmob.module.css'
 import React from "react";
 import Link from "next/link";
@@ -10,7 +9,6 @@ export default function Maquinasmob() {
     return (
         <div>
             <Link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
-            <div><Headermob /></div>
             <div className={css.bgmaquinasmob}>
                 <Container>
                     <h1 className={css.titulomaq}>Selecione uma máquina</h1>
