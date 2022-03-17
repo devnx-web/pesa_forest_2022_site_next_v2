@@ -32,11 +32,9 @@ export default function Pagemeio(){
                                 </p>
                                 <div>
                                     <select className={css.select}>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
+                                        <option className={css.selectoption} value="1">PTH 18</option>
+                                        <option className={css.selectoption} value="1">PTH 20</option>
+                                        <option className={css.selectoption} value="1">PTL 20</option>
                                     </select>
                                 </div>
                             </div>
@@ -46,6 +44,9 @@ export default function Pagemeio(){
                                 <div>
                                     <h4 className={css.subtt}>CABEÇOTES</h4>
                                     <h4 className={css.ttcard}>Log Max</h4>
+                                    <div className={'imgposi'}>
+                            <Image src="/maquinas/peca-logmax.png" alt="maquina" width={500} height={400} />
+                        </div>
                                 </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
@@ -77,9 +78,9 @@ export default function Pagemeio(){
                                 </p>
                                 <div>
                                     <select className={css.select}>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
-                                        <option className={css.selectoption} value="1">Ver modelos</option>
+                                        <option className={css.selectoption} value="1">4F GT</option>
+                                        <option className={css.selectoption} value="1">5F GT</option>
+                                        <option className={css.selectoption} value="1">5FP GT</option>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                     </select>

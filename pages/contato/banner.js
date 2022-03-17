@@ -9,8 +9,9 @@ export default function Banner(){
     return(
         <div className={css.bgbanner}>
             <Container>
-                <div>
-
+            <div className={css.posicaott}>
+                    <h1 className={css.titulo1}>Contato</h1>
+                    <h1 className={css.titulo2}>Contato</h1>
                 </div>
             </Container>
         </div>

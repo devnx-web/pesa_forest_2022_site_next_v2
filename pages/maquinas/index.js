@@ -9,6 +9,7 @@ import Pagemeio from "./pagemeio";
 import Maqdestaque from "./maqdestaque";
 import Header from '../components/header';
 import Footer from '../components/Footer';
+import Footercop from '../components/footercop';
 
 
 export default function Maquinas() {
@@ -20,6 +21,7 @@ export default function Maquinas() {
                 <Pagemeio/>
                 <Maqdestaque/>
                 <Footer/>
+                <Footercop/>
             </div>
         </div>
     )
