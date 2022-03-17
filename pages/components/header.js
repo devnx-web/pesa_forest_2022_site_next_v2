@@ -78,7 +78,7 @@ export default function Header() {
                                                 </button>
                                                 <div className={css.dropdowncontent2}>
                                                     <Row>
-                                                        <Col>
+                                                        <Col md="4">
                                                             <div>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/b457">B 457</a>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/b458">B 458</a>
@@ -87,7 +87,7 @@ export default function Header() {
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/b670a">B 670A</a>
                                                             </div>
                                                         </Col>
-                                                        <Col>
+                                                        <Col md="4">
                                                             <div>
                                                                  <a className={css.nomemaq} href="/maquinas/weiler/b757">B 757</a>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/b758">B 758</a>
@@ -96,7 +96,7 @@ export default function Header() {
                                                                  <a className={css.nomemaq} href="/maquinas/weiler/h458">H 458</a>
                                                             </div>
                                                         </Col>
-                                                        <Col>
+                                                        <Col md="4">
                                                             <div>
                                                                  <a className={css.nomemaq} href="/maquinas/weiler/m860">M 860</a>
                                                                 <a className={css.nomemaq} href="/maquinas/weiler/s250">S 250</a>
