@@ -1,10 +1,8 @@
 
-// import api from "../pages/providers/api"
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import css from "./contactForm.module.scss"
 
-// import { toast, ToastContainer } from 'react-nextjs-toast'
-import {Input, Container} from "reactstrap";
+import { Input, Container } from "reactstrap";
 
 const ContactForm = () => {
     // const [form, setForm] = useState({
@@ -32,7 +30,7 @@ const ContactForm = () => {
     return (
         <>
             {/*<ToastContainer />*/}
-            <div style={{paddingLeft: 200, paddingRight: 200, paddingBottom: 50}}>
+            <div style={{ paddingLeft: 200, paddingRight: 200, paddingBottom: 50 }}>
                 <div>
                     <div>
                         <label className={css.label}>NOME</label></div>
@@ -42,7 +40,7 @@ const ContactForm = () => {
                             ...form,
                             name: val.target.value
                         })}
-                        className={css.inputform} type="text" placeholder="Digite seu nome..."/>
+                        className={css.inputform} type="text" placeholder="Digite seu nome..." />
                 </div>
                 <div>
                     <div><label className={css.label}>E-MAIL</label></div>
@@ -52,7 +50,7 @@ const ContactForm = () => {
                             ...form,
                             email: val.target.value
                         })}
-                        className={css.inputform} type="text" placeholder="Digite seu e-mail..."/>
+                        className={css.inputform} type="text" placeholder="Digite seu e-mail..." />
                 </div>
                 <div>
                     <div><label className={css.label}>MENSAGEM</label></div>
@@ -65,9 +63,9 @@ const ContactForm = () => {
                         className={css.inputform}
                         type="textarea"
                         rows={4}
-                        placeholder="Digite sua mensagem..."/>
+                        placeholder="Digite sua mensagem..." />
                 </div>
-                <div style={{display: 'flex', alignItems: 'center',}}>
+                <div style={{ display: 'flex', alignItems: 'center', }}>
                     <p
                         className={css.textcheckbox}>
                         Ao enviar, você aceita em receber novidades e promoções da PESA CAT

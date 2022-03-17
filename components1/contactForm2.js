@@ -1,28 +1,24 @@
-import {Col, Container, Input, Row} from "reactstrap";
-import React, {useState} from "react";
+import { Col, Container, Input, Row } from "reactstrap";
+import React, { useState } from "react";
 import css from './formulario.module.css'
-// import api from "../pages/providers/api";
-// import { toast, ToastContainer } from 'react-nextjs-toast'
-// import Select2 from 'react-select2-wrapper';
-// import 'react-select2-wrapper/css/select2.css';
 
 const ContactForm2 = () => {
     const segmentos = [
-        {id:1 , text: 'Agricultura'},
-        {id:2 , text: 'Mineração'},
-        {id:3 , text: 'Construção'},
-        {id:4 ,text: 'Terraplanagem'},
-        {id:5 ,text: 'Pedreiras e agregados'},
-        {id:6 ,text: 'Serviços'},
-        {id:7 ,text: 'Pavimentação'},
+        { id: 1, text: 'Agricultura' },
+        { id: 2, text: 'Mineração' },
+        { id: 3, text: 'Construção' },
+        { id: 4, text: 'Terraplanagem' },
+        { id: 5, text: 'Pedreiras e agregados' },
+        { id: 6, text: 'Serviços' },
+        { id: 7, text: 'Pavimentação' },
     ];
     const [form, setForm] = useState({
-        email: "", message: "", name: "",segment:''
+        email: "", message: "", name: "", segment: ''
     });
 
-     function Segment() {
+    function Segment() {
         return (
-            <select className={css.inputform} value={form.segment}  onChange={(event => {setForm({...form,segment:event.target.value})})}>
+            <select className={css.inputform} value={form.segment} onChange={(event => { setForm({ ...form, segment: event.target.value }) })}>
                 <option value="Agricultura" className={css.selectoption}> Agricultura </option>
                 <option value="Mineracao" className={css.selectoption}> Mineração </option>
                 <option value="Construcao" className={css.selectoption}> Construção </option>
@@ -51,7 +47,7 @@ const ContactForm2 = () => {
     //     }
     // }
 
-    return(
+    return (
 
         <div className={css.bgbanner}>
             <Container>
@@ -79,7 +75,7 @@ const ContactForm2 = () => {
                                             name: val.target.value
                                         })} className={css.inputform}
                                         type="text"
-                                        placeholder="Ex: Matheus Sartori"/>
+                                        placeholder="Ex: Matheus Sartori" />
                                 </div>
                                 <div>
                                     <div>
@@ -92,7 +88,7 @@ const ContactForm2 = () => {
                                             ...form,
                                             email: val.target.value
                                         })}
-                                        className={css.inputform} type="text" placeholder="Ex: matheus@gmail.com"/>
+                                        className={css.inputform} type="text" placeholder="Ex: matheus@gmail.com" />
                                 </div>
                                 <div>
                                     <div>
@@ -104,11 +100,11 @@ const ContactForm2 = () => {
                                             ...form,
                                             message: val.target.value
                                         })}
-                                        className={css.inputform} type="textarea"  placeholder="Ex: Olá"/>
+                                        className={css.inputform} type="textarea" placeholder="Ex: Olá" />
                                 </div>
                                 <div>
                                     <label className={css.nomelabel}>SEGMENTOS</label>
-                                    <Segment/>
+                                    <Segment />
                                 </div>
                                 <div className={css.align}>
                                     <div>
@@ -127,9 +123,9 @@ const ContactForm2 = () => {
                         <Col>
                             <div>
                                 <iframe className={css.videoform} width="100%" height="540" src="https://www.youtube.com/embed/VpDZUTQLiWI"
-                                        title="YouTube video player" frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen></iframe>
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen></iframe>
                             </div>
                         </Col>
                     </Row>

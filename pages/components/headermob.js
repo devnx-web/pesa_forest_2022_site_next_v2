@@ -5,6 +5,7 @@ import Link from "next/link";
 
 
 export default function Headermob() {
+
     return (
         <nav className={css.navigation}>
             <div className={css["menuToggle"] + " " + css["div"]}>
@@ -16,20 +17,28 @@ export default function Headermob() {
                     <div className={css.div}></div>
                 </label>
                 <ul className={css["menu"] + " " + css["ul"]}>
-                    <Link className={css.a} to="/">
-                        <li className={css.li}>inicio</li>
-                    </Link>
-                    <Link className={css.a} to="/maquinasmob">
-                        <li className={css.li}>máquinas</li>
-                    </Link>
-                    <Link className={css.a} to="/sobrenos">
-                        <li className={css.li}>sobre a pesa forest</li>
-                    </Link>
-                    <Link className={css.a} to="/contato">
-                        <li className={css.li}>contato</li>
-                    </Link>
-                    <Link to="#">
-                        Entrar em Contato
+                    <li className={css.li}>
+                        <Link className={css.a} href="/"><a>inicio</a></Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link className={css.a} href="/maquinasmob">
+                            <a>máquinas</a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link className={css.a} href="/sobrenos">
+                            <a>sobre a pesa forest</a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link className={css.a} href="/contato">
+                            <a>contato</a>
+                        </Link>
+                    </li>
+                    <Link href="#">
+                        <a>
+                            Entrar em Contato
+                        </a>
                     </Link>
                 </ul>
             </div>

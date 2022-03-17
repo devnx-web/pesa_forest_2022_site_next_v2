@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from './Banner'
+import Banner from './banner'
 import Pagemeio from "./pagemeio";
 import Maqdestaque from "./maqdestaque";
 

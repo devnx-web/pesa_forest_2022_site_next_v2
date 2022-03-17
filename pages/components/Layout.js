@@ -1,5 +1,5 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from './navbar'
+import Footer from './footer'
 
 import Head from 'next/head'
 
@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                {/* <link rel="shortcut icon" href="/images/gavicon"/> */}
                 <title>Pesa Forest</title>
             </Head>
             <Navbar />

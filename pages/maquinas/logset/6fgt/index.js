@@ -5,12 +5,8 @@ import Sobre from "./sobre";
 export default function gt6f() {
     return (
         <div>
-            <div className={'ocultamob'}>
-                <Banner />
-                <Sobre />
-                <Footer />
-                <Footercop />
-            </div>
+            <Banner />
+            <Sobre />
         </div>
     )
 }

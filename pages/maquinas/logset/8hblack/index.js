@@ -7,12 +7,8 @@ export default function blakc8h
     () {
     return (
         <div>
-            <div className={'ocultamob'}>
-                <Banner />
-                <Sobre />
-                <Footer />
-                <Footercop />
-            </div>
+            <Banner />
+            <Sobre />
         </div>
     )
 }

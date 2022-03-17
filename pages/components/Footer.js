@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './footer.module.css'
+import css from './footer.module.css'
 
 export default function Footer() {
     return (
