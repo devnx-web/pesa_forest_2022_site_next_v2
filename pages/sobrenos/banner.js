@@ -9,8 +9,8 @@ export default function Banner(){
         <div className={css.bgbanner}>
             <Container>
                 <div className={css.posicaott}>
-                    <h1 className={css.titulo1}>Sobre Nós</h1>
-                    <h1 className={css.titulo2}>Sobre Nós</h1>
+                    <h1 className={css.titulo1}>Sobre a PESA Forest</h1>
+                    <h1 className={css.titulo2}>Sobre a PESA Forest</h1>
                     <p className={css.texto}>Lorem Ipsum dolor sit amet</p>
                 </div>
             </Container>

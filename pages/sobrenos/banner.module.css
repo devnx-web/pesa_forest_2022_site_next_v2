@@ -11,7 +11,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(75, 75, 75);
     font-family: "Bebas Neue";
-    font-size: 130px;
+    font-size: 100px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.29));
     background-clip: text;
     -webkit-background-clip: text;
@@ -23,7 +23,7 @@
     color: #fff;
     font-family: "Bebas Neue";
     font-weight: 600;
-    font-size: 95px;
+    font-size: 75px;
     margin-top: -90px;
     margin-left: 2px;
 }
