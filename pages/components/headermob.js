@@ -5,7 +5,6 @@ import Link from "next/link";
 
 
 export default function Headermob() {
-
     return (
         <nav className={css.navigation}>
             <div className={css["menuToggle"] + " " + css["div"]}>
@@ -18,20 +17,20 @@ export default function Headermob() {
                 </label>
                 <ul className={css["menu"] + " " + css["ul"]}>
                     <li className={css.li}>
-                        <Link className={css.a} href="/"><a>inicio</a></Link>
+                        <Link className={css.a} to="/"><a>inicio</a></Link>
                     </li>
                     <li className={css.li}>
-                        <Link className={css.a} href="/maquinasmob">
+                        <Link className={css.a} to="/maquinasmob">
                             <a>máquinas</a>
                         </Link>
                     </li>
                     <li className={css.li}>
-                        <Link className={css.a} href="/sobrenos">
+                        <Link className={css.a} to="/sobrenos">
                             <a>sobre a pesa forest</a>
                         </Link>
                     </li>
                     <li className={css.li}>
-                        <Link className={css.a} href="/contato">
+                        <Link className={css.a} to="/contato">
                             <a>contato</a>
                         </Link>
                     </li>
