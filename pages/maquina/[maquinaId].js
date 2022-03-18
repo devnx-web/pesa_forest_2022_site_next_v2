@@ -21,7 +21,7 @@ function Maquina({ data }) {
                 titulo={data.s1_titulo}
                 fraseDestaque={data.s1_fraseDestaque}
                 textoDescricao={data.s1_textoDescricao}
-                dowloadCatalogo={data.s1_downCatalogo}
+                downloadCatalogo={data.s1_downCatalogo}
             />
         </div>
     )

@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
 
 
-export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, textoDescricao, dowloadCatalogo }) {
+export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, textoDescricao, downloadCatalogo }) {
     return (
         <div className={style.bgsobre}>
             <Container className={'pt-5 pb-5'}>
@@ -21,7 +21,7 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                         <p className={css.textomaq}>{textoDescricao}</p>
                                     </div>
                                     <div className={css.botaosaber}>
-                                        <Link href={dowloadCatalogo}>
+                                        <Link href={downloadCatalogo}>
                                             <a>FAZER DOWNLOAD CATÁLOGO</a>
                                         </Link>
                                     </div>
