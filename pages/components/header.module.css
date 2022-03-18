@@ -36,8 +36,10 @@
 
 .linkmenu{
     color: white;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 35px;
+    font-size: 15px;
+    font-family: Univers;
+    padding-right: 5px;
 }
 
 .linkmenu:hover{
@@ -155,7 +157,7 @@
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;
     border-radius: 6px;
-    margin-left: 30px;
+    margin-left: 65px;
     font-family: "Bebas Neue";
 
 }
@@ -186,6 +188,7 @@
 }
 .dropbtn2 {
     border: none;
+    width: 180px;
     color: rgba(0, 0, 0, 0.95);
     text-decoration-line: none;
     font-size: 18px;
@@ -209,12 +212,11 @@
     display: none;
     position: absolute;
     background-color: #c2c2c2;
-    min-width: 280px;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;
     border-radius: 5px;
-    margin-left: 40px;
-    margin-top: -15px;
+    margin-left: -60px;
+    margin-top: -35px;
 }
 
 /* Links inside the dropdown */
@@ -224,10 +226,13 @@
     text-decoration: none;
     display: block;
     font-family: "Bebas Neue";
+    transition: 0.6s;
 }
 
 /* Change color of dropdown links on hover */
 .dropdowncontent2 a:hover {
+    background-color: #a1a1a1;
+    transition: 0.6s;
 }
 
 /* Show the dropdown menu on hover */
@@ -241,21 +246,16 @@
 
 }
 
-.nomemaq {
-    color: #000000;
-    font-family: Univers;
-    font-size: 15px;
-}
 .dropdowncontent3 {
     display: none;
     position: absolute;
     background-color: #c2c2c2;
-    min-width: 400px;
+    min-width: 280px;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;
     border-radius: 5px;
-    margin-left: 40px;
-    margin-top: -15px;
+    margin-left: -80px;
+    margin-top: -40px;
 }
 
 /* Links inside the dropdown */
@@ -265,13 +265,17 @@
     text-decoration: none;
     display: block;
     font-family: "Bebas Neue";
+    transition: 0.6s;
 }
 
 /* Change color of dropdown links on hover */
 .dropdowncontent3 a:hover {
+    background-color: #a1a1a1;
+    transition: 0.6s;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown2:hover .dropdowncontent3 {
     display: block;
 }
+
