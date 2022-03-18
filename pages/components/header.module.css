@@ -149,6 +149,10 @@
 
 }
 
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
 /* Links inside the dropdown */
 .dropdowncontent a {
     color: black;
