@@ -21,12 +21,12 @@ export default function Navbar() {
                                 {/*Titulos do Header*/}
                                 <div>
                                     <Link href="/" className={css.textheader}>
-                                        <a>INICIO</a>
+                                        <a className={css.linkmenu}>INICIO</a>
                                     </Link>
                                     <div className={css.dropdown}>
                                         <button className={css.dropbtn}>
                                             <Link className={css.link} href="/maquinas">
-                                                <a> MÁQUINAS </a>
+                                                <a className={css.linkmenu}> PRODUTOS </a>
                                             </Link>
                                             <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                         </button>
@@ -159,10 +159,10 @@ export default function Navbar() {
                                         </div>
                                     </div>
                                     <Link href="/sobrenos" className={css.textheader}>
-                                        <a>SOBRE A PESA FOREST</a>
+                                        <a className={css.linkmenu}>SOBRE A PESA FOREST</a>
                                     </Link>
                                     <Link href="/contato" className={css.textheader}>
-                                        <a>CONTATO</a>
+                                        <a className={css.linkmenu}>CONTATO</a>
                                     </Link>
                                 </div>
                             </Col>

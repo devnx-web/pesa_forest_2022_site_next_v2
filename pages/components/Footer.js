@@ -47,31 +47,68 @@ export default function Footer() {
                     <Row>
                         <Col md={3} xs="6">
                             <h2 className={css.titulofooter}>MAPA DO SITE</h2>
-                            <h4 className={css.textofooter}><Link className={css.link} href="/contato"> Contato </Link></h4>
-                            <h4 className={css.textofooter}><Link className={css.link} href="/sobrenos">Sobre nós</Link></h4>
+                            <Link className={css.link} href="/contato">
+                                <a>
+                                    <h4 className={css.textofooter}> Contato </h4>
+                                </a>
+                            </Link>
+
+                            <Link className={css.link} href="/sobrenos">
+                                <a>
+                                    <h4 className={css.textofooter}>Sobre nós</h4>
+                                </a>
+                            </Link>
+                            
                             <h4 className={css.textofooter}>Venda de máquinas</h4>
                         </Col>
                         <Col md={3} xs="6">
                             <Link className={css.link} href="/maquinas">
-                                <a><h2 className={css.titulofooter}>MAQUINAS</h2></a>
+                                <a>
+                                    <h2 className={css.titulofooter}>MAQUINAS</h2>
+                                </a>
                             </Link>
-                            <h4 className={css.textofooter}><Link className={css.link} href="/maquinas/caterpillar/pth18">PTH 18</Link></h4>
+
+                            <Link className={css.link} href="/maquinas/caterpillar/pth18">
+                                <a>
+                                    <h4 className={css.textofooter}>PTH 18</h4>
+                                </a>
+                            </Link>
+
                             {/* <Link className={css.link} href="/maquinas/caterpillar/pth20">
                                 <a>
                                     <h4 className={css.textofooter}>PTH 20</h4>
                                 </a>
                             </Link> */}
-                            <h4 className={css.textofooter}><Link className={css.link} href="/maquinas/caterpillar/ptl20">PTL 20</Link></h4>
+
+                            <Link className={css.link} href="/maquinas/caterpillar/ptl20">
+                                 <a>
+                                     <h4 className={css.textofooter}>PTL 20</h4>
+                                 </a>
+                            </Link>
                         </Col>
                         <Col md={3} xs="6">
-                            <h2 className={css.titulofooter}>INSTITUCIONAL</h2>
-                            <h4 className={css.textofooter}><Link className={css.link} href="/sobrenos">Sobre a PESA® Forest</Link></h4>
+                             <h2 className={css.titulofooter}>INSTITUCIONAL</h2>
+
+                             <Link className={css.link} href="/sobrenos">
+                                 <a>
+                                     <h4 className={css.textofooter}>Sobre a PESA® Forest</h4>
+                                 </a>
+                             </Link>
+
                             <h4 className={css.textofooter}>Politica de Privacidade</h4>
                         </Col>
                         <Col md={3} xs="6">
                             <h2 className={css.titulofooter}>INFORMAÇÕES DE CONTATO</h2>
-                            <h4 className={css.textofooter}><Link className={css.link} href="tel:08009407372">0800 940 7372</Link></h4>
-                            <h4 className={css.textofooter}><Link className={css.link} href="mailto:marketing@pesa.com.br">marketing@pesa.com.br</Link></h4>
+                            <Link className={css.link} href="tel:08009407372">
+                                <a>
+                                    <h4 className={css.textofooter}>0800 940 7372</h4>
+                                </a>
+                            </Link>
+
+                            <Link className={css.link} href="mailto:marketing@pesa.com.br">
+                                <a><h4 className={css.textofooter}>marketing@pesa.com.br</h4>
+                                </a>
+                            </Link>
                         </Col>
                     </Row>
                 </div>
