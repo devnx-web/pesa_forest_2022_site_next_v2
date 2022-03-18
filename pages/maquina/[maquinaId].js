@@ -3,7 +3,11 @@ import Banner from './banner'
 
 
 function Maquina({ data }) {
-    console.log(data)
+
+    if (data.error) {
+        return <MaquinaNaoEncontrada />
+    }
+
     return (
         <div>
             <Banner
@@ -23,6 +27,18 @@ function Maquina({ data }) {
     )
 }
 
+const MaquinaNaoEncontrada = () => {
+    return (
+        <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div> Maquina não encontrada </div>
+        </div>
+    )
+}
 // This gets called on every request
 export async function getServerSideProps(context) {
     const res = await fetch(`http://phpstack-666249-2511573.cloudwaysapps.com/api/pesaforest/page/${context.params.maquinaId}`)

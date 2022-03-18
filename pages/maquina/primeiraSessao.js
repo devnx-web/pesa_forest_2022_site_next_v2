@@ -2,6 +2,7 @@ import style from './sobre.module.css'
 import css from '../home/maqpth18.module.css'
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 
 
 export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, textoDescricao, dowloadCatalogo }) {
@@ -20,7 +21,9 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                         <p className={css.textomaq}>{textoDescricao}</p>
                                     </div>
                                     <div className={css.botaosaber}>
-                                        FAZER DOWNLOAD CATÁLOGO
+                                        <Link href={dowloadCatalogo}>
+                                            <a></a>
+                                        </Link>
                                     </div>
                                 </Col>
                             </Row>
