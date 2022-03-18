@@ -17,21 +17,35 @@ export default function Headermob() {
                     <div className={css.div}></div>
                 </label>
                 <ul className={css["menu"] + " " + css["ul"]}>
-                    <a className={css.a} href="/">
-                        <li className={css.li}>inicio</li>
-                    </a>
-                    <a className={css.a} href="/maquinasmob">
-                        <li className={css.li}>máquinas</li>
-                    </a>
-                    <a className={css.a} href="/sobrenos">
-                        <li className={css.li}>sobre a pesa forest</li>
-                    </a>
-                    <a className={css.a} href="/contato">
-                        <li className={css.li}>contato</li>
-                    </a>
-                    <Link href="#">
-                        Entrar em Contato
-                    </Link>
+                    <li className={css.li}>
+                        <Link href="/">
+                            <a className={css.a}>
+                                inicio
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link href="/maquinasmob">
+                            <a className={css.a}>
+                                máquinas
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link href="/sobrenos">
+                            <a className={css.a}>
+                                sobre a pesa forest
+                            </a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link href="/contato">
+                            <a className={css.a}>
+                                contato
+                            </a>
+                        </Link>
+                    </li>
+                    Entrar em Contato
                 </ul>
             </div>
         </nav>
