@@ -22,7 +22,7 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                     </div>
                                     <div className={css.botaosaber}>
                                         <Link href={dowloadCatalogo}>
-                                            <a></a>
+                                            <a>FAZER DOWNLOAD CATÁLOGO</a>
                                         </Link>
                                     </div>
                                 </Col>
