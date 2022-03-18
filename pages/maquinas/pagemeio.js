@@ -3,7 +3,48 @@ import React from "react";
 import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
+const settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5500,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: true,
+            }
+        }
+    ]
+};
 export default function Pagemeio(){
     return(
         <div className={css.bgpage}>
@@ -16,77 +57,80 @@ export default function Pagemeio(){
                     <p className={css.textopage}>
                     A agilidade e eficiência de marcas referência no setor florestal.  Solicite atendimento <br/> através de nosso formulário de contato!                    </p>
                 </div>
+
                 <div style={{paddingLeft: 220, paddingRight: 220}}>
                     <Row>
                         <Col xs="12" sm="12" md="6">
-                            <div className={css.cardpage}>
-                               <div>
+                            {/* <div className={css.cardpage}> */}
+                               {/* <div>
                                    <h4 className={css.subtt}>MÁQUINAS</h4>
                                    <h4 className={css.ttcard}>Cartepillar</h4>
                                    <div className={'imgposi'}>
                                     <Image src="/maquinas/pth20-harvester.png" alt="maquina" width={500} height={400} />
                                     </div>
-                               </div>
-                                <p className={css.textocard}>
+                               </div> */}
+
+                                {/* <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
-                                </p>
-                                <div>
+                                </p> */}
+
+                                {/* <div>
                                     <div className={css.dropdown}>
-                                    <Row>
-                                        <button className={css.dropbtn}>
-                                            
-                                            VER MODELOS
-                                            <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                        </button>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
                                         </Row>
                                         <div className={css.dropdowncontent}>
                                             <div>
                                                 <div className={css.dropdown2}>
                                                     <button className={css.dropbtn2}>
-                                                    <div className={css.dropdowncontent2}>
-                                                        <div>
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
-                                                                <a>
-                                                                    PTH 18
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
-                                                                <a>
-                                                                    PTL 20
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/caterpillar/pth20">
-                                                                <a>PTH 20</a>
-                                                            </Link>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                        PTH 18
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                    <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/caterpillar/pth20">
+                                                                    <a>PTH 20</a>
+                                                                </Link>
+                                                            </div>
                                                         </div>
-                                                    </div>
                                                     </button>
                                                  </div>
-                                            </div>
                                         </div>
                                     </div>
-
-                                    {/* <select className={css.select}>
+                                </div>
+                                    <select className={css.select}>
                                         <option className={css.selectoption} value="1">PTH 18</option>
                                         <option className={css.selectoption} value="1">PTH 20</option>
                                         <option className={css.selectoption} value="1">PTL 20</option>
-                                    </select> */}
+                                    </select>
                                 </div>
-                            </div>
+                            </div> */}
                         </Col>
                         <Col xs="12" sm="12" md="6">
-                            <div className={css.cardpage}>
-                                <div>
-                                    <h4 className={css.subtt}>CABEÇOTES</h4>
-                                    <h4 className={css.ttcard}>Log Max</h4>
-                                    <div className={'imgposi'}>
-                            <Image src="/maquinas/peca-logmax.png" alt="maquina" width={500} height={400} />
-                        </div>
-                                </div>
-                                <p className={css.textocard}>
+
+                                {/* <div className={css.cardpage}> */}
+                                    {/* <div>
+                                        <h4 className={css.subtt}>CABEÇOTES</h4>
+                                        <h4 className={css.ttcard}>Log Max</h4>
+                                        <div className={'imgposi'}>
+                                            <Image src="/maquinas/peca-logmax.png" alt="maquina" width={500} height={400} />
+                                        </div>
+                                    </div> */}
+                                    {/* <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
-                                </p>
-                                <div>
+                                    </p> */}
+                                    {/* <div> */}
                                     {/* <select className={css.select}>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
@@ -94,32 +138,33 @@ export default function Pagemeio(){
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                     </select> */}
-                                    <div className={css.dropdown}>
-                                    <Row>
-                                        <button className={css.dropbtn}>
-                                            
+                                    {/* <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
                                             VER MODELOS
                                             <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                        </button>
+                                            </button>
                                         </Row>
                                         <div className={css.dropdowncontent}>
                                             <div>
                                                 <div className={css.dropdown2}>
                                                     <button className={css.dropbtn2}>
-                                                    <div className={css.dropdowncontent2}>
-                                                        <div>
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
-                                                                <a>
-                                                                    PTH 18
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
-                                                                <a>
-                                                                    PTL 20
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/caterpillar/pth20">
-                                                                <a>PTH 20</a>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                     PTH 18
+                                                                     </a>
+                                                                        </Link>
+                                                                
+                                                                    <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                        <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+
+                                                                    <Link href="/maquinas/caterpillar/pth20">
+                                                                        <a>PTH 20</a>
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -127,25 +172,25 @@ export default function Pagemeio(){
                                                  </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> */}
+                                {/* </div> */}
+                            {/* </div> */}
                         </Col>
                     </Row>
                     <Row>
                         <Col xs="12" sm="12" md="6">
-                            <div className={css.cardpage}>
+                            {/* <div className={css.cardpage}>
                                 <div>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
                                     <h4 className={css.ttcard}>LOGSET</h4>
                                     <div className={'imgposi'}>
                             <Image src="/maquinas/5f-gt-transparente.png" alt="maquina" width={500} height={400} />
-                        </div>
-                                </div>
+                        </div> */}
+                                {/* </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-                                <div>
+                                <div> */}
                                     {/* <select className={css.select}>
                                         <option className={css.selectoption} value="1">4F GT</option>
                                         <option className={css.selectoption} value="1">5F GT</option>
@@ -154,7 +199,7 @@ export default function Pagemeio(){
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                     </select> */}
 
-<div className={css.dropdown}>
+                                {/* <div className={css.dropdown}>
                                     <Row>
                                         <button className={css.dropbtn}>
                                             
@@ -251,21 +296,21 @@ export default function Pagemeio(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </Col>
                         <Col xs="12" sm="12" md="6">
-                            <div className={css.cardpage}>
+                            {/* <div className={css.cardpage}>
                                 <div>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
                                     <h4 className={css.ttcard}>WEILER</h4>
                                     <div className={'imgposi'}>
                             <Image src="/maquinas/b458.png" alt="maquina" width={500} height={400} />
-                        </div>
-                                </div>
+                        </div> */}
+                                {/* </div>
                                 <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-                                <div>
+                                <div> */}
                                     {/* <select className={css.select}>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                         <option className={css.selectoption} value="1">Ver modelos</option>
@@ -274,7 +319,7 @@ export default function Pagemeio(){
                                         <option className={css.selectoption} value="1">Ver modelos</option>
                                     </select> */}
 
-<div className={css.dropdown}>
+                                {/* <div className={css.dropdown}>
                                     <Row>
                                         <button className={css.dropbtn}>
                                             
@@ -345,11 +390,207 @@ export default function Pagemeio(){
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div> */}
                         </Col>
                     </Row>
                 </div>
+            </Container>
+
+            <Container>
+                <Row>
+                    <Slider {...settings}>
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Cartepillar</h4>
+                            <Image src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+
+                                <div>
+                                    <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
+                                        </Row>
+                                        <div className={css.dropdowncontent}>
+                                            <div>
+                                                <div className={css.dropdown2}>
+                                                    <button className={css.dropbtn2}>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                        PTH 18
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                    <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/caterpillar/pth20">
+                                                                    <a>PTH 20</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>CABEÇOTES</h4>
+                                   <h4 className={css.ttcard}>Logmax</h4>
+                            <Image src="/maquinas/peca-logmax.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+
+                                <div>
+                                    <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
+                                        </Row>
+                                        <div className={css.dropdowncontent}>
+                                            <div>
+                                                <div className={css.dropdown2}>
+                                                    <button className={css.dropbtn2}>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                        PTH 18
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                    <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/caterpillar/pth20">
+                                                                    <a>PTH 20</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Logset</h4>
+                            <Image src="/maquinas/5f-gt-transparente.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+
+                                <div>
+                                    <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
+                                        </Row>
+                                        <div className={css.dropdowncontent}>
+                                            <div>
+                                                <div className={css.dropdown2}>
+                                                    <button className={css.dropbtn2}>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                        PTH 18
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                    <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/caterpillar/pth20">
+                                                                    <a>PTH 20</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Weiler</h4>
+                            <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+
+                                <div>
+                                    <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
+                                        </Row>
+                                        <div className={css.dropdowncontent}>
+                                            <div>
+                                                <div className={css.dropdown2}>
+                                                    <button className={css.dropbtn2}>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                    <a>
+                                                                        PTH 18
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                    <a>
+                                                                     PTL 20
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/caterpillar/pth20">
+                                                                    <a>PTH 20</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Slider>
+                </Row>
             </Container>
         </div>
     )

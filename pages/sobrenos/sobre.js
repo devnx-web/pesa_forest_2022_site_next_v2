@@ -18,11 +18,11 @@ export default function Sobre() {
                                 <Col style={{ paddingLeft: 0 }} md="5">
                                     <h2 className={css.ttmaq2}>Sobre Nós</h2>
                                     <h2 className={css.ttmaq1}>Sobre Nós</h2>
-                                    <h3 className={css.destaque}>Frase destaque</h3>
+                                    {/* <h3 className={css.destaque}>Frase destaque</h3> */}
                                     <div>
                                         <p className={css.textomaq}>
                                             A PESA Forest oferece uma linha completa de equipamentos florestais para atender às necessidades de sua aplicação - das principais máquinas que auxiliam na construção de estradas, em serrarias e reflorestamento, até máquinas criadas para fins específicos, que colhem, extraem e carregam.
-                                            Conta com uma linha de produtos de grandes marcas como Caterpillar, Weiller, Quadco, e Logmax . É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal. </p>
+                                            <br/><br/>Conta com uma linha de produtos de grandes marcas como Caterpillar, Weiller, Quadco, e Logmax . É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal. </p>
                                     </div>
                                 </Col>
                             </Row>
