@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
-import Detalhesmaquinaresponsive from "../../components1/detalhesmaquinaresponsive";
+import Detalhesmaquinaresponsive from "../../components/detalhesmaquinaresponsive";
 import Link from "next/link";
 
 

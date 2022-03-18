@@ -2,7 +2,7 @@ import {Col, Container} from 'reactstrap'
 import css from "./maqpth18.module.css";
 import React from "react";
 import Image from "next/image";
-import Detalhesmaquinamobile from "../../components1/detalhesmaquinamobile";
+import Detalhesmaquinamobile from "../../components/detalhesmaquinamobile";
 
 export default function Maqpth18mob(){
 
