@@ -107,11 +107,14 @@
 }
 
 .textofooter {
-    margin-top: 10px;
     font-size: 16px;
     color: #000000;
     font-weight: 400;
     margin-bottom: 15px;
     font-family: "Univers";
     text-decoration: none;
+}
+
+.textofooter:hover{
+    color: black
 }

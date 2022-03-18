@@ -180,9 +180,11 @@ export default function Navbar() {
                             </Col>
                             <Col md="2">
                                 {/*Botão header Entre em contato*/}
-                                <div className={css.botaoctt}>
+                                <Link href="/contato" className={css.linkbotao}>
+                                <a className={css.botaoctt}>
                                     Entrar em Contato
-                                </div>
+                                </a>
+                                </Link>
                             </Col>
                         </Row>
 
