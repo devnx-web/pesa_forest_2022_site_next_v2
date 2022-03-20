@@ -15,7 +15,7 @@ export default function Navbar() {
                     <div>
                         <Row style={{ alignItems: 'center' }}>
                             <Col md="2">
-                                <Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} />
+                                <Link href="/"><a><Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} /></a></Link>
                             </Col>
                             <Col>
                                 {/*Titulos do Header*/}

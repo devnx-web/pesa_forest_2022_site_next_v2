@@ -64,7 +64,7 @@ export default function Footer() {
                             </Link>
                             </div>
 
-                            <h4 className={css.textofooter}>Venda de máquinas</h4>
+                            
                         </Col>
                         <Col md={3} xs="6">
                             <div>

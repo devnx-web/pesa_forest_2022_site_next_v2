@@ -98,3 +98,37 @@
 .bgpage{
     background: linear-gradient(180deg, rgba(255,255,255,0) 30%, rgba(219,219,219,1) 100%);
 }
+
+.ttmaq2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(75, 75, 75, 0.32);
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(236, 236, 236, 0), #bdbdbd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.ttmaq1{
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-size: 55px;
+    margin-top: -55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textocontato {
+    color: #000000;
+    font-size: 15px;
+    font-family: Univers;
+    text-align: center;
+    padding: 0 300px 0 300px;
+    margin-top: 10px;
+    font-weight: 600;
+}

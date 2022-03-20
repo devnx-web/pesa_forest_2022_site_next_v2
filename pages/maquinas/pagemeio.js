@@ -518,6 +518,57 @@ export default function Pagemeio(){
                                                     <button className={css.dropbtn2}>
                                                         <div className={css.dropdowncontent2}>
                                                             <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
+                                                                    <a>
+                                                                        4F GT
+                                                                    </a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgtT">
+                                                                    <a>
+                                                                     5F GT
+                                                                    </a>
+                                                                    </Link>
+                                                                    
+                                                                <Link href="/maquinas/logset/5fpgt">
+                                                                    <a>5FP GT</a>
+                                                                </Link>
+
+                                                                <Link href="/maquinas/logset/5hpgt">
+                                                                    <a>5HP GT</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Weiler</h4>
+                            <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+
+                                <div>
+                                    <div className={css.dropdown}>
+                                        <Row>
+                                            <button className={css.dropbtn}>
+                                                VER MODELOS
+                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
+                                            </button>
+                                        </Row>
+                                        <div className={css.dropdowncontent}>
+                                            <div>
+                                                <div className={css.dropdown2}>
+                                                    <button className={css.dropbtn2}>
+                                                        <div className={css.dropdowncontent2}>
+                                                            <div>
                                                                 <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
                                                                     <a>
                                                                         PTH 18
@@ -542,10 +593,11 @@ export default function Pagemeio(){
                                 </div>
                             </div>
                         </div>
+
                         <div className={css.slide}>
                             <div className={css.bgslide}>
-                            <h4 className={css.subtt}>MÁQUINAS</h4>
-                                   <h4 className={css.ttcard}>Weiler</h4>
+                            <h4 className={css.subtt}>PEÇAS</h4>
+                                   <h4 className={css.ttcard}>Quadco</h4>
                             <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.

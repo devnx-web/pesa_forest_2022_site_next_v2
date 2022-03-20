@@ -52,6 +52,21 @@ export default function Destaques(){
                         <Link href="/maquinas/logset/5fpgt" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
+                
+            </Row>
+            <Row>
+                <div>
+                <Container>
+                <div>
+                    <h2 className={css.ttmaq2}>ENTRE EM CONTATO</h2>
+                    <h2 className={css.ttmaq1}>ENTRE EM CONTATO</h2>
+                </div>
+                <p className={css.textocontato}>
+                    Para entrar em contato conosco, basta preencher o formulário abaixo! Nossa equipe está pronta para
+                    te atender!
+                </p>
+            </Container>
+                </div>
             </Row>
         </Container>
         </div>
