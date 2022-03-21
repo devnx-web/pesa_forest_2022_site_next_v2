@@ -3,7 +3,7 @@ import React from "react";
 import Sobre from "./sobre";
 
 
-export default function hybrid12h
+export default function v6000
     () {
     return (
         <div>

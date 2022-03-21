@@ -76,6 +76,7 @@
 }
 
 .imgmaquina {
+    background-image: url('../../public/pth18.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
