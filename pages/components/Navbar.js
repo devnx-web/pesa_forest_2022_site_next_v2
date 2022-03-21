@@ -246,12 +246,14 @@ export default function Navbar() {
                                                                     6000V
                                                                 </a>
                                                             </Link>
-                                                            <Link href="/maquinas/logmax/70000c">
+                                                            <Link href="/maquinas/logmax/7000c">
                                                                 <a>7000C</a>
                                                             </Link>
                                                             <Link href="/maquinas/logmax/7000xt">
                                                                 <a>7000XT</a>
                                                             </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
                                                             <Link href="/maquinas/logmax/e6">
                                                                 <a>E6</a>
                                                             </Link>
