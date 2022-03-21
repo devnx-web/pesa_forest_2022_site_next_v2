@@ -89,7 +89,7 @@
 }
 
 .imgmaquina {
-    background-image: url('../../../../public/pth18.png');
+    background-image: url('../../../../public/maquinas/pth20-harvester.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
@@ -173,12 +173,11 @@
 }
 
 .s250{
-    background-image: url('../../../../public/maquinas/s250.png');
+    background-image: url('../../../../public/maquinas/quadco-24C.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
     background-position: right;
-    margin-bottom: 50px;
 }
 
 

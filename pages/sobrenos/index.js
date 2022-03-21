@@ -12,8 +12,7 @@ export default function Sobrenos() {
             <Sobre />
             <Destaques />
             <div style={{
-                backgroundColor: '#DBDBDB',
-                paddingTop: 20,
+                
                 paddingBottom: 50,
             }}>
                 <Formulario />

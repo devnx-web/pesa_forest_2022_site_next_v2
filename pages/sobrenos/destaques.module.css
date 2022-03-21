@@ -96,7 +96,7 @@
 }
 
 .bgpage{
-    background: linear-gradient(180deg, rgba(255,255,255,0) 30%, rgba(219,219,219,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 30%, rgb(255, 255, 255) 100%);
 }
 
 .ttmaq2{

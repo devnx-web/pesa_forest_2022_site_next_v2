@@ -598,7 +598,7 @@ export default function Pagemeio(){
                             <div className={css.bgslide}>
                             <h4 className={css.subtt}>PEÇAS</h4>
                                    <h4 className={css.ttcard}>Quadco</h4>
-                            <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
+                            <Image src="/maquinas/quadco-22c.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
@@ -617,19 +617,23 @@ export default function Pagemeio(){
                                                     <button className={css.dropbtn2}>
                                                         <div className={css.dropdowncontent2}>
                                                             <div>
-                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
+                                                                <Link className={css.nomemaq} href="/maquinas/quadco/18c">
                                                                     <a>
-                                                                        PTH 18
+                                                                        18 C
                                                                     </a>
                                                                 </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
+                                                                <Link className={css.nomemaq} href="/maquinas/quadco/22c">
                                                                     <a>
-                                                                     PTL 20
+                                                                     22 C
                                                                     </a>
                                                                     </Link>
                                                                     
-                                                                <Link href="/maquinas/caterpillar/pth20">
-                                                                    <a>PTH 20</a>
+                                                                <Link href="/maquinas/quadco/22sc">
+                                                                    <a>22 SC</a>
+                                                                </Link>
+
+                                                                <Link href="/maquinas/quadco/24c">
+                                                                    <a>24 C</a>
                                                                 </Link>
                                                             </div>
                                                         </div>

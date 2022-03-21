@@ -1,22 +1,21 @@
 
 .bgbanner {
-    background-image: url("../../../../public/banner-maquinas/banner-s250-2.jpg");
+    background-image: url("../../../../public/banner-maquinas/banner-24c.jpg");
     height: 100vh;
     background-size: cover;
-}
-
-.destaque{
-    color: #f2f2f2;
-    font-family: "Bebas Neue";
-    font-weight: 600;
-    font-size: 40px;
-    margin-left: 2px;
 }
 
 .posicaott{
     position: absolute;
     top: 180px;
+}
 
+.texto{
+    color: #f2f2f2;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 2px;
 }
 
 .tt1{
