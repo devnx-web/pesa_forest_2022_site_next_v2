@@ -11,14 +11,14 @@ export default function Mobile(){
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>22 SC</h1>
-                    <h1 className={'ttmaq1'}>22 SC</h1>
+                    <h1 className={'ttmaq2'}>E6</h1>
+                    <h1 className={'ttmaq1'}>E6</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/5hp-gt.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/12gte-hybrid.png" alt="maquina" width={450} height={350} />
                         </div>
                     </div>
 
@@ -28,9 +28,9 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
 
-                    Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
+                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

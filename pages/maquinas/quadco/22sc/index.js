@@ -3,7 +3,7 @@ import React from "react";
 import Sobre from "./sobre";
 
 
-export default function c22() {
+export default function sc22() {
     return (
         <div>
             <Banner />
