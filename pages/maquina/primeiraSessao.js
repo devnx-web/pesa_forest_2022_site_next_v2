@@ -21,9 +21,9 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                         <p className={css.textomaq}>{textoDescricao}</p>
                                     </div>
                                     <div className={css.botaosaber}>
-                                        <Link href={downloadCatalogo}>
+                                        {/* <Link to={downloadCatalogo}>
                                             <a>FAZER DOWNLOAD CATÁLOGO</a>
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </Col>
                             </Row>

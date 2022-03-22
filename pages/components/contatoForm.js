@@ -2,8 +2,7 @@
 import React, { useState } from 'react'
 import css from "./contactForm.module.scss"
 import { toast, ToastContainer } from 'react-nextjs-toast'
-import { Input, Container } from "reactstrap";
-import api from '../providers/api';
+import { Input } from "reactstrap";
 
 
 const ContactForm = () => {
@@ -12,21 +11,21 @@ const ContactForm = () => {
     });
 
     async function formSubmit() {
-        if(form.email === ''||form.message === ''||form.name === '') {
-           return  toast.notify('Preencha todos os campos', {
+        if (form.email === '' || form.message === '' || form.name === '') {
+            return toast.notify('Preencha todos os campos', {
                 title: "Preencha os Campos",
                 type: "error"
             });
         }
-        const {data: addForm } = await api.post('form_forest_contato_site', form);
-        if (addForm.success) {
-            toast.notify(addForm.success, {
-                title: "Sucesso",
-                type: "success"
-            });
+        // const { data: addForm } = await api.post('form_forest_contato_site', form);
+        // if (addForm.success) {
+        //     toast.notify(addForm.success, {
+        //         title: "Sucesso",
+        //         type: "success"
+        //     });
 
-            setForm({ email: "", message: "", name: "" })
-        }
+        //     setForm({ email: "", message: "", name: "" })
+        // }
     }
 
     return (
@@ -74,7 +73,7 @@ const ContactForm = () => {
                     </p>
                 </div>
                 <div
-                    onClick={formSubmit} 
+                    onClick={formSubmit}
                     className={css.botaomensagem}>
                     ENVIAR MENSAGEM
                 </div>
