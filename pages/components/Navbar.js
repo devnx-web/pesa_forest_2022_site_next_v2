@@ -191,7 +191,7 @@ export default function Navbar() {
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/m860">
                                                                     <a>M 860</a>
                                                                 </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/f848">
                                                                     <a>F 848</a>
                                                                 </Link>
                                                         </div>
