@@ -143,16 +143,20 @@ export default function Navbar() {
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b570">
                                                                         <a>B 570</a>
                                                                     </Link>
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b670">
+                                                                        <a>B 670</a>
+                                                                    </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b670a">
                                                                         <a>B 670A</a>
                                                                     </Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b757">
-                                                                        <a>B 757</a>
-                                                                    </Link>
+                                                                    
                                                                     
                                                                     
                                                                 </div>
                                                         <div className="d-flex align-items-center">
+                                                        <Link className={css.nomemaq} href="/maquinas/weiler/b757">
+                                                                        <a>B 757</a>
+                                                                    </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b758">
                                                                         <a>B 758</a>
                                                                     </Link>
@@ -162,12 +166,13 @@ export default function Navbar() {
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/h457">
                                                                         <a>H 457</a>
                                                                     </Link>
-                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h458">
-                                                                        <a>H 458</a>
-                                                                    </Link>
                                                                 
                                                         </div>
                                                         <div className="d-flex align-items-center">
+                                                            
+                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h458">
+                                                                        <a>H 458</a>
+                                                                    </Link>
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/s250">
                                                                     <a>S 250</a>
                                                                 </Link>
@@ -177,11 +182,12 @@ export default function Navbar() {
                                                                 <Link className={css.nomemaq} href="/maquinas/weiler/s450">
                                                                     <a>S 450</a>
                                                                 </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">
-                                                                    <a>S 550</a>
-                                                                </Link>
                                                         </div>
                                                         <div className="d-flex align-items-center">
+                                                            
+                                                        <Link className={css.nomemaq} href="/maquinas/weiler/s550">
+                                                                    <a>S 550</a>
+                                                                </Link>
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/m860">
                                                                     <a>M 860</a>
                                                                 </Link>
