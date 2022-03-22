@@ -19,7 +19,7 @@ export default function Destaques(){
                     <div className={css.maquina1}></div>
                     <div className={css.name}>PTH 18</div>
                         <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
-                     <Link href="/maquinas/caterpillar/pt18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
+                     <Link href="/maquinas/caterpillar/pth18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
 

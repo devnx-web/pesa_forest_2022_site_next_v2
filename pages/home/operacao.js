@@ -18,11 +18,13 @@ export default function Operacao() {
                             <p className={css.textomaq}>
                                 A PTH-18 supera os competidores da sua classe de tamanho em capacidade, devido sua lança e braço serem projetados para manter as tubulações e mangueiras hidráulicas totalmente protegidas, evitando trincas e quebras de tubulação e rompimentos de mangueiras na colheita. Essa máquina proporciona alto desempenho!
                             </p>
-                            <div className={css.botaoler}>
-                                <Link href="/maquinas">
-                                    <a className={css.link}>LER MAIS</a>
-                                </Link>
-                            </div>
+                            <Link href="/maquinas">
+                                <a className={css.link}>
+                                    <div className={css.botaoler}>
+                                    LER MAIS
+                                    </div>
+                                </a>
+                            </Link>
                         </Col>
                         <Col>
                             <div>

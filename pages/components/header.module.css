@@ -134,8 +134,6 @@
     position: relative;
     font-family: "Univers";
     font-weight: 100;
-    border-right: solid;
-    border-width: 1px;
     padding: 0 30px 0 30px;
     border-color: #4d4d4d;
     display: flex;
