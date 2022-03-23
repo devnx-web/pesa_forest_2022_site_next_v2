@@ -73,7 +73,7 @@ export default function Header() {
                                                                 <Link href="/maquinas/logset/8fgt"><a className={css.nomemaq}>8F GT</a></Link>
                                                             </Col>
                                                             <Col>
-                                                                <Link href="/maquinas/logset/8hblack"><a className={css.nomemaq}>8H GTE BLACK</a></Link>
+                                                                <Link href="/maquinas/logset/8hblack"><a className={css.nomemaq}>8H GTE</a></Link>
                                                                 <Link href="/maquinas/logset/8hgt"><a className={css.nomemaq}>8H GT</a></Link>
                                                                 <Link href="/maquinas/logset/8hgthybrid"><a className={css.nomemaq}>8H GTE Hybrid</a></Link>
                                                                 <Link href="/maquinas/logset/10fgt"><a className={css.nomemaq}>10F GT</a></Link>

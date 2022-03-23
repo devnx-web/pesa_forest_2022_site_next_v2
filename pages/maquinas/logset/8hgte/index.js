@@ -3,7 +3,7 @@ import React from "react";
 import Sobre from "./sobre";
 
 
-export default function blakc8h
+export default function gte8h
     () {
     return (
         <div>

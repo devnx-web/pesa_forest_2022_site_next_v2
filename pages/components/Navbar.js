@@ -60,6 +60,9 @@ export default function Navbar() {
                                                             <Link href="/maquinas/caterpillar/pth20">
                                                                 <a>PTH 20</a>
                                                             </Link>
+                                                            <Link href="/maquinas/caterpillar/pth25">
+                                                                <a>PTH 25</a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     </div>
@@ -106,8 +109,8 @@ export default function Navbar() {
                                                             <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
                                                                 <a>8H GT</a>
                                                             </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hblack">
-                                                                    <a>8H GTE BLACK</a>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgte">
+                                                                    <a>8H GTE</a>
                                                                 </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
                                                                 <a>8H GTE Hybrid</a>
@@ -120,6 +123,9 @@ export default function Navbar() {
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
                                                                 <a>12H GTE Hybrid</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th55">
+                                                                <a>TH 55</a>
                                                             </Link>
 
                                                         </div>

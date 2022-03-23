@@ -17,14 +17,15 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>8H GTE BLACK</h2>
-                                    <h2 className={css.ttmaq1}>8H GTE BLACK</h2>
+                                    <h2 className={css.ttmaq2}>TH 55</h2>
+                                    <h2 className={css.ttmaq1}>TH 55</h2>
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
+                                        Lorem ipsum dolor sit amet. Qui dolorem enim aut omnis suscipit et dolores laudantium et enim dicta. Est maiores commodi et aliquid dolor sed autem officia non tempora quae qui placeat molestiae et perferendis iure quo nobis soluta!
 
-                                            Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+                                            Qui eveniet quia eum repudiandae dignissimos ut eaque laborum qui asperiores iste eos laudantium corporis in assumenda fuga nam fugit veniam. Et autem iure ad sunt magni non laudantium dolores qui quam enim qui accusantium doloribus est dolore dolor.         
+
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
@@ -40,8 +41,8 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>8H GTE BLACK</h2>
-                                    <h2 className={css.ttmaq1}>8H GTE BLACK</h2>
+                                    <h2 className={css.ttmaq2}>PTH 18</h2>
+                                    <h2 className={css.ttmaq1}>PTH 18</h2>
                                     <div>
                                         <p className={css.textomaq}>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
