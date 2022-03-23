@@ -20,9 +20,9 @@ export default function Navbar() {
                             <Col>
                                 {/*Titulos do Header*/}
                                 <div>
-                                    <Link href="/" className={css.textheader}>
+                                    {/* <Link href="/" className={css.textheader}>
                                         <a className={css.linkmenu}>INICIO</a>
-                                    </Link>
+                                    </Link> */}
                                     <div className={css.dropdown}>
                                         <button className={css.dropbtn}>
                                             <Link className={css.link} href="/maquinas">
@@ -39,10 +39,13 @@ export default function Navbar() {
                                                                 Caterpillar
                                                             </a>
                                                         </Link>
-                                                        <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} />
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
+                                            
                                                     <div style={{float: 'right'}}>
+                                                    
                                                     <div style={{width: 150,}} className={css.dropdowncontent2}>
+                                                        
                                                         <div>
                                                             {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
                                                                 Caterpillar
@@ -67,7 +70,7 @@ export default function Navbar() {
                                                 <div className={css.dropdown2}>
                                                     <button style={{ margin: 0, marginBottom: 15, }} className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas"> LogSet </Link>
-                                                        <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} />
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
                                                     <div className={css.dropdowncontent3}>
@@ -129,7 +132,7 @@ export default function Navbar() {
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas"> Weiler </Link>
-                                                        <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} />
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
@@ -202,7 +205,7 @@ export default function Navbar() {
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas"> Quadco </Link>
-                                                        <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} />
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
@@ -234,7 +237,7 @@ export default function Navbar() {
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas"> Logmax </Link>
-                                                        <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} />
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
@@ -284,6 +287,7 @@ export default function Navbar() {
                                 <Link href="/contato" className={css.linkbotao}>
                                 <a className={css.botaoctt}>
                                     Entrar em Contato
+                                <Image src="/linkedin.png" alt="logo" width={16} height={16} />
                                 </a>
                                 </Link>
                             </Col>

@@ -11,14 +11,14 @@ export default function Mobile(){
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>5FP GT</h1>
-                    <h1 className={'ttmaq1'}>5FP GT</h1>
+                    <h1 className={'ttmaq2'}>12F GT</h1>
+                    <h1 className={'ttmaq1'}>12F GT</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/5hp-gt.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/12gte-hybrid.png" alt="maquina" width={450} height={350} />
                         </div>
                     </div>
 
@@ -28,7 +28,9 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                Logset 5FP GT é um forwarder versátil. É compacto e ágil para operações de desbaste, mas tem potência suficiente para operações de corte raso. É um forwarder de 12 toneladas com uma transmissão forte e componentes superdimensionados para sua classe.
+                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
+
+                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

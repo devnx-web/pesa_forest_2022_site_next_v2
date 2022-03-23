@@ -17,12 +17,13 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>8F GT</h2>
-                                    <h2 className={css.ttmaq1}>8F GT</h2>
+                                    <h2 className={css.ttmaq2}>12F GT</h2>
+                                    <h2 className={css.ttmaq1}>12F GT</h2>
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        O Logset 8F GT é uma máquina econômica para carregamento e baldeio. Tem uma capacidade de carga de 15 toneladas e seu comprimento permite uma pilha dupla de toras de 3 metros.
+                                        O Logset 12F GT é o maior forwarder da linha Logset. Com capacidade de carga de 20 toneladas, acessa qualquer terreno, com extrema qualidade operacional e alta performance.
+
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
@@ -38,11 +39,11 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>8F GT</h2>
-                                    <h2 className={css.ttmaq1}>8F GT</h2>
+                                    <h2 className={css.ttmaq2}>PTH 18</h2>
+                                    <h2 className={css.ttmaq1}>PTH 18</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                        O Logset 8F GT é uma máquina econômica para carregamento e baldeio. Tem uma capacidade de carga de 15 toneladas e seu comprimento permite uma pilha dupla de toras de 3 metros.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
                                         </p>
                                     </div>
 

@@ -22,9 +22,7 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
-
-                                            Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
+                                        O Logset 5HP GT é o menor harvester da linha Logset. O  tamanho compacto combinado com o poderoso motor torna o harvester versátil, mesmo sendo projetado principalmente para operações de desbaste. O equipamento  é fácil de manobrar e gira sem esforço. As rodas de 34 polegadas na parte traseira permitem que a máquina opere em vários tipos de terreno.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
@@ -44,7 +42,7 @@ export default function Sobre(){
                                     <h2 className={css.ttmaq1}>5HP GT</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
+                                        O Logset 5HP GT é o menor harvester da linha Logset. O  tamanho compacto combinado com o poderoso motor torna o harvester versátil, mesmo sendo projetado principalmente para operações de desbaste. O equipamento  é fácil de manobrar e gira sem esforço. As rodas de 34 polegadas na parte traseira permitem que a máquina opere em vários tipos de terreno.
                                         </p>
                                     </div>
 

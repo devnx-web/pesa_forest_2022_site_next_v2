@@ -207,6 +207,7 @@ export default function Pagemeio(){
                                                             LogSet
                                                         </div> */}
                                                         <div className="d-flex align-items-center">
+                                                            
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
                                                                     <a>4F GT</a>
                                                                 </Link>

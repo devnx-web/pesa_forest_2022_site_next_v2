@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>5F GT</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        O Logset 5F GT é um forwarder versátil e compacto. é extremamentevbem adaptado para operações de desbaste, mas também pode ser usado para operações menores de corte raso. Trata-se de um forwarder de 12 toneladas com motor econômico, projetado para transportar cargas máximas. Os grandes pneus de 26,5” e a grande distância ao solo tornam esta máquina a escolha certa para vários tipos de terreno.
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/5f-gt-transparente.png" alt="maquina" width={450} height={350} />

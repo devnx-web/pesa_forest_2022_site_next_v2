@@ -15,7 +15,9 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>4F GT</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        É o menor Forwarder  do portifólio Logset . A máquina tem capacidade de 10 toneladas de carga e é especialmente concebida para operações de desbaste em florestas densas.
+exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínimos danos ao mesmo. 
+
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/4f-gt-transparente.png" alt="maquina" width={450} height={350} />

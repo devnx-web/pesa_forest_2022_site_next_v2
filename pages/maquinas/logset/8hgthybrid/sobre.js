@@ -22,9 +22,7 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
-
-                                            Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+                                        O Logset 8H GTE Hybrid é um poderoso harvester de tamanho médio. O motor diesel funciona a um ritmo constante, enquanto o sistema híbrido fornece até 104 kW (142 hp) de potência adicional, necessária em um típico ciclo de corte e processamento. Isso permite ao harverster executar facilmente várias tarefas ao mesmo tempo, mantendo a carga  constante do motor.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>

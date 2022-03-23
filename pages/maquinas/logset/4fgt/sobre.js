@@ -22,9 +22,9 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                                        É o menor Forwarder  do portifólio Logset . A máquina tem capacidade de 10 toneladas de carga e é especialmente concebida para operações de desbaste em florestas densas.
+exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínimos danos ao mesmo. 
 
-                                            Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
@@ -44,7 +44,9 @@ export default function Sobre(){
                                     <h2 className={css.ttmaq1}>4F GT</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
+                                        É o menor Forwarder  do portifólio Logset . A máquina tem capacidade de 10 toneladas de carga e é especialmente concebida para operações de desbaste em florestas densas.
+exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínimos danos ao mesmo. 
+
                                         </p>
                                     </div>
 

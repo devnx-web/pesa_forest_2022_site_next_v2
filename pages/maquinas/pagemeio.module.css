@@ -515,8 +515,7 @@
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;
     border-radius: 5px;
-    margin-left: -60px;
-    margin-top: -35px;
+    margin-left: -50px;
 }
 
 /* Links inside the dropdown */
@@ -554,8 +553,7 @@
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     z-index: 1;
     border-radius: 5px;
-    margin-left: -80px;
-    margin-top: -40px;
+    margin-left: -50px;
 }
 
 /* Links inside the dropdown */

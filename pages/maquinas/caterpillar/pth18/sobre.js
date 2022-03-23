@@ -22,10 +22,7 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            PESA TRACKER HARVESTER PTH-18 é uma máquina projetada para
-                                            atender o Mercado Florestal, possui um cabeçote que processa as árvores
-                                            individualmente, ou seja, cada árvore é derrubada, desgalhada, destopada e
-                                            traçada separadamente.
+                                        Focada no alto desempenho para operações florestais, a PTH 18 foi projetada pela equipe da PESA Indústria que uniu a tecnologia e robustez da marca Caterpillar com a precisão na operação. Com força hidráulica adequada e com 8,5 metros de alcance ao nível do solo, é o equipamento ideal para operações harvester. Para primeiro e segundo desbaste, bem como corte raso.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>

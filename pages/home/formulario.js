@@ -55,7 +55,7 @@ export default function Formulario() {
                                     <input type="checkbox"/>
                                     <div>
                                          <p className={css.textocheck}>
-                                             Ao enviar você aceita receber novidades e promoções da PESA FOREST
+                                            *De acordo com as Leis 12.965/2014 e 13.709/2018, que regulam o uso da Internet e o tratamento de dados pessoais no Brasil, autorizo PESA CAT a enviar notificações de meu interesse por e-mail ou outros meios.
                                          </p>
                                     </div>
                                 </div>

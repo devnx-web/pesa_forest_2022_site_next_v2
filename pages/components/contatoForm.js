@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import css from "./contactForm.module.scss"
 import { toast, ToastContainer } from 'react-nextjs-toast'
 import { Input } from "reactstrap";
+import { Select } from "reactstrap";
 
 
 const ContactForm = () => {
@@ -53,6 +54,52 @@ const ContactForm = () => {
                         })}
                         className={css.inputform} type="text" placeholder="Digite seu e-mail..." />
                 </div>
+
+                <div>
+                                    <label className={css.label}>SELECIONAR MODELO</label>
+                                    <select className={css.inputform}>
+                                        <option className={css.selectoption} value="1">PTH 18</option>
+                                        <option className={css.selectoption} value="1">PTL 20</option>
+                                        <option className={css.selectoption} value="1">PTH 20</option>
+                                        <option className={css.selectoption} value="1">4F GT</option>
+                                        <option className={css.selectoption} value="1">5F GT</option>
+                                        <option className={css.selectoption} value="1">5FP GT</option>
+                                        <option className={css.selectoption} value="1">5HP GT</option>
+                                        <option className={css.selectoption} value="1">6F GT</option>
+                                        <option className={css.selectoption} value="1">6HP GT</option>
+                                        <option className={css.selectoption} value="1">6HP GTE</option>
+                                        <option className={css.selectoption} value="1">8F GT</option>
+                                        <option className={css.selectoption} value="1">8H GT</option>
+                                        <option className={css.selectoption} value="1">8H GTE BLACK</option>
+                                        <option className={css.selectoption} value="1">10F GT</option>
+                                        <option className={css.selectoption} value="1">12H GTE HYBRID</option>
+                                        <option className={css.selectoption} value="1">B 457</option>
+                                        <option className={css.selectoption} value="1">B 570</option>
+                                        <option className={css.selectoption} value="1">B 670</option>
+                                        <option className={css.selectoption} value="1">B 670A</option>
+                                        <option className={css.selectoption} value="1">B 757</option>
+                                        <option className={css.selectoption} value="1">B 758</option>
+                                        <option className={css.selectoption} value="1">H 157</option>
+                                        <option className={css.selectoption} value="1">H 457</option>
+                                        <option className={css.selectoption} value="1">H 458</option>
+                                        <option className={css.selectoption} value="1">S 250</option>
+                                        <option className={css.selectoption} value="1">S 350</option>
+                                        <option className={css.selectoption} value="1">S 450</option>
+                                        <option className={css.selectoption} value="1">S 550</option>
+                                        <option className={css.selectoption} value="1">M 860</option>
+                                        <option className={css.selectoption} value="1">F 848</option>
+                                        <option className={css.selectoption} value="1">18 C</option>
+                                        <option className={css.selectoption} value="1">22 C</option>
+                                        <option className={css.selectoption} value="1">22 SC</option>
+                                        <option className={css.selectoption} value="1">24 C</option>
+                                        <option className={css.selectoption} value="1">5000 D</option>
+                                        <option className={css.selectoption} value="1">6000 V</option>
+                                        <option className={css.selectoption} value="1">7000 C</option>
+                                        <option className={css.selectoption} value="1">7000 XT</option>
+                                        <option className={css.selectoption} value="1">E6</option>
+                                    </select>
+                                </div>
+
                 <div>
                     <div><label className={css.label}>MENSAGEM</label></div>
                     <Input
@@ -69,7 +116,7 @@ const ContactForm = () => {
                 <div style={{ display: 'flex', alignItems: 'center', }}>
                     <p
                         className={css.textcheckbox}>
-                        Ao enviar, você aceita em receber novidades e promoções da PESA CAT
+                        *De acordo com as Leis 12.965/2014 e 13.709/2018, que regulam o uso da Internet e o tratamento de dados pessoais no Brasil, autorizo PESA CAT a enviar notificações de meu interesse por e-mail ou outros meios.
                     </p>
                 </div>
                 <div

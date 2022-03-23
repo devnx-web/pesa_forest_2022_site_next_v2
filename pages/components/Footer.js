@@ -25,7 +25,7 @@ export default function Footer() {
                                         <a href="https://www.youtube.com/channel/UC5VrF3OGPWOVF4hM4sVMiHw" rel="noreferrer" target="_blank" className={css.icone}>
                                             <Image src="/youtube.png" alt="logo" width={16} height={16} />
                                         </a>
-                                        <a href="https://br.linkedin.com/company/pesa-s-a" rel="noreferrer" target="_blank" className={css.icone}>
+                                        <a href="https://br.linkedin.com/company/pesa-forestpr" rel="noreferrer" target="_blank" className={css.icone}>
                                             <Image src="/linkedin.png" alt="logo" width={16} height={16} />
                                         </a>
                                     </div>

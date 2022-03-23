@@ -63,7 +63,7 @@ export default function Maquinas() {
                                     <div className={css.bgslide}>
                                         <div className={css.position}>
                                             <h3 className={css.nomemaq}>PTL 20</h3>
-                                            <div className={css.botaoler}>LER MAIS</div>
+                                            <Link href='/maquinas/caterpillar/ptl20'><a className={css.botaoler}>LER MAIS</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@ export default function Maquinas() {
                                     <div className={css.bgslide2}>
                                         <div className={css.position}>
                                             <h3 className={css.nomemaq}>PTH 18</h3>
-                                            <div className={css.botaoler}>LER MAIS</div>
+                                            <Link href='/maquinas/caterpillar/pth18'><a className={css.botaoler}>LER MAIS</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ export default function Maquinas() {
                                     <div className={css.bgslide3}>
                                         <div className={css.position}>
                                             <h3 className={css.nomemaq}>B 757</h3>
-                                            <div className={css.botaoler}>LER MAIS</div>
+                                            <Link href='/maquinas/weiler/b757'><a className={css.botaoler}>LER MAIS</a></Link>
                                         </div>
                                     </div>
                                 </div>

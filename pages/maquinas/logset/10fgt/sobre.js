@@ -22,9 +22,8 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                                        É um forwarder de 18 toneladas de capacidade e tem uma estrutura excepcionalmente robusta e confiável.
 
-                                            Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
@@ -44,7 +43,8 @@ export default function Sobre(){
                                     <h2 className={css.ttmaq1}>10F GT</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
+                                        É um forwarder de 18 toneladas de capacidade e tem uma estrutura excepcionalmente robusta e confiável.
+
                                         </p>
                                     </div>
 

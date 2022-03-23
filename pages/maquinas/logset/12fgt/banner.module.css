@@ -1,0 +1,41 @@
+
+.bgbanner {
+    background-image: url("../../../../public/banner-maquinas/banner-12fgt.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.posicaott{
+    position: absolute;
+    top: 180px;
+}
+
+.texto{
+    color: #f2f2f2;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 2px;
+}
+
+.tt1{
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    font-size: 95px;
+    margin-top: -90px;
+    margin-left: 2px;
+}
+
+.tt2{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(75, 75, 75);
+    font-family: "Bebas Neue";
+    font-size: 130px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.29));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

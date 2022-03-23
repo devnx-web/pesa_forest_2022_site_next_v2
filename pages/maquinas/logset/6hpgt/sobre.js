@@ -22,9 +22,8 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                                        O Logset 6HP GT é um harvester versátil e ágil que gira com muita facilidade. É adequado tanto para operações de desbaste como para corte raso de tamanho médio. O Harvester  é muito produtivo com baixo consumo de combustível.
 
-                                            Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
                                         </p>
                                     </div>
                                     <div className={css.botaosaber}>
