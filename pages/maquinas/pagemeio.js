@@ -90,9 +90,6 @@ export default function Pagemeio(){
                                                         </button>
                                                     </Row>
                                                     <div className={css.dropdown2}>
-                                                    <button className={css.dropbtn2}>
-                                                       
-                                                    </button>
                                                     <div style={{float: 'center'}}>
                                                     <div style={{width: 150,}} className={css.dropdowncontent2}>
                                                         <div>
@@ -113,8 +110,8 @@ export default function Pagemeio(){
                                                                 <a>PTH 20</a>
                                                             </Link>
                                                         </div>
-                                                    </div>
-                                                    </div>
+                                                    </div>a
+                                                    </div>a
                                                 </div>
                                                 </div>
                                             </div>
@@ -141,8 +138,6 @@ export default function Pagemeio(){
                                             </button>
                                         </Row>
                                         <div className={css.dropdown2}>
-                                                    <button style={{ marginTop: 0, }} className={css.dropbtn2}>
-                                                    </button>
                                                     <div>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
                                                         {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
@@ -171,8 +166,8 @@ export default function Pagemeio(){
                                                                 <a>E6</a>
                                                             </Link>
                                                         </div>
-                                                    </div>
-                                                    </div>
+                                                    </div>a
+                                                    </div>a
                                                 </div>
                                         
                                 </div>
@@ -197,11 +192,6 @@ export default function Pagemeio(){
                                             </button>
                                         </Row>
                                         <div className={css.dropdown2}>
-                                                    <button  className={css.dropbtn2}>
-                                                        
-                                                       
-                                                    </button>
-                                                    <div>
                                                     <div className={css.dropdowncontent3}>
                                                         {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
                                                             LogSet
@@ -254,9 +244,9 @@ export default function Pagemeio(){
                                                             <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
                                                                 <a>12H GTE Hybrid</a>
                                                             </Link>
-
                                                         </div>
-                                                    </div>
+                                                    </div>a
+                                                    <div>a
                                                 </div>
                                                 </div>
                                         
@@ -282,9 +272,6 @@ export default function Pagemeio(){
                                             </button>
                                         </Row>
                                         <div className={css.dropdown2}>
-                                                    <button style={{ marginTop: 0, }} className={css.dropbtn2}>
-                                                        
-                                                    </button>
                                                     <div>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
                                                         {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
@@ -344,8 +331,8 @@ export default function Pagemeio(){
                                                                 </Link>
                                                         </div>
                                                     </div>
-                                                    </div>
-                                                </div>
+                                                    </div>a
+                                                </div>a
                                     </div>
                                 </div>
                                 </div>
@@ -369,8 +356,6 @@ export default function Pagemeio(){
                                             </button>
                                         </Row>
                                         <div className={css.dropdown2}>
-                                                    <button style={{ marginTop: 0, }} className={css.dropbtn2}>
-                                                    </button>
                                                     <div>
                                                     <div style={{width: 270,}} className={css.dropdowncontent2}>
                                                         {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
@@ -394,8 +379,8 @@ export default function Pagemeio(){
                                                                 <a>24 C</a>
                                                             </Link>
                                                         </div>
-                                                    </div>
-                                                    </div>
+                                                    </div>a
+                                                    </div>a
                                                 </div>
                                 </div>
                                 </div>

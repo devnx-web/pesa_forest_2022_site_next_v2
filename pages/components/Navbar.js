@@ -41,11 +41,8 @@ export default function Navbar() {
                                                         </Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
-                                            
                                                     <div style={{float: 'right'}}>
-                                                    
                                                     <div style={{width: 150,}} className={css.dropdowncontent2}>
-                                                        
                                                         <div>
                                                             {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
                                                                 Caterpillar
@@ -284,12 +281,15 @@ export default function Navbar() {
                             </Col>
                             <Col md="2">
                                 {/*Botão header Entre em contato*/}
-                                <Link href="/contato" className={css.linkbotao}>
-                                <a className={css.botaoctt}>
+                                <div>
+                                <Link href="https://api.whatsapp.com/send?phone=554132132211&text=Ol%C3%A1!%20Vim%20pelo%20site%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"className={css.linkbotao}>
+                                <a target="_blank"  className={css.botaoctt}>
+                                <Image src="/whatsapp.png" alt="logo" width={15} height={15}/>
                                     Entrar em Contato
-                                <Image src="/linkedin.png" alt="logo" width={16} height={16} />
                                 </a>
                                 </Link>
+                                </div>
+
                             </Col>
                         </Row>
 
