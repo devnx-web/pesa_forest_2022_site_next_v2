@@ -108,7 +108,7 @@ export default function Footer() {
                                  </a>
                              </Link>
 
-                            <h4 className={css.textofooter}>Politica de Privacidade</h4>
+                            <Link href="/politica-de-privacidade"><a className={css.textofooter}><br/>Politica de Privacidade</a></Link>
                         </Col>
                         <Col md={3} xs="6">
                             <h2 className={css.titulofooter}>INFORMAÇÕES DE CONTATO</h2>
