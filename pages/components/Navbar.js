@@ -289,10 +289,10 @@ export default function Navbar() {
                             <Col md="2">
                                 {/*Botão header Entre em contato*/}
                                 <div>
-                                <Link href="https://api.whatsapp.com/send?phone=554132132211&text=Ol%C3%A1!%20Vim%20pelo%20site%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"className={css.linkbotao}>
+                                <Link href="https://api.whatsapp.com/send?phone=554121032211&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"className={css.linkbotao}>
                                 <a target="_blank"  className={css.botaoctt}>
-                                <Image  src="/whatsapp.png" alt="logo" width={15} height={15}/>
-                                    Entrar em Contato
+                                <Image style={{marginBottom: -15}}  src="/whatsapp.png" alt="logo" width={15} height={15}/>
+                                ‏‏‎ ‎‏‏‎ ‎(41) 2103-2211
                                 </a>
                                 </Link>
                                 </div>

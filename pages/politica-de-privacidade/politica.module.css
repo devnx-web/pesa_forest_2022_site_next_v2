@@ -1,0 +1,22 @@
+
+.bg{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.titulo{
+    font-family: "Bebas Neue";
+    font-size: 25px;
+}
+
+.texto{
+    font-family: "Montserrat";
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: black;
+}
