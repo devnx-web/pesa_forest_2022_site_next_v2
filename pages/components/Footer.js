@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Footercop from "./footercop";
 import { Container, Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import css from './footer.module.css'
 
 export default function Footer() {
     return (
+        <div>
         <div className={css.bgfooter}>
             <Container>
                 <div>
@@ -124,10 +126,20 @@ export default function Footer() {
                                 </a>
                             </Link>
                             </div>
+
+                            <div>
+                            <Link className={css.link} href="https://g.page/pesacat?share">
+                                <a target="_blank" className={css.textofooter}>
+                                BR-116, 11807 - Hauer, Curitiba - PR, 81690-100
+                                </a>
+                            </Link>
+                            </div>
                         </Col>
                     </Row>
                 </div>
             </Container>
+        </div>
+        <Footercop/>
         </div>
     )
 

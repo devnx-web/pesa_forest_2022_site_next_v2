@@ -12,7 +12,7 @@ export default function Banner(){
                     <div className={css.posicaott}>
                     <h1 className={css.tt2}>TH 75</h1>
                     <h1 className={css.tt1}>TH 75</h1>
-                    <h1 className={css.texto}>Lorem Ipsum dolor sit amet</h1>
+                    <h1 className={css.texto}>PARA CORTE E DESCASCAMENTO OTIMIZADOS</h1>
                     </div>
                 </div>
             </Container>

@@ -19,12 +19,18 @@ export default function Sobre(){
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>TH 75</h2>
                                     <h2 className={css.ttmaq1}>TH 75</h2>
-                                    <h3 className={css.destaque}>Frase destaque</h3>
+                                    <h3 className={css.destaque}>POR QUE ESCOLHER LOGSET?</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        Lorem ipsum dolor sit amet. Qui dolorem enim aut omnis suscipit et dolores laudantium et enim dicta. Est maiores commodi et aliquid dolor sed autem officia non tempora quae qui placeat molestiae et perferendis iure quo nobis soluta!
-
-                                            Qui eveniet quia eum repudiandae dignissimos ut eaque laborum qui asperiores iste eos laudantium corporis in assumenda fuga nam fugit veniam. Et autem iure ad sunt magni non laudantium dolores qui quam enim qui accusantium doloribus est dolore dolor.         
+                                        Os cabeçotes Logset Euca são versáteis e duráveis. Sua capacidade de descasque é notável devido ao conceito de
+três rolos de última geração e ao perfil específico de facas de
+descasque Euca. O cabeçote Logset Euca pode ser configurado
+de fábrica para trabalhar como um cabeçote processador ou
+como um harvester convencional de derrubada e corte (CTL)     
+<br/>
+Os cabeçotes Logset Euca foram feitos para durar, projetados com baixo custo de manutenção e com alta produtividade em mente. O
+alto torque de alimentação com mínimo atrito deslizante contribui
+para a economia de combustível.
 
                                         </p>
                                     </div>

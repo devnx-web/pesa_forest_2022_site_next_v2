@@ -9,7 +9,7 @@ export default function Footercop() {
         <div className={css.bgfootercop}>
             <Container>
                 <div>
-                    <h5 className={css.textocop}>Copyright © 2022 | PESA FOREST</h5>
+                    <h5 className={css.textocop}>PESA - PARANÁ EQUIPAMENTOS S.A. - Todos os direitos reservados - 2022</h5>
                 </div>
             </Container>
         </div>

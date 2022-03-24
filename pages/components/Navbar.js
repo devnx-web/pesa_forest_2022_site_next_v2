@@ -291,7 +291,7 @@ export default function Navbar() {
                                 <div>
                                 <Link href="https://api.whatsapp.com/send?phone=554132132211&text=Ol%C3%A1!%20Vim%20pelo%20site%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"className={css.linkbotao}>
                                 <a target="_blank"  className={css.botaoctt}>
-                                <Image src="/whatsapp.png" alt="logo" width={15} height={15}/>
+                                <Image  src="/whatsapp.png" alt="logo" width={15} height={15}/>
                                     Entrar em Contato
                                 </a>
                                 </Link>

@@ -5,6 +5,7 @@ import Maqpth18mob from "./home/maqpth18mob";
 import Operacao from "./home/operacao";
 import Opinioes from "./home/opinioes";
 import Formulario from "../components/contactForm2";
+import Footercop from "./components/footercop";
 import css from "./components/header.module.css";
 import React from "react";
 

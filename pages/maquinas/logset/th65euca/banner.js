@@ -10,8 +10,8 @@ export default function Banner(){
             <Container>
                 <div>
                     <div className={css.posicaott}>
-                    <h1 className={css.tt2}>TH 65</h1>
-                    <h1 className={css.tt1}>TH 65</h1>
+                    <h1 className={css.tt2}>TH 65 EUCA</h1>
+                    <h1 className={css.tt1}>TH 65 EUCA</h1>
                     <h1 className={css.texto}>Lorem Ipsum dolor sit amet</h1>
                     </div>
                 </div>

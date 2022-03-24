@@ -73,6 +73,13 @@ const ContactForm = () => {
                                         <option className={css.selectoption} value="1">8H GTE BLACK</option>
                                         <option className={css.selectoption} value="1">10F GT</option>
                                         <option className={css.selectoption} value="1">12H GTE HYBRID</option>
+                                        <option className={css.selectoption} value="1">TH 45</option>
+                                        <option className={css.selectoption} value="1">TH 55</option>
+                                        <option className={css.selectoption} value="1">TH 65</option>
+                                        <option className={css.selectoption} value="1">TH 65 EUCA</option>
+                                        <option className={css.selectoption} value="1">TH 75</option>
+                                        <option className={css.selectoption} value="1">TH 85</option>
+                                        <option className={css.selectoption} value="1">TH 9S5</option>
                                         <option className={css.selectoption} value="1">B 457</option>
                                         <option className={css.selectoption} value="1">B 570</option>
                                         <option className={css.selectoption} value="1">B 670</option>
