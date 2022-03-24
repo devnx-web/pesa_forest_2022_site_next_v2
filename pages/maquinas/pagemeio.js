@@ -7,11 +7,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+
 const settings = {
     dots: false,
     arrows: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5500,
     speed: 500,
     slidesToShow: 3,
@@ -46,6 +47,7 @@ const settings = {
     ]
 };
 export default function Pagemeio(){
+    
     return(
         <div className={css.bgpage}>
             <Container>
@@ -81,7 +83,7 @@ export default function Pagemeio(){
 
                                     <div>
                                         <div className={css.dropdown}>
-                                            <div>
+                                            
                                                 <div>
                                                     <Row>
                                                         <button className={css.dropbtn}>
@@ -89,32 +91,7 @@ export default function Pagemeio(){
                                                         <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                                         </button>
                                                     </Row>
-                                                    <div className={css.dropdown2}>
-                                                    <div style={{float: 'center'}}>
-                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
-                                                        <div>
-                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                                Caterpillar
-                                                            </div> */}
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/pth18">
-                                                                <a>
-                                                                    PTH 18
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/caterpillar/ptl20">
-                                                                <a>
-                                                                    PTL 20
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/caterpillar/pth20">
-                                                                <a>PTH 20</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>a
-                                                    </div>a
                                                 </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                             </div>
@@ -137,39 +114,6 @@ export default function Pagemeio(){
                                                 <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                             </button>
                                         </Row>
-                                        <div className={css.dropdown2}>
-                                                    <div>
-                                                    <div style={{width: 270,}} className={css.dropdowncontent2}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            Weiler
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/logmax/5000d">
-                                                                <a>
-                                                                    5000D
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logmax/6000v">
-                                                                <a>
-                                                                    6000V
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/logmax/7000c">
-                                                                <a>7000C</a>
-                                                            </Link>
-                                                            <Link href="/maquinas/logmax/7000xt">
-                                                                <a>7000XT</a>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <Link href="/maquinas/logmax/e6">
-                                                                <a>E6</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>a
-                                                    </div>a
-                                                </div>
-                                        
                                 </div>
                                 </div>
                             </div>
@@ -191,65 +135,6 @@ export default function Pagemeio(){
                                                 <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                             </button>
                                         </Row>
-                                        <div className={css.dropdown2}>
-                                                    <div className={css.dropdowncontent3}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            LogSet
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
-                                                            
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
-                                                                    <a>4F GT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgt">
-                                                                    <a>5F GT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">
-                                                                    <a>5FP GT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">
-                                                                    <a>5HP GT</a>
-                                                                </Link>
-                                                      </div>
-                                                        <div className="d-flex align-items-center">
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6fgt">
-                                                                    <a>6F GT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">
-                                                                    <a>6HP GT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">
-                                                                    <a>6HP GTE</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8fgt">
-                                                                    <a>8F GT</a>
-                                                                </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
-                                                                <a>8H GT</a>
-                                                            </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hblack">
-                                                                    <a>8H GTE BLACK</a>
-                                                                </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
-                                                                <a>8H GTE Hybrid</a>
-                                                            </Link>
-
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/10fgt">
-                                                                <a>10F GT</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
-                                                                <a>12H GTE Hybrid</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>a
-                                                    <div>a
-                                                </div>
-                                                </div>
-                                        
                                 </div>
                                 </div>
                             </div>
@@ -271,68 +156,6 @@ export default function Pagemeio(){
                                                 <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                             </button>
                                         </Row>
-                                        <div className={css.dropdown2}>
-                                                    <div>
-                                                    <div style={{width: 270,}} className={css.dropdowncontent2}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            Weiler
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b457">
-                                                                        <a>B 457</a>
-                                                                    </Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b570">
-                                                                        <a>B 570</a>
-                                                                    </Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b670a">
-                                                                        <a>B 670A</a>
-                                                                    </Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b757">
-                                                                        <a>B 757</a>
-                                                                    </Link>
-                                                                    
-                                                                    
-                                                                </div>
-                                                        <div className="d-flex align-items-center">
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/b758">
-                                                                        <a>B 758</a>
-                                                                    </Link>
-                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h157">
-                                                                        <a>H 157</a>
-                                                                    </Link>
-                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h457">
-                                                                        <a>H 457</a>
-                                                                    </Link>
-                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h458">
-                                                                        <a>H 458</a>
-                                                                    </Link>
-                                                                
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                        <Link className={css.nomemaq} href="/maquinas/weiler/s250">
-                                                                    <a>S 250</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s350">
-                                                                    <a>S 350</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s450">
-                                                                    <a>S 450</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">
-                                                                    <a>S 550</a>
-                                                                </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                        <Link className={css.nomemaq} href="/maquinas/weiler/m860">
-                                                                    <a>M 860</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/weiler/s550">
-                                                                    <a>F 848</a>
-                                                                </Link>
-                                                        </div>
-                                                    </div>
-                                                    </div>a
-                                                </div>a
                                     </div>
                                 </div>
                                 </div>
@@ -355,33 +178,6 @@ export default function Pagemeio(){
                                                 <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
                                             </button>
                                         </Row>
-                                        <div className={css.dropdown2}>
-                                                    <div>
-                                                    <div style={{width: 270,}} className={css.dropdowncontent2}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            Weiler
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/quadco/18c">
-                                                                <a>
-                                                                    18 C
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/quadco/22c">
-                                                                <a>
-                                                                    22 C
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/quadco/22sc">
-                                                                <a>22 SC</a>
-                                                            </Link>
-                                                            <Link href="/maquinas/quadco/24c">
-                                                                <a>24 C</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>a
-                                                    </div>a
-                                                </div>
                                 </div>
                                 </div>
                             </div>

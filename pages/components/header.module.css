@@ -10,11 +10,10 @@
     -webkit-backdrop-filter: blur(8px);
 }
 
+
 .link{
     text-decoration: none;
     color: white;
-
-
 }
 
 .link:hover{

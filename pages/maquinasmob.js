@@ -8,6 +8,7 @@ export default function Maquinasmob() {
     return (
         <div>
             <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
             <div className={css.bgmaquinasmob}>
                 <Container>
                     <h1 className={css.titulomaq}>Selecione uma máquina</h1>

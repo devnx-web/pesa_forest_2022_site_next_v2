@@ -64,6 +64,9 @@ export default function Navbar() {
                                                             <Link href="/maquinas/caterpillar/pth25">
                                                                 <a>PTH 25</a>
                                                             </Link>
+                                                            <Link href="/maquinas/caterpillar/psm36">
+                                                                <a>PSM 36</a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     </div>
@@ -125,10 +128,31 @@ export default function Navbar() {
                                                             <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
                                                                 <a>12H GTE Hybrid</a>
                                                             </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th55">
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th45">
+                                                                <a>TH 45</a>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                        <Link className={css.nomemaq} href="/maquinas/logset/th55">
                                                                 <a>TH 55</a>
                                                             </Link>
-
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65">
+                                                                <a>TH 65</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65euca">
+                                                                <a>TH 65 EUCA</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th75">
+                                                                <a>TH 75 </a>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                        <Link className={css.nomemaq} href="/maquinas/logset/th85">
+                                                                <a>TH 85</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th95">
+                                                                <a>TH 95</a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>

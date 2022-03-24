@@ -8,6 +8,7 @@ import { Container, Row, Col } from 'reactstrap';
 export default function Politica(){
     return(
         <div>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
             <div className={css.bg}>
             <Container>
                 <div className={css.titulo}>
