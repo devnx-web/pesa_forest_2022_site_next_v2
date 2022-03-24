@@ -127,13 +127,13 @@ export default function Footer() {
                             </Link>
                             </div>
 
-                            <div>
+                            {/* <div>
                             <Link className={css.link} href="https://g.page/pesacat?share">
                                 <a target="_blank" className={css.textofooter}>
                                 BR-116, 11807 - Hauer, Curitiba - PR, 81690-100
                                 </a>
                             </Link>
-                            </div>
+                            </div> */}
                         </Col>
                     </Row>
                 </div>

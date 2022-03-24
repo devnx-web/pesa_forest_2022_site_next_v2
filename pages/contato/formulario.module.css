@@ -102,3 +102,30 @@
     background-color: rgba(213, 213, 213, 0.8);
     transition: 0.1s;
 }
+
+.cardEndereco{
+    box-shadow: 2px 0 10px 0 rgb(143, 143, 143);
+    border-radius: 8px;
+    padding: 18px;
+    margin-left: 125px;
+}
+
+.titulo{
+    font-family: "Bebas Neue";
+    border-left: solid black 3px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.informacoes{
+    font-family: "Montserrat";
+    margin-top: 13px;
+}
+
+.link{
+    color: #000000;
+}
+
+.link:hover{
+    color: black;
+}
