@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <div className={css.ocultamob}>
             <div className={css.bgheader}>
-                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
                 <Container>
                     <div>
                         <Row style={{ alignItems: 'center' }}>
@@ -86,75 +86,75 @@ export default function Navbar() {
                                                         </div> */}
                                                         <div className="d-flex align-items-center">
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
-                                                                    <a>4F GT</a>
+                                                                    <a>4FGT</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/5fgt">
-                                                                    <a>5F GT</a>
+                                                                    <a>5FGT</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">
-                                                                    <a>5FP GT</a>
+                                                                    <a>5FPGT</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">
-                                                                    <a>5HP GT</a>
+                                                                    <a>5HPGT</a>
                                                                 </Link>
                                                       </div>
                                                         <div className="d-flex align-items-center">
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/6fgt">
-                                                                    <a>6F GT</a>
+                                                                    <a>6FGT</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">
-                                                                    <a>6HP GT</a>
+                                                                    <a>6HPGT</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">
-                                                                    <a>6HP GTE</a>
+                                                                    <a>6HPGTE</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/8fgt">
-                                                                    <a>8F GT</a>
+                                                                    <a>8FGT</a>
                                                                 </Link>
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                             <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
-                                                                <a>8H GT</a>
+                                                                <a>8HGT</a>
                                                             </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/logset/8hgte">
-                                                                    <a>8H GTE</a>
+                                                                    <a>8HGTE</a>
                                                                 </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
-                                                                <a>8H GTE Hybrid</a>
+                                                                <a>8HGTE Hybrid</a>
                                                             </Link>
 
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                             <Link className={css.nomemaq} href="/maquinas/logset/10fgt">
-                                                                <a>10F GT</a>
+                                                                <a>10FGT</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
-                                                                <a>12H GTE Hybrid</a>
+                                                                <a>12HGTE Hybrid</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/th45">
-                                                                <a>TH 45</a>
+                                                                <a>TH45</a>
                                                             </Link>
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                         <Link className={css.nomemaq} href="/maquinas/logset/th55">
-                                                                <a>TH 55</a>
+                                                                <a>TH55</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/th65">
-                                                                <a>TH 65</a>
+                                                                <a>TH65</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/th65euca">
-                                                                <a>TH 65 EUCA</a>
+                                                                <a>TH65EUCA</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/th75">
-                                                                <a>TH 75 </a>
+                                                                <a>TH75 </a>
                                                             </Link>
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                         <Link className={css.nomemaq} href="/maquinas/logset/th85">
-                                                                <a>TH 85</a>
+                                                                <a>TH85</a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logset/th95">
-                                                                <a>TH 95</a>
+                                                                <a>TH95</a>
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -172,16 +172,16 @@ export default function Navbar() {
                                                         </div> */}
                                                         <div className="d-flex align-items-center">
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b457">
-                                                                        <a>B 457</a>
+                                                                        <a>B457</a>
                                                                     </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b570">
-                                                                        <a>B 570</a>
+                                                                        <a>B570</a>
                                                                     </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b670">
-                                                                        <a>B 670</a>
+                                                                        <a>B670</a>
                                                                     </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b670a">
-                                                                        <a>B 670A</a>
+                                                                        <a>B670A</a>
                                                                     </Link>
                                                                     
                                                                     
@@ -189,44 +189,44 @@ export default function Navbar() {
                                                                 </div>
                                                         <div className="d-flex align-items-center">
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/b757">
-                                                                        <a>B 757</a>
+                                                                        <a>B757</a>
                                                                     </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/b758">
-                                                                        <a>B 758</a>
+                                                                        <a>B758</a>
                                                                     </Link>
                                                                     <Link className={css.nomemaq} href="/maquinas/weiler/h157">
-                                                                        <a>H 157</a>
+                                                                        <a>H157</a>
                                                                     </Link>
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/h457">
-                                                                        <a>H 457</a>
+                                                                        <a>H457</a>
                                                                     </Link>
                                                                 
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                             
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/h458">
-                                                                        <a>H 458</a>
+                                                                        <a>H458</a>
                                                                     </Link>
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/s250">
-                                                                    <a>S 250</a>
+                                                                    <a>S250</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/weiler/s350">
-                                                                    <a>S 350</a>
+                                                                    <a>S350</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/weiler/s450">
-                                                                    <a>S 450</a>
+                                                                    <a>S450</a>
                                                                 </Link>
                                                         </div>
                                                         <div className="d-flex align-items-center">
                                                             
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/s550">
-                                                                    <a>S 550</a>
+                                                                    <a>S550</a>
                                                                 </Link>
                                                         <Link className={css.nomemaq} href="/maquinas/weiler/m860">
-                                                                    <a>M 860</a>
+                                                                    <a>M860</a>
                                                                 </Link>
                                                                 <Link className={css.nomemaq} href="/maquinas/weiler/f848">
-                                                                    <a>F 848</a>
+                                                                    <a>F848</a>
                                                                 </Link>
                                                         </div>
                                                     </div>
