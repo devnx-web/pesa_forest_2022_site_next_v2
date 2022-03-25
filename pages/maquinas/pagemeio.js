@@ -1,11 +1,16 @@
 import css from './pagemeio.module.css'
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import CollapseLogmax from "../../components/CollapseLogmax.tsx";
+import CollapseLogset from "../../components/CollapseLogset.tsx";
+import CollapseWeiler from "../../components/CollapseWeiler.tsx";
+import CollapseQuadco from "../../components/CollapseQuadco.tsx";
+import CollapseCaterpillar from "../../components/CollapseCaterpillar.tsx";
 
 
 const settings = {
@@ -22,7 +27,7 @@ const settings = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
@@ -59,14 +64,6 @@ export default function Pagemeio(){
                     <p className={css.textopage}>
                     A agilidade e eficiência de marcas referência no setor florestal.  Solicite atendimento <br/> através de nosso formulário de contato!                    </p>
                 </div>
-
-                <div style={{paddingLeft: 220, paddingRight: 220}}>
-                    <Row>
-                        <Col xs="12" sm="12" md="6">
-                            
-                        </Col>
-                    </Row>
-                </div>
             </Container>
 
             <Container>
@@ -80,20 +77,7 @@ export default function Pagemeio(){
                                     <p className={css.textocard}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                     </p>
-
-                                    <div>
-                                        <div className={css.dropdown}>
-                                            
-                                                <div>
-                                                    <Row>
-                                                        <button className={css.dropbtn}>
-                                                        VER MODELOS
-                                                        <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                                        </button>
-                                                    </Row>
-                                                </div>
-                                        </div>
-                                    </div>
+                                    <CollapseCaterpillar/>
                             </div>
                         </div>
                         
@@ -105,17 +89,7 @@ export default function Pagemeio(){
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-
-                                <div>
-                                    <div className={css.dropdown}>
-                                        <Row>
-                                            <button className={css.dropbtn}>
-                                                VER MODELOS
-                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                            </button>
-                                        </Row>
-                                </div>
-                                </div>
+                                <CollapseLogmax/>
                             </div>
                         </div>
                         <div className={css.slide}>
@@ -126,17 +100,7 @@ export default function Pagemeio(){
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-
-                                <div>
-                                    <div className={css.dropdown}>
-                                        <Row>
-                                            <button className={css.dropbtn}>
-                                                VER MODELOS
-                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                            </button>
-                                        </Row>
-                                </div>
-                                </div>
+                                <CollapseLogset/>
                             </div>
                         </div>
                         <div className={css.slide}>
@@ -147,17 +111,7 @@ export default function Pagemeio(){
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-
-                                <div>
-                                    <div className={css.dropdown}>
-                                        <Row>
-                                            <button className={css.dropbtn}>
-                                                VER MODELOS
-                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                            </button>
-                                        </Row>
-                                    </div>
-                                </div>
+                                <CollapseWeiler/>
                                 </div>
                             </div>
 
@@ -169,17 +123,7 @@ export default function Pagemeio(){
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>
-
-                                <div>
-                                    <div className={css.dropdown}>
-                                        <Row>
-                                            <button className={css.dropbtn}>
-                                                VER MODELOS
-                                                <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
-                                            </button>
-                                        </Row>
-                                </div>
-                                </div>
+                                <CollapseQuadco/>
                             </div>
                         </div>
                     </Slider>

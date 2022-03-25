@@ -35,7 +35,7 @@ export default function Navbar() {
                                                 <div className={css.dropdown2}>
                                                     <button className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas">
-                                                            <a>
+                                                            <a className={css.border}>
                                                                 Caterpillar
                                                             </a>
                                                         </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
                                                 </div>
                                                 <div className={css.dropdown2}>
                                                     <button style={{ margin: 0, marginBottom: 15, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"> LogSet </Link>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>LogSet</a></Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
@@ -159,7 +159,7 @@ export default function Navbar() {
                                                 </div>
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"> Weiler </Link>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Weiler</a></Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
@@ -232,15 +232,16 @@ export default function Navbar() {
 
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"> Quadco </Link>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Quadco</a></Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
-                                                    <div style={{width: 270,}} className={css.dropdowncontent2}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            Weiler
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
+                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
+                                                        
+                                                        <div>
+                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
+                                                                Caterpillar
+                                                            </div> */}
                                                             <Link className={css.nomemaq} href="/maquinas/quadco/18c">
                                                                 <a>
                                                                     18 C
@@ -268,29 +269,28 @@ export default function Navbar() {
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
-                                                    <div style={{width: 270,}} className={css.dropdowncontent2}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            Weiler
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
+                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
+                                                        
+                                                        <div>
+                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
+                                                                Caterpillar
+                                                            </div> */}
                                                             <Link className={css.nomemaq} href="/maquinas/logmax/5000d">
                                                                 <a>
-                                                                    5000D
+                                                                    5000 D
                                                                 </a>
                                                             </Link>
                                                             <Link className={css.nomemaq} href="/maquinas/logmax/6000v">
                                                                 <a>
-                                                                    6000V
+                                                                    6000 V
                                                                 </a>
                                                             </Link>
                                                             <Link href="/maquinas/logmax/7000c">
-                                                                <a>7000C</a>
+                                                                <a>7000 C</a>
                                                             </Link>
                                                             <Link href="/maquinas/logmax/7000xt">
-                                                                <a>7000XT</a>
+                                                                <a>7000 XT</a>
                                                             </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
                                                             <Link href="/maquinas/logmax/e6">
                                                                 <a>E6</a>
                                                             </Link>
@@ -315,7 +315,7 @@ export default function Navbar() {
                                 <div>
                                 <Link href="https://api.whatsapp.com/send?phone=554121032211&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"className={css.linkbotao}>
                                 <a target="_blank"  className={css.botaoctt}>
-                                <Image style={{marginBottom: -15}}  src="/whatsapp.png" alt="logo" width={15} height={15}/>
+                                <Image  src="/whatsapp.png" alt="logo" width={15} height={15}/>
                                 ‏‏‎ ‎‏‏‎ ‎(41) 2103-2211
                                 </a>
                                 </Link>

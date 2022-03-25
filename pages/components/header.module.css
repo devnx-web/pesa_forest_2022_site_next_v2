@@ -21,12 +21,17 @@
     background-color: #4d4d4d;
 }
 
+.border{
+    border-bottom: solid 1px rgb(189, 189, 189);
+    width: 90%;
+    text-align: left;
+}
+
 .textheader {
     color: rgba(239, 239, 239, 0.95);
     text-decoration-line: none;
     font-size: 13px;
     position: relative;
-    font-family: "Univers";
     font-weight: 100;
     border-right: solid;
     border-width: 1px;
@@ -38,7 +43,7 @@
     color: white;
     margin-left: 35px;
     font-size: 18px;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     padding-right: 5px;
 }
 
