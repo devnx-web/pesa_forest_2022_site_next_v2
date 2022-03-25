@@ -7,3 +7,23 @@
     background-position: center;
     background-size: cover;
 }
+
+.btfixed {
+    position: fixed;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: right;
+    height: 100px;
+    right: 20px;
+    bottom: 0;
+    z-index: 999;
+}
+
+.bgwhats {
+    background-color: #26D366;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    fill: #000000;
+    border-radius: 100%;
+}
