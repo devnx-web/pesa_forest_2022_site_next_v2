@@ -30,7 +30,7 @@
 .textheader {
     color: rgba(239, 239, 239, 0.95);
     text-decoration-line: none;
-    font-size: 13px;
+    font-size: 15px;
     position: relative;
     font-weight: 100;
     border-right: solid;
@@ -42,7 +42,7 @@
 .linkmenu{
     color: white;
     margin-left: 35px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     padding-right: 5px;
 }
