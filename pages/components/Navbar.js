@@ -64,6 +64,9 @@ export default function Navbar() {
                                                             <Link href="/maquinas/caterpillar/pth25">
                                                                 <a>PTH 25</a>
                                                             </Link>
+                                                            <Link href="/maquinas/caterpillar/psm20">
+                                                                <a>PSM 20</a>
+                                                            </Link>
                                                             <Link href="/maquinas/caterpillar/psm36">
                                                                 <a>PSM 36</a>
                                                             </Link>

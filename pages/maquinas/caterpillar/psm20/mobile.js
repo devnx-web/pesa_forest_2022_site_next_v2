@@ -11,8 +11,8 @@ export default function Mobile(){
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>PSM 36</h1>
-                    <h1 className={'ttmaq1'}>PSM 36</h1>
+                    <h1 className={'ttmaq2'}>PSM 20</h1>
+                    <h1 className={'ttmaq1'}>PSM 20</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet
@@ -28,8 +28,15 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                A PSM 36 (Pesa Stationary machine) é um projeto Pesa, oriundo da Caterpillar 336, totalmente eletroeletrônica, para alimentação de mesas. Oferece todo o conforto e ergonomia Caterpillar, além de operação continua com alta disponibilidade e baixíssimos custos de manutenção. Opera com todos os comprimentos de toras, com alta performance. 
-
+                    PESA TRACK LOADER PTL 20 é uma máquina fabricada
+                    no Brasil e projetada para atender o mercado orestal,
+                    possui lança reta de 5680mm e braço de 2900mm
+                    para uma maior performance no carregamento. Fabricada para se sobressair em aplicações orestais,
+                    a PTL 20 apresenta potência otimizada e sistemas para
+                    máxima produção.
+                    A construção reforçada é evidente de ponta a ponta
+                    para garantir uma longa vida útil e segurança do
+                    operador.
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

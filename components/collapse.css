@@ -12,14 +12,14 @@
     padding: 20px;
 }
 .question-section {
-    background: #ffffff;
+    background: #ffffff00;
     padding: 20px;
-    border: 1px solid #353E52;
+    border: 1px solid #57585c00;
     border-radius: 15px;
     cursor: pointer;
     width: 100%;
     transition: 0.5s;
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -51,7 +51,7 @@
 .rotate {
     transform: rotate(45deg);
     transition: 0.5s;
-    color: #000000;
+    color: #ffffff;
 }
 
 .answer-divider {
@@ -66,7 +66,7 @@
 }
 
 .textofaq{
-    color: #000000;
+    color: #ffffff;
     font-weight: 400;
     margin-top: 12px;
     padding-right: 30px;

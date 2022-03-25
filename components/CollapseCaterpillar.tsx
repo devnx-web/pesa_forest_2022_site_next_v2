@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
+import { Col, Row } from "reactstrap";
 
 export default function Collapse() {
     const [active, setActive] = useState(false);
@@ -38,11 +39,23 @@ export default function Collapse() {
                                 ref={contentRef}
                                 className={active ? `answer answer-divider` : `answer naocarrega`}
                             >
-                                <div><Link href="/maquinas/caterpillar/pth18"><a className="textofaq">PTH 18</a></Link></div>
-                                <div><Link href="/maquinas/caterpillar/ptl20"><a className="textofaq">PTL 20</a></Link></div>
-                                <div><Link href="/maquinas/caterpillar/pth20"><a className="textofaq">PTH 20</a></Link></div>
-                                <div><Link href="/maquinas/caterpillar/pth25"><a className="textofaq">PTH 25</a></Link></div>
-                                <div><Link href="/maquinas/caterpillar/psm36"><a className="textofaq">PSM 36</a></Link></div>
+
+                                <Row>
+                                    <Col>
+                                    <div><Link href="/maquinas/caterpillar/pth18"><a className="textofaq">PTH18</a></Link></div>
+                                    <div><Link href="/maquinas/caterpillar/pth20"><a className="textofaq">PTH20</a></Link></div>
+                                    <div><Link href="/maquinas/caterpillar/psm36"><a className="textofaq">PSM36</a></Link></div>
+                                    </Col>
+
+                                    <Col>
+                                    <div><Link href="/maquinas/caterpillar/ptl20"><a className="textofaq">PTL20</a></Link></div>
+                                    <div><Link href="/maquinas/caterpillar/pth25"><a className="textofaq">PTH25</a></Link></div>
+                                    <div><Link href="/maquinas/caterpillar/psm20"><a className="textofaq">PSM20</a></Link></div>
+                                    </Col>
+                                </Row>
+                                
+                                
+                                
                             </div>
                         </div>
                     </button>

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
+import { Col, Row } from "reactstrap";
 
 export default function Collapse() {
     const [active, setActive] = useState(false);
@@ -38,10 +39,19 @@ export default function Collapse() {
                                 ref={contentRef}
                                 className={active ? `answer answer-divider` : `answer naocarrega`}
                             >
-                                <div><Link href="/maquinas/quadco/18c"><a className="textofaq">18 C</a></Link></div>
-                                <div><Link href="/maquinas/quadco/22c"><a className="textofaq">22 C</a></Link></div>
+
+                                <Row>
+                                    <Col>
+                                    <div><Link href="/maquinas/quadco/18c"><a className="textofaq">18 C</a></Link></div>
                                 <div><Link href="/maquinas/quadco/22sc"><a className="textofaq">22 SC</a></Link></div>
+                                    </Col>
+
+                                    <Col>
+                                    <div><Link href="/maquinas/quadco/22c"><a className="textofaq">22 C</a></Link></div>
+                                    
                                 <div><Link href="/maquinas/quadco/24c"><a className="textofaq">24 C</a></Link></div>
+                                    </Col>
+                                </Row>
                             </div>
                         </div>
                     </button>
