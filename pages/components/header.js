@@ -21,7 +21,7 @@ export default function Header() {
                                     </a>
                                 </Link>
                             </Col>
-                            <Col>
+                            <Col md="4">
                                 {/*Titulos do Header*/}
                                 <div>
                                     <Link href="/">
