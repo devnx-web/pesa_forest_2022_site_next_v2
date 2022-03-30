@@ -137,4 +137,8 @@
     .textocontato{
         padding: 0;
     }
+
+    .title{
+        margin-top: -100px;
+    }
 }

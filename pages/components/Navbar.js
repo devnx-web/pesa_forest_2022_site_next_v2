@@ -4,6 +4,7 @@ import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import Link from "next/link";
+import Headermob from './headermob';
 
 export default function Navbar() {
 

@@ -216,6 +216,19 @@
         min-width: 160px;
         font-weight: 600;
     }
+
+    .ttmaq1{
+        font-size: 50px;
+    }
+
+    .ttmaq2{
+        font-size: 50px;
+    }
+
+    .img{
+        background-image: none !important; 
+    }
+
 }
 
 

@@ -11,7 +11,7 @@ export default function Sobre() {
     return (
         <div className={style.bgsobre}>
             <Container className={'pt-5 pb-5'}>
-                <div className={css.ocultamob}>
+                <div>
                     <div className={css.img}>
                         <Container>
                             <Row>
@@ -32,7 +32,7 @@ export default function Sobre() {
                 <div className={css.ocultadesk}>
                     <div>
                         <Container>
-                            <Row>
+                            {/* <Row>
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>PTH 18</h2>
                                     <h2 className={css.ttmaq1}>PTH 18</h2>
@@ -49,7 +49,7 @@ export default function Sobre() {
                                         SABER MAIS
                                     </div>
                                 </Col>
-                            </Row>
+                            </Row> */}
 
                         </Container>
                     </div>
