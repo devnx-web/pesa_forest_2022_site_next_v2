@@ -4,6 +4,7 @@ import css from "./contactForm.module.scss"
 import { toast, ToastContainer } from 'react-nextjs-toast'
 import { Input } from "reactstrap";
 import { Select } from "reactstrap";
+import {Container, Row, Col} from 'reactstrap';
 
 
 const ContactForm = () => {
@@ -31,8 +32,11 @@ const ContactForm = () => {
 
     return (
         <>
+        <Container fluid>
             <ToastContainer />
-            <div style={{ paddingLeft: 200, paddingRight: 200, paddingBottom: 50 }}>
+            <Row>
+                <Col>
+            <div className={css.formwidth} >
                 <div>
                     <div>
                         <label className={css.label}>NOME</label></div>
@@ -132,6 +136,9 @@ const ContactForm = () => {
                     ENVIAR MENSAGEM
                 </div>
             </div>
+            </Col>
+            </Row>
+            </Container>
         </>
     )
 }

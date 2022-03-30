@@ -14,7 +14,7 @@ export default function Formulario() {
                     <h2 className={css.ttmaq1}>ENTRE EM CONTATO</h2>
                 </div>
                 <p className={css.textocontato}>
-                    Para entrar em contato conosco, basta preencher o formulário abaixo! Nossa equipe está pronta para
+                    Para entrar em contato conosco, basta preencher o formulário abaixo!<br/> Nossa equipe está pronta para
                     te atender!
                 </p>
 
