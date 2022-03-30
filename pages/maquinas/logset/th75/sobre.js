@@ -22,15 +22,11 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>POR QUE ESCOLHER LOGSET?</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        Os cabeçotes Logset Euca são versáteis e duráveis. Sua capacidade de descasque é notável devido ao conceito de
-três rolos de última geração e ao perfil específico de facas de
-descasque Euca. O cabeçote Logset Euca pode ser configurado
-de fábrica para trabalhar como um cabeçote processador ou
-como um harvester convencional de derrubada e corte (CTL)     
-<br/>
-Os cabeçotes Logset Euca foram feitos para durar, projetados com baixo custo de manutenção e com alta produtividade em mente. O
-alto torque de alimentação com mínimo atrito deslizante contribui
-para a economia de combustível.
+                                        Ideal para operações de corte raso, de médio e grande porte.
+Aplicação: 18 a 22 toneladas
+Aplicação: 19 a 24 toneledas
+download do catálogo
+
 
                                         </p>
                                     </div>

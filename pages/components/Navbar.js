@@ -9,7 +9,9 @@ import Headermob from './headermob';
 export default function Navbar() {
 
     return (
-        <div className={css.ocultamob}>
+        <div >
+            <div><Headermob/></div>
+            <div className={css.ocultamob}>
             <div className={css.bgheader}>
             <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
                 <Container>
@@ -330,6 +332,7 @@ export default function Navbar() {
 
                     </div>
                 </Container>
+            </div>
             </div>
         </div>
     )

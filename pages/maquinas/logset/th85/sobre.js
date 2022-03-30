@@ -22,9 +22,9 @@ export default function Sobre(){
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        Lorem ipsum dolor sit amet. Qui dolorem enim aut omnis suscipit et dolores laudantium et enim dicta. Est maiores commodi et aliquid dolor sed autem officia non tempora quae qui placeat molestiae et perferendis iure quo nobis soluta!
-
-                                            Qui eveniet quia eum repudiandae dignissimos ut eaque laborum qui asperiores iste eos laudantium corporis in assumenda fuga nam fugit veniam. Et autem iure ad sunt magni non laudantium dolores qui quam enim qui accusantium doloribus est dolore dolor.         
+                                       Otimizado para grandes escalas de corte Raso
+download do catálogo
+       
 
                                         </p>
                                     </div>

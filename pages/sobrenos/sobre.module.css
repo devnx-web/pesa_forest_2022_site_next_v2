@@ -231,24 +231,16 @@
 
 }
 
-
-
 @media (min-width: 1000px) {
     .ocultadesk {
         display: none;
     }
 }
 
-
-
-
 .border{
     border-bottom: dotted;
     border-width: 5px;
 }
-
-
-
 
 .img{
     background-image: url('../../public/imgoperacao.png');

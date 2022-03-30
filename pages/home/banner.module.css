@@ -26,3 +26,9 @@
     fill: #000000;
     border-radius: 100%;
 }
+
+@media (max-width: 600px) {
+    .bgbanner{
+        height: 240px;
+    }
+}

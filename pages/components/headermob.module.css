@@ -139,6 +139,18 @@
     padding-right: 40px;
 }
 
+.link{
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link:active{
+    color: white;
+}
+
 /*
  * Slide the menu in from left when the input is checked
  */
@@ -149,4 +161,10 @@
 
 .navigation {
 
+}
+
+@media (min-width: 600px){
+    .navigation{
+        display: none;
+    }
 }
