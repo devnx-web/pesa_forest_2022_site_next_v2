@@ -2,12 +2,16 @@ import React from "react";
 import css from "./headermob.module.css";
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Headermob() {
 
     return (
-        <nav className={css.navigation}>
+        
+            <Row>
+            <Col sm={2}>
+            <nav className={css.navigation}>
             <div className={css["menuToggle"] + " " + css["div"]}>
                 <input className={css.input} name="toggle" type="checkbox" />
                 <label className={css.label} htmlFor="toggle">
@@ -48,7 +52,13 @@ export default function Headermob() {
                     Entrar em Contato
                 </ul>
             </div>
-        </nav>
+            </nav>
+            </Col>
+            <Col sm={10}>
+            <Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} />
+            </Col>
+            </Row>
+        
     )
 
 }

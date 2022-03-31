@@ -30,5 +30,6 @@
 @media (max-width: 600px) {
     .bgbanner{
         height: 240px;
+        margin-top: 69px;
     }
 }
