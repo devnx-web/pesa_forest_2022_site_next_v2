@@ -277,25 +277,6 @@
     font-size: 22px;
 }
 
-@media (max-width: 600px) {
-    .ocultamob {
-        display: none;
-    }
-    .ttmaq {
-        color: rgba(255, 255, 255, 0);
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #fff;
-        font-family: "Bebas Neue";
-        font-size: 45px;
-        margin-top: 70px;
-    }
-    .borda{
-        width: 200px;
-        height: 4px;
-        margin-top: -15px;
-        background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-    }
-}
 
 
 
@@ -410,6 +391,45 @@
 @media (max-width: 1000px) {
     .ocultamob {
         display: none;
+    }
+
+    .ttmaq1{
+        font-size: 30px;
+    }
+
+    .ttmaq2{
+        font-size: 90px;
+    }
+    .ocultamob {
+        display: none;
+    }
+    .ttmaq {
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+        font-family: "Bebas Neue";
+        font-size: 45px;
+        margin-top: 70px;
+    }
+    .borda{
+        width: 200px;
+        height: 4px;
+        margin-top: -15px;
+        background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    }
+
+    .bgslide{
+        margin: 40px;
+        padding: 20px;
+    }
+    
+    .slide{
+        margin: 0;
+    }
+
+    .imgmaq{
+        width: 10px !important; 
+        height: 10px !important;
     }
 }
 

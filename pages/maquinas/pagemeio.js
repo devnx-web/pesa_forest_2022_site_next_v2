@@ -66,6 +66,7 @@ export default function Pagemeio(){
                 </div>
             </Container>
 
+<div className={css.ocultamob}>
             <Container>
                 <Row>
                     <Slider {...settings}>
@@ -73,7 +74,7 @@ export default function Pagemeio(){
                             <div className={css.bgslide}>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
                                     <h4 className={css.ttcard}>Cartepillar</h4>
-                                    <Image src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
+                                    <Image className={css.imgmaq} src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
                                     <p className={css.textocard}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                     </p>
@@ -129,6 +130,71 @@ export default function Pagemeio(){
                     </Slider>
                 </Row>
             </Container>
+            </div>
+
+            <div className={css.ocultadesk}>
+                <Container>
+            <div className={css.slide}>
+                            <div className={css.bgslide}>
+                                    <h4 className={css.subtt}>MÁQUINAS</h4>
+                                    <h4 className={css.ttcard}>Cartepillar</h4>
+                                    <Image className={css.imgmaq} src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
+                                    <p className={css.textocard}>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                    </p>
+                                    <CollapseCaterpillar/>
+                            </div>
+                        </div>
+
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>CABEÇOTES</h4>
+                                   <h4 className={css.ttcard}>Logmax</h4>
+                            <Image src="/maquinas/peca-logmax.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+                                <CollapseLogmax/>
+                            </div>
+                        </div>
+
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Logset</h4>
+                            <Image src="/maquinas/5f-gt-transparente.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+                                <CollapseLogset/>
+                            </div>
+                        </div>
+
+                        <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>MÁQUINAS</h4>
+                                   <h4 className={css.ttcard}>Weiler</h4>
+                            <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+                                <CollapseWeiler/>
+                                </div>
+                            </div>
+
+                            <div className={css.slide}>
+                            <div className={css.bgslide}>
+                            <h4 className={css.subtt}>PEÇAS</h4>
+                                   <h4 className={css.ttcard}>Quadco</h4>
+                            <Image src="/maquinas/quadco-22c.png" alt="logo" width={300} height={180} />
+                            <p className={css.textocard}>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                </p>
+                                <CollapseQuadco/>
+                            </div>
+                        </div>
+                        </Container>
+            </div>
         </div>
     )
 }

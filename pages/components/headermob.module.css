@@ -159,6 +159,38 @@
 
 }
 
+.botaoctt{
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.botao{
+    margin-top: 20px;
+}
+
+.botaoctt:active{
+    color: white;
+}
+
+.botaoctt:hover{
+    color: white;
+}
+
 
 @media (min-width: 600px){
     .navigation{

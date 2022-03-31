@@ -5,3 +5,10 @@
     background-size: cover;
 }
 
+@media (max-width: 600px){
+    .bgbanner{
+        height: 250px;
+        margin-top: 70px;
+    }
+}
+
