@@ -77,6 +77,44 @@ export default function Navbar() {
                                                     </div>
                                                     </div>
                                                 </div>
+
+                                                
+                                                <div className={css.dropdown2}>
+                                                    <button style={{ marginTop: -20, }} className={css.dropbtn2}>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Logmax</a></Link>
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
+                                                    </button>
+                                                    <div style={{float: 'right'}}>
+                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
+                                                        
+                                                        <div>
+                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
+                                                                Caterpillar
+                                                            </div> */}
+                                                            <Link className={css.nomemaq} href="/maquinas/logmax/5000d">
+                                                                <a>
+                                                                    5000 D
+                                                                </a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logmax/6000v">
+                                                                <a>
+                                                                    6000 V
+                                                                </a>
+                                                            </Link>
+                                                            <Link href="/maquinas/logmax/7000c">
+                                                                <a>7000 C</a>
+                                                            </Link>
+                                                            <Link href="/maquinas/logmax/7000xt">
+                                                                <a>7000 XT</a>
+                                                            </Link>
+                                                            <Link href="/maquinas/logmax/e6">
+                                                                <a>E6</a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+
                                                 <div className={css.dropdown2}>
                                                     <button style={{ margin: 0, marginBottom: 15, }} className={css.dropbtn2}>
                                                         <Link className={css.link} href="/maquinas"><a className={css.border}>LogSet</a></Link>
@@ -163,9 +201,42 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
                                                 </div>
+
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Weiler</a></Link>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Quadco</a></Link>
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
+                                                    </button>
+                                                    <div style={{float: 'right'}}>
+                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
+                                                        
+                                                        <div>
+                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
+                                                                Caterpillar
+                                                            </div> */}
+                                                            <Link className={css.nomemaq} href="/maquinas/quadco/18c">
+                                                                <a>
+                                                                    18 C
+                                                                </a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/quadco/22c">
+                                                                <a>
+                                                                    22 C
+                                                                </a>
+                                                            </Link>
+                                                            <Link href="/maquinas/quadco/22sc">
+                                                                <a>22 SC</a>
+                                                            </Link>
+                                                            <Link href="/maquinas/quadco/24c">
+                                                                <a>24 C</a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div className={css.dropdown2}>
+                                                    <button style={{ marginTop: -20, }} className={css.dropbtn2}>
+                                                        <Link className={css.link} href="/maquinas"><a>Weiler</a></Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
@@ -236,74 +307,6 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
 
-                                                <div className={css.dropdown2}>
-                                                    <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Quadco</a></Link>
-                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
-                                                    </button>
-                                                    <div style={{float: 'right'}}>
-                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
-                                                        
-                                                        <div>
-                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                                Caterpillar
-                                                            </div> */}
-                                                            <Link className={css.nomemaq} href="/maquinas/quadco/18c">
-                                                                <a>
-                                                                    18 C
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/quadco/22c">
-                                                                <a>
-                                                                    22 C
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/quadco/22sc">
-                                                                <a>22 SC</a>
-                                                            </Link>
-                                                            <Link href="/maquinas/quadco/24c">
-                                                                <a>24 C</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                </div>
-
-                                                <div className={css.dropdown2}>
-                                                    <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"> Logmax </Link>
-                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
-                                                    </button>
-                                                    <div style={{float: 'right'}}>
-                                                    <div style={{width: 150,}} className={css.dropdowncontent2}>
-                                                        
-                                                        <div>
-                                                            {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                                Caterpillar
-                                                            </div> */}
-                                                            <Link className={css.nomemaq} href="/maquinas/logmax/5000d">
-                                                                <a>
-                                                                    5000 D
-                                                                </a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logmax/6000v">
-                                                                <a>
-                                                                    6000 V
-                                                                </a>
-                                                            </Link>
-                                                            <Link href="/maquinas/logmax/7000c">
-                                                                <a>7000 C</a>
-                                                            </Link>
-                                                            <Link href="/maquinas/logmax/7000xt">
-                                                                <a>7000 XT</a>
-                                                            </Link>
-                                                            <Link href="/maquinas/logmax/e6">
-                                                                <a>E6</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                </div>
                                                 
                                             </div>
                                         </div>
