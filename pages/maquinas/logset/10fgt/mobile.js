@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Mobile() {
     return (
-        <div>
+        <div classNmae={'ocultadesk'}>
             <div className={'bgmobile'}>
                 <Container>
                     <div>

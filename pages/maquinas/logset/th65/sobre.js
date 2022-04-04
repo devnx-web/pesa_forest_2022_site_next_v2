@@ -31,9 +31,9 @@ download do catálogo
 
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_TH65_EN_0.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

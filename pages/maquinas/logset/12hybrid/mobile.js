@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div calssName={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -28,9 +28,8 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
+                Logset12H GTE Hybrid – É o harvester mais produtivo do mundo. É um verdadeiro gigante para a colheita lucrativa em larga escala. Este gigante amigável tem tudo: tecnologia híbrida revolucionária, sistema hidráulico de circuito duplo, grua  forte, transmissão robusta,  estabilidade, confiabilidade e conforto em um grande pacote.
 
-                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

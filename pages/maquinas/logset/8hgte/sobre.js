@@ -17,8 +17,8 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>8H GTE BLACK</h2>
-                                    <h2 className={css.ttmaq1}>8H GTE BLACK</h2>
+                                    <h2 className={css.ttmaq2}>8H GTE</h2>
+                                    <h2 className={css.ttmaq1}>8H GTE</h2>
                                     <h3 className={css.destaque}>Frase destaque</h3>
                                     <div>
                                         <p className={css.textomaq}>

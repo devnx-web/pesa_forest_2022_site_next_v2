@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -28,9 +28,8 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                O Logset 6HP GT é um harvester versátil e ágil que gira com muita facilidade. É adequado tanto para operações de desbaste como para corte raso de tamanho médio. O Harvester  é muito produtivo com baixo consumo de combustível.
 
-                    Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

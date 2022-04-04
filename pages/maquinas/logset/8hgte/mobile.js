@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -28,9 +28,8 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
+                O Logset 8H GTE é um harvester 8x8 ágil e potente, que gira com muita facilidade. É adequado para operações de desbaste, mas tem um desempenho ainda melhor em corte raso, de médio e grande porte, principalmente em terrenos acidentados.
 
-                    Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
