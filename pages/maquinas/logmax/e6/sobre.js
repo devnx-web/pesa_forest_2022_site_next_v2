@@ -40,16 +40,17 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PTH 18</h2>
-                                    <h2 className={css.ttmaq1}>PTH 18</h2>
+                                    <h2 className={css.ttmaq2}>E6</h2>
+                                    <h2 className={css.ttmaq1}>E6</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
-                                        </p>
+                                        Desenvolvido para cumprir os mais altos requisitos quanto ao descasque do eucalipto. Utilizando cinco facas de desgalhamento especialmente projetadas, e rolos especiais para descascar madeira.
+                                        <br/>
+                                        Para aumentar ainda mais a estabilidade e durabilidade, trazemos o Log Max E6 com o Heavy Duty Kit (HD Kit). É um conjunto de reforços e proteções que vêm da fábrica para proteger as partes vitais do cabeçote quando operado em ambientes de colheita mais agressivos, além de permitir seu uso em condições extremas sem surpresas.                                        </p>
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/e6.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

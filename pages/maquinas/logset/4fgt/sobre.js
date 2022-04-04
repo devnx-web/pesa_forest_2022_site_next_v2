@@ -51,7 +51,7 @@ exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínim
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/4f-gt-transparente.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

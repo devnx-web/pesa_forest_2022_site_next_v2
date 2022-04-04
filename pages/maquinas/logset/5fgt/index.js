@@ -1,6 +1,7 @@
 import Banner from './banner'
 import React from "react";
 import Sobre from "./sobre";
+import Mobile from './mobile'
 
 
 export default function gt5f() {
@@ -8,6 +9,7 @@ export default function gt5f() {
         <div>
             <Banner />
             <Sobre />
+            <Mobile/>
         </div>
     )
 }

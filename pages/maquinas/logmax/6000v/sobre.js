@@ -42,16 +42,19 @@ colheita mais suave, com menos hora de máquina parada, e muita produtividade..
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PTH 18</h2>
-                                    <h2 className={css.ttmaq1}>PTH 18</h2>
+                                    <h2 className={css.ttmaq2}>6000 V</h2>
+                                    <h2 className={css.ttmaq1}>6000 V</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
-                                        </p>
+                                        O campeão de vendas 6000B foi melhorado ainda mais para atender às demandas do mercado.
+Com o objetivo de sempre fornecer os melhores produtos, nós continuamente desenvolvemos nossos
+cabeçotes. Nossa filosofia é trabalhar junto ao cliente para que possamos entender as demandas no setor
+florestal e com isso podermos implementar aos nossos produtos as melhorias que tornarão o processo de
+colheita mais suave, com menos hora de máquina parada, e muita produtividade..                                        </p>
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/6000v.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

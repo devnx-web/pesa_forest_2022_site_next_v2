@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>

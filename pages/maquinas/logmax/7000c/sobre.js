@@ -43,16 +43,20 @@ A versão sem o redutor proporciona 35,9KNde força a uma velocidade de 5,3 m/s.
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PTH 18</h2>
-                                    <h2 className={css.ttmaq1}>PTH 18</h2>
+                                    <h2 className={css.ttmaq2}>7000 C</h2>
+                                    <h2 className={css.ttmaq1}>7000 C</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
-                                        </p>
+                                        É fabricado com uma estrutura robusta e tem um excelente desempenho para troncos pesados e muito ramificados.
+
+Log Max 7000C combina alto potencial de tração com velocidade de alimentação rápida e é um dos nossos cabeçotes mais populares.<br/>
+Temos no 7000C duas opções para a tração.
+A versão com redutor proporciona 41,7KN de força a uma velocidade de 3,9m/s, ideal para florestas mais densas e arvores mais pesadas.
+A versão sem o redutor proporciona 35,9KNde força a uma velocidade de 5,3 m/s. Estas opções garantem melhor consumo de acordo com a floresta utilizada.                                        </p>
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/7000c.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

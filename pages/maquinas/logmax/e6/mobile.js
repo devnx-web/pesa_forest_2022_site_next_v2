@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +18,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/12gte-hybrid.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/e6.png" alt="maquina" width={350} height={250} />
                         </div>
                     </div>
 
@@ -28,9 +28,9 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
-
-                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+                Desenvolvido para cumprir os mais altos requisitos quanto ao descasque do eucalipto. Utilizando cinco facas de desgalhamento especialmente projetadas, e rolos especiais para descascar madeira.
+                                        <br/>
+                                        Para aumentar ainda mais a estabilidade e durabilidade, trazemos o Log Max E6 com o Heavy Duty Kit (HD Kit). É um conjunto de reforços e proteções que vêm da fábrica para proteger as partes vitais do cabeçote quando operado em ambientes de colheita mais agressivos, além de permitir seu uso em condições extremas sem surpresas.     
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

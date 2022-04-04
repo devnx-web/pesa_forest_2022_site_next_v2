@@ -1,5 +1,6 @@
 import Sobre from "./sobre";
-import Banner from './banner'
+import Banner from './banner';
+import Mobile from './mobile'
 
 
 export default function Pth18() {
@@ -7,6 +8,7 @@ export default function Pth18() {
         <div>
             <Banner />
             <Sobre />
+            <Mobile />
         </div>
     )
 }

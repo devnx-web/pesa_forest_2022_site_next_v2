@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +18,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/5hp-gt.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/5fp-gt.png" alt="maquina" width={450} height={350} />
                         </div>
                     </div>
 

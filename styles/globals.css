@@ -38,6 +38,7 @@ a {
   }
 }
 
+
 .bgmobile {
   background: linear-gradient(141deg, rgba(255, 255, 255, 0.11) 0%, rgba(153,153,153,0) 50%, rgba(0,0,0,0) 50%, rgba(255, 255, 255, 0.08) 100%);
   background-color: black;
@@ -77,7 +78,7 @@ a {
 
 
 .desc{
-  padding: 70px 0 50px 0;
+  padding: 60px 0 50px 0;
 }
 
 .textodesc{

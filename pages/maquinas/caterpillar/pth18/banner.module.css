@@ -41,3 +41,9 @@
     font-size: 40px;
     margin-left: 2px;
 }
+
+@media (max-width: 600px){
+    .bgbanner{
+        display: none;
+    }
+}

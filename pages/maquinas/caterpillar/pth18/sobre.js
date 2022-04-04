@@ -10,6 +10,8 @@ import Maqpth18mob from "../../../home/maqpth18mob";
 export default function Sobre(){
     const [tab, setTab] = useState('RESUMO')
     return(
+        <div>
+            <div className={css.ocultamob}>
         <div className={style.bgsobre}>
             <Container className={'pt-5 pb-5'}>
                 <div className={css.ocultamob}>
@@ -42,7 +44,7 @@ export default function Sobre(){
                                     <h2 className={css.ttmaq1}>PTH 18</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
+                                        Focada no alto desempenho para operações florestais, a PTH 18 foi projetada pela equipe da PESA Indústria que uniu a tecnologia e robustez da marca Caterpillar com a precisão na operação. Com força hidráulica adequada e com 8,5 metros de alcance ao nível do solo, é o equipamento ideal para operações harvester. Para primeiro e segundo desbaste, bem como corte raso.
                                         </p>
                                     </div>
 
@@ -59,6 +61,8 @@ export default function Sobre(){
                     </div>
                 </div>
             </Container>
+        </div>
+        </div>
         </div>
     )
 }

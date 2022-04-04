@@ -1,6 +1,7 @@
 import Banner from './banner'
 import React from "react";
 import Sobre from "./sobre";
+import Mobile from './mobile'
 
 
 export default function ptl20() {
@@ -8,6 +9,7 @@ export default function ptl20() {
         <div>
             <Banner />
             <Sobre />
+            <Mobile />
         </div>
     )
 }

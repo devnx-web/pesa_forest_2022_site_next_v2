@@ -8,9 +8,6 @@ import Image from "next/image";
 export default function Headermob() {
 
     return (
-        
-            <Row>
-            <Col sm={2}>
             <nav className={css.navigation}>
             <div className={css["menuToggle"] + " " + css["div"]}>
                 <input className={css.input} name="toggle" type="checkbox" />
@@ -51,14 +48,9 @@ export default function Headermob() {
                     </li>
                     Entrar em Contato
                 </ul>
+            <Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} />
             </div>
             </nav>
-            </Col>
-            <Col sm={10}>
-            <Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} />
-            </Col>
-            </Row>
-        
     )
 
 }

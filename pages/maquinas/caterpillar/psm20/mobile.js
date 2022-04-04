@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +18,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/ptl20.png" alt="maquina" width={350} height={250} />
+                            <Image src="/maquinas/psm36.png" alt="maquina" width={350} height={250} />
                         </div>
                     </div>
 
@@ -28,15 +28,7 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    PESA TRACK LOADER PTL 20 é uma máquina fabricada
-                    no Brasil e projetada para atender o mercado orestal,
-                    possui lança reta de 5680mm e braço de 2900mm
-                    para uma maior performance no carregamento. Fabricada para se sobressair em aplicações orestais,
-                    a PTL 20 apresenta potência otimizada e sistemas para
-                    máxima produção.
-                    A construção reforçada é evidente de ponta a ponta
-                    para garantir uma longa vida útil e segurança do
-                    operador.
+                A PSM 20 (Pesa Stationary machine) é um projeto Pesa, oriundo da Caterpillar 320NG, totalmente eletroeletrônica, para alimentação de mesas. Oferece todo o conforto e ergonomia Caterpillar, além de operação continua com alta disponibilidade e baixíssimos custos de manutenção. Opera com todos os comprimentos de toras, com alta performance. 
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

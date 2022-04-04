@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +18,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/4f-gt-transparente.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/5000d.png" alt="maquina" width={350} height={250} />
                         </div>
                     </div>
 
@@ -28,9 +28,9 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Aut galisum nihil qui iusto consectetur ea eligendi blanditiis. Et dolor officiis sed esse omnis sit sapiente voluptates aut voluptate sequi sed molestiae esse vel magni odio.
-
-                    Qui quia minus et porro blanditiis et adipisci praesentium. Qui dolorum quia sed odit deleniti sit reiciendis magnam in sunt nesciunt ut odit enim ut dolorem iure vel praesentium voluptatem.
+                Log Max 5000D
+é o cabeçote ideal para desbastes pequenos e médios. Seu consagrado projeto para aplicação multimarcas permitem a aplicação perfeita em vários tipos e marcas de máquinas base. O peso reduzido é um fator essencial do projeto para proporcionar robustez e durabilidade.
+<br/>Um Cabeçote versátil e eficiente em operações florestais de desbaste, abrange uma grande gama de aplicações com baixo peso e alta produtividade.   
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

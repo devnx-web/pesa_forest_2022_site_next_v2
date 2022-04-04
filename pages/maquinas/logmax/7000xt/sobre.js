@@ -40,16 +40,17 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PTH 18</h2>
-                                    <h2 className={css.ttmaq1}>PTH 18</h2>
+                                    <h2 className={css.ttmaq2}>7000 XT</h2>
+                                    <h2 className={css.ttmaq1}>7000 XT</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis est elit, dictum ut porttitor vitae.
-                                        </p>
+                                        A linha extreme conta com o link em ferro fundido, chassis mais robusto, além de reforços e proteções que aportam estabilidade e durabilidade na estrutura do cabeçote, é a ferramenta ideal para os ambientes mais agressivos.
+                                        <br/>
+                                        O Log Max 7000XT está equipado com uma serra topo. Ter uma serra em ambas as extremidades do cabeçote torna mais fácil trabalhar com ramificações pesadas árvores de folhas largas, seja no corte ou no processamento, além de reduzir perdas.                                        </p>
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/7000xt.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

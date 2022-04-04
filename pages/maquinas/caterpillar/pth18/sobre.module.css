@@ -21,4 +21,10 @@
     font-family: Univers;
 }
 
+@media (max-width: 600px){
+    .ocultamob{
+        display: none;
+    }
+}
+
 

@@ -39,16 +39,15 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PSM 36</h2>
-                                    <h2 className={css.ttmaq1}>PSM 36</h2>
+                                    <h2 className={css.ttmaq2}>PSM  20</h2>
+                                    <h2 className={css.ttmaq1}>PSM 20</h2>
                                     <div>
                                         <p className={css.textomaq}>
-                                        A PSM 36 (Pesa Stationary machine) é um projeto Pesa, oriundo da Caterpillar 336, totalmente eletroeletrônica, para alimentação de mesas. Oferece todo o conforto e ergonomia Caterpillar, além de operação continua com alta disponibilidade e baixíssimos custos de manutenção. Opera com todos os comprimentos de toras, com alta performance
-                                        </p>
+                                        A PSM 20 (Pesa Stationary machine) é um projeto Pesa, oriundo da Caterpillar 320NG, totalmente eletroeletrônica, para alimentação de mesas. Oferece todo o conforto e ergonomia Caterpillar, além de operação continua com alta disponibilidade e baixíssimos custos de manutenção. Opera com todos os comprimentos de toras, com alta performance.                                         </p>
                                     </div>
 
                                     <div className={'pb-3'}>
-                                        <Image src="/pth18.png" alt="logo" width={400} height={280} />
+                                        <Image src="/maquinas/psm36.png" alt="logo" width={400} height={280} />
                                     </div>
                                     <div className={css.botaosaber}>
                                         SABER MAIS

@@ -8,6 +8,7 @@ import Image from "next/image";
 export default function Mobile(){
     return(
         <div>
+            <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +19,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/5hp-gt.png" alt="maquina" width={450} height={350} />
+                            <Image src="/pth18.png" alt="maquina" width={380} height={280} />
                         </div>
                     </div>
 
@@ -27,13 +28,16 @@ export default function Mobile(){
         </div>
             <div className={'desc'}>
                 <Container>
-                <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla id nisl a hendrerit. Suspendisse maximus euismod nulla ac ultricies. Aliquam libero dui, mollis sit amet blandit a, tincidunt in ipsum. Phasellus eu risus velit. Cras faucibus ipsum dui, sit amet ultricies augue rutrum in. Quisque maximus lacus quam, non blandit mauris faucibus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque ac urna pharetra fringilla.
-                </p>
+                <div>
+                    <p className={'textomaq'}>
+                    Focada no alto desempenho para operações florestais, a PTH 18 foi projetada pela equipe da PESA Indústria que uniu a tecnologia e robustez da marca Caterpillar com a precisão na operação. Com força hidráulica adequada e com 8,5 metros de alcance ao nível do solo, é o equipamento ideal para operações harvester. Para primeiro e segundo desbaste, bem como corte raso.
+                    </p>
+                </div>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
                     </div>
                 </Container>
+            </div>
             </div>
         </div>
     )

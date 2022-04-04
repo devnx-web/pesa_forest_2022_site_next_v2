@@ -40,8 +40,8 @@ export default function Sobre(){
                         <Container>
                             <Row>
                                 <Col md="5">
-                                    <h2 className={css.ttmaq2}>PTH 20</h2>
-                                    <h2 className={css.ttmaq1}>PTH 20</h2>
+                                    <h2 className={css.ttmaq2}>PTH 25</h2>
+                                    <h2 className={css.ttmaq1}>PTH 25</h2>
                                     <div>
                                         <p className={css.textomaq}>
                                             Lança e braço com projeto e fabricação Pesa, para operação harvester, garantindo a estabilidade e melhor controle, também com a diminuição do

@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -18,7 +18,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/12gte-hybrid.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/7000c.png" alt="maquina" width={350} height={250} />
                         </div>
                     </div>
 
@@ -28,9 +28,12 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
+                É fabricado com uma estrutura robusta e tem um excelente desempenho para troncos pesados e muito ramificados.
 
-                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+Log Max 7000C combina alto potencial de tração com velocidade de alimentação rápida e é um dos nossos cabeçotes mais populares.<br/>
+Temos no 7000C duas opções para a tração.
+A versão com redutor proporciona 41,7KN de força a uma velocidade de 3,9m/s, ideal para florestas mais densas e arvores mais pesadas.
+A versão sem o redutor proporciona 35,9KNde força a uma velocidade de 5,3 m/s. Estas opções garantem melhor consumo de acordo com a floresta utilizada. 
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO

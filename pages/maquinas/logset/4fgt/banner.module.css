@@ -39,3 +39,9 @@
     -webkit-text-fill-color: transparent;
 
 }
+
+@media (max-width: 600px){
+    .bgbanner{
+        display: none;
+    }
+}

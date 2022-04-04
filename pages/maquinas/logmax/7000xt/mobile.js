@@ -7,7 +7,7 @@ import css from "../../../components/header.module.css";
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -15,10 +15,9 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>7000 XT</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
-                        </p>
+                        Ambientes extremos requerem <br/>ferramentas extremas                        </p>
                         <div className={'imgposi'}>
-                            <Image src="/maquinas/12gte-hybrid.png" alt="maquina" width={450} height={350} />
+                            <Image src="/maquinas/7000xt.png" alt="maquina" width={320} height={220} />
                         </div>
                     </div>
 
@@ -28,9 +27,9 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
-
-                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+                A linha extreme conta com o link em ferro fundido, chassis mais robusto, além de reforços e proteções que aportam estabilidade e durabilidade na estrutura do cabeçote, é a ferramenta ideal para os ambientes mais agressivos.
+                                        <br/>
+                                        O Log Max 7000XT está equipado com uma serra topo. Ter uma serra em ambas as extremidades do cabeçote torna mais fácil trabalhar com ramificações pesadas árvores de folhas largas, seja no corte ou no processamento, além de reduzir perdas.   
                 </p>
                     <div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
