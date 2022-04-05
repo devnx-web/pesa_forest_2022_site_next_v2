@@ -9,7 +9,7 @@
     color: #f2f2f2;
     font-family: "Bebas Neue";
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 2px;
 }
 
@@ -39,4 +39,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+@media(max-width: 600px){
+    .bgbanner{
+        display: none;
+    }
 }

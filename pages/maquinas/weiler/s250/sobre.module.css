@@ -254,4 +254,10 @@
     }
 }
 
+@media(max-width: 600px){
+    .bgsobre{
+        display: none;
+    }
+}
+
 

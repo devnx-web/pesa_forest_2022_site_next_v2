@@ -3,17 +3,17 @@ import { Container, Row, Col} from 'reactstrap'
 import Link from "next/link";
 import Image from "next/image";
 import css from "../../../components/header.module.css";
-import img from "../../../../public/maquinas/b457.png"
+import img from "../../../../public/maquinas/b570.png"
 
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
-                    <h1 className={'ttmaq2'}>B457</h1>
-                    <h1 className={'ttmaq1'}>B457</h1>
+                    <h1 className={'ttmaq2'}>B570</h1>
+                    <h1 className={'ttmaq1'}>B570</h1>
                     <div>
                         <p className={'textomob'}>
                             Lorem Ipsum dolor sit amet
@@ -29,13 +29,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    Lorem ipsum dolor sit amet. Nam voluptatum accusamus est repudiandae voluptas est aliquam saepe rem necessitatibus omnis et fuga neque. Eos voluptate aliquam et repellat provident nam neque natus et ducimus voluptate ut laudantium quam ut eaque incidunt.
-
-                    Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
+                São os mais inovadores do mercado e proporcionam maior produtividade e grande eficiência de consumo de combustível. Incluindo o Sistema PowerDirect Plus e o Motor de Montagem Transversal combinado com um sistema hidráulico avançado multifuncional.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/b570-spec-sheet-3.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

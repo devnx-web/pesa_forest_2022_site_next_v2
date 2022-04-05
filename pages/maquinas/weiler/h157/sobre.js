@@ -3,6 +3,7 @@ import css from './sobre.module.css'
 import React, {useState} from "react";
 import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -24,9 +25,9 @@ export default function Sobre(){
 
                                             Qui eveniet quia eum repudiandae dignissimos ut eaque laborum qui asperiores iste eos laudantium corporis in assumenda fuga nam fugit veniam. Et autem iure ad sunt magni non laudantium dolores qui quam enim qui accusantium doloribus est dolore dolor.                                        </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/h157-spec-sheet.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

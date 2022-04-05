@@ -3,12 +3,12 @@ import { Container, Row, Col} from 'reactstrap'
 import Link from "next/link";
 import Image from "next/image";
 import css from "../../../components/header.module.css";
-import img from "../../../../public/maquinas/b457.png"
+import img from "../../../../public/maquinas/b758.png"
 
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -16,7 +16,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>B758</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Orientado ao cliente. Inovação contínua
                         </p>
                         <div className={'imgposi'}>
                             <Image src={img} alt="maquina" width={350} height={250} />

@@ -2,6 +2,7 @@
 import Banner from './banner'
 import React from "react";
 import Sobre from "./sobre";
+import Mobile from "./mobile"
 
 
 export default function B670() {
@@ -9,6 +10,7 @@ export default function B670() {
         <div>
             <Banner />
             <Sobre />
+            <Mobile/>
         </div>
     )
 }

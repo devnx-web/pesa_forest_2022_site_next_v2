@@ -3,12 +3,12 @@ import { Container, Row, Col} from 'reactstrap'
 import Link from "next/link";
 import Image from "next/image";
 import css from "../../../components/header.module.css";
-import img from "../../../../public/maquinas/b457.png"
+import img from "../../../../public/maquinas/b757.png"
 
 
 export default function Mobile(){
     return(
-        <div>
+        <div className={'ocultadesk'}>
         <div className={'bgmobile'}>
             <Container>
                 <div>
@@ -16,7 +16,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>B757</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Orientado ao cliente. Inovação contínua
                         </p>
                         <div className={'imgposi'}>
                             <Image src={img} alt="maquina" width={350} height={250} />
@@ -33,9 +33,9 @@ export default function Mobile(){
 
                     Ab dolore reiciendis sed nihil quis aut temporibus voluptates. Cupiditate aliquid vel sequi laboriosam qui autem perspiciatis quo pariatur voluptatem id Quis adipisci qui enim molestias id magnam vitae. Sed debitis internos est omnis quidem in natus dolore
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/b757-spec-sheet-outside-us-canada.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

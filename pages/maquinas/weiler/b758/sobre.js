@@ -17,7 +17,7 @@ export default function Sobre(){
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>B 758</h2>
                                     <h2 className={css.ttmaq1}>B 758</h2>
-                                    <h3 className={css.destaque}>Lorem Ipsum dolor sit amet</h3>
+                                    <h3 className={css.destaque}>Orientado ao cliente. Inovação contínua</h3>
                                     <div>
                                         <p className={css.textomaq}>
                                             Lorem ipsum dolor sit amet. Qui dolorem enim aut omnis suscipit et dolores laudantium et enim dicta. Est maiores commodi et aliquid dolor sed autem officia non tempora quae qui placeat molestiae et perferendis iure quo nobis soluta!

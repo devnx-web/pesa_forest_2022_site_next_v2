@@ -2,6 +2,7 @@ import style from './sobre.module.css'
 import css from './sobre.module.css'
 import React, { useState } from "react";
 import { Container, Row, Col } from 'reactstrap';
+import Link from "next/link"
 
 
 export default function Sobre() {
@@ -19,13 +20,12 @@ export default function Sobre() {
                                     <h3 className={css.destaque}>Lorem Ipsum dolor sit amet</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                            Lorem ipsum dolor sit amet. Qui dolorem enim aut omnis suscipit et dolores laudantium et enim dicta. Est maiores commodi et aliquid dolor sed autem officia non tempora quae qui placeat molestiae et perferendis iure quo nobis soluta!
-
-                                            Qui eveniet quia eum repudiandae dignissimos ut eaque laborum qui asperiores iste eos laudantium corporis in assumenda fuga nam fugit veniam. Et autem iure ad sunt magni non laudantium dolores qui quam enim qui accusantium doloribus est dolore dolor.                                        </p>
+                                        São os mais inovadores do mercado e proporcionam maior produtividade e grande eficiência de consumo de combustível. Incluindo o Sistema PowerDirect Plus e o Motor de Montagem Transversal combinado com um sistema hidráulico avançado multifuncional.7
+                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/b570-spec-sheet-3.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>
