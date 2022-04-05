@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>E6</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Referência mundial em cabeçotes florestais
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/e6.png" alt="maquina" width={350} height={250} />
@@ -28,13 +28,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                Desenvolvido para cumprir os mais altos requisitos quanto ao descasque do eucalipto. Utilizando cinco facas de desgalhamento especialmente projetadas, e rolos especiais para descascar madeira.
-                                        <br/>
-                                        Para aumentar ainda mais a estabilidade e durabilidade, trazemos o Log Max E6 com o Heavy Duty Kit (HD Kit). É um conjunto de reforços e proteções que vêm da fábrica para proteger as partes vitais do cabeçote quando operado em ambientes de colheita mais agressivos, além de permitir seu uso em condições extremas sem surpresas.     
+                Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação.     
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/E6 Log Max.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

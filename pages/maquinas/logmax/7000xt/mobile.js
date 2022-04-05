@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>7000 XT</h1>
                     <div>
                         <p className={'textomob'}>
-                        Ambientes extremos requerem <br/>ferramentas extremas                        </p>
+                        Referência mundial em cabeçotes florestais</p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/7000xt.png" alt="maquina" width={320} height={220} />
                         </div>
@@ -27,13 +27,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                A linha extreme conta com o link em ferro fundido, chassis mais robusto, além de reforços e proteções que aportam estabilidade e durabilidade na estrutura do cabeçote, é a ferramenta ideal para os ambientes mais agressivos.
-                                        <br/>
-                                        O Log Max 7000XT está equipado com uma serra topo. Ter uma serra em ambas as extremidades do cabeçote torna mais fácil trabalhar com ramificações pesadas árvores de folhas largas, seja no corte ou no processamento, além de reduzir perdas.   
+                Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação.   
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/7000XT Log Max.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

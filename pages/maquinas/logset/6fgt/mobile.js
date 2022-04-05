@@ -30,9 +30,9 @@ export default function Mobile(){
                 <p className={'textodesc'}>
                 O Logset 6F GT é uma máquina econômica para baldeio de toras. Tem uma capacidade de carga de 14 toneladas e sua caixa de carga tem comprimento ajustável entre 4,4 metros e 5 metros.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_6F GT_EN_0.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

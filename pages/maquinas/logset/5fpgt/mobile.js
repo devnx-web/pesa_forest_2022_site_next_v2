@@ -30,9 +30,9 @@ export default function Mobile(){
                 <p className={'textodesc'}>
                 Logset 5FP GT é um forwarder versátil. É compacto e ágil para operações de desbaste, mas tem potência suficiente para operações de corte raso. É um forwarder de 12 toneladas com uma transmissão forte e componentes superdimensionados para sua classe.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_5FP GT_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

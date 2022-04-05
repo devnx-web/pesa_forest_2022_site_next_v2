@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -27,9 +28,9 @@ export default function Sobre(){
                                         Focada no alto desempenho para operações florestais, a PTH 18 foi projetada pela equipe da PESA Indústria que uniu a tecnologia e robustez da marca Caterpillar com a precisão na operação. Com força hidráulica adequada e com 8,5 metros de alcance ao nível do solo, é o equipamento ideal para operações harvester. Para primeiro e segundo desbaste, bem como corte raso.
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/PTH18 Specalog.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

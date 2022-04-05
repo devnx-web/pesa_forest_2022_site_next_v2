@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>5000 D</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Referência mundial em cabeçotes florestais
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/5000d.png" alt="maquina" width={350} height={250} />
@@ -28,13 +28,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                Log Max 5000D
-é o cabeçote ideal para desbastes pequenos e médios. Seu consagrado projeto para aplicação multimarcas permitem a aplicação perfeita em vários tipos e marcas de máquinas base. O peso reduzido é um fator essencial do projeto para proporcionar robustez e durabilidade.
-<br/>Um Cabeçote versátil e eficiente em operações florestais de desbaste, abrange uma grande gama de aplicações com baixo peso e alta produtividade.   
+                Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação.    
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/5000D Log Max.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

@@ -32,9 +32,9 @@ export default function Mobile(){
                 É o menor Forwarder  do portifólio Logset . A máquina tem capacidade de 10 toneladas de carga e é especialmente concebida para operações de desbaste em florestas densas.
 exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínimos danos ao mesmo. 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_4F GT_EN_1.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

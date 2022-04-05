@@ -38,9 +38,9 @@ export default function Mobile(){
                     para garantir uma longa vida útil e segurança do
                     operador.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/PTL 20 PESA TRACK LOADER - visualização.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>6000 V</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Referência mundial em cabeçotes florestais
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/6000v.png" alt="maquina" width={350} height={250} />
@@ -28,15 +28,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                    O  campeão de vendas 6000B foi melhorado ainda mais para atender às demandas do mercado.
-Com o objetivo de sempre fornecer os melhores produtos, nós continuamente desenvolvemos nossos
-cabeçotes. Nossa filosofia é trabalhar junto ao cliente para que possamos entender as demandas no setor
-florestal e com isso podermos implementar aos nossos produtos as melhorias que tornarão o processo de
-colheita mais suave, com menos hora de máquina parada, e muita produtividade..  
+                Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação. 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/6000V Log Max.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

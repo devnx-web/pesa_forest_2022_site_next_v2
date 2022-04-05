@@ -31,9 +31,9 @@ export default function Mobile(){
                     Lança e braço com projeto e fabricação Pesa, para operação harvester, garantindo a estabilidade e melhor controle, também com a diminuição do
                     peso do conjunto. As tubulações hidráulicas são protegidas, evitando os acidentes causados por batidas em árvores, aumentando a durabilidade
                     dos componentes.                </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/PTH 20 e PTH 25 PESA TRACK HARVESTER - visualização.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

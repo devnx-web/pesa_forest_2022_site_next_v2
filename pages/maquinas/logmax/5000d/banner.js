@@ -12,7 +12,7 @@ export default function Banner(){
                     <div className={css.posicaott}>
                     <h1 className={css.tt2}>5000 D</h1>
                     <h1 className={css.tt1}>5000 D</h1>
-                    <h1 className={css.texto}>Muita versatilidade para sua colheita</h1>
+                    <h1 className={css.texto}>Referência mundial em cabeçotes florestais</h1>
                     </div>
                 </div>
             </Container>

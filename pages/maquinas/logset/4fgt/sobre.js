@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -27,9 +28,9 @@ exerce a menor pressão sob o solo em todos os tipos de terreno, causando mínim
 
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_4F GT_EN_1.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

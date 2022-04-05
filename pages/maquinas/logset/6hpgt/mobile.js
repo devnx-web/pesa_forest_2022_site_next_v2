@@ -31,9 +31,9 @@ export default function Mobile(){
                 O Logset 6HP GT é um harvester versátil e ágil que gira com muita facilidade. É adequado tanto para operações de desbaste como para corte raso de tamanho médio. O Harvester  é muito produtivo com baixo consumo de combustível.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_6HP GT_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

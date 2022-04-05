@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -19,17 +20,15 @@ export default function Sobre(){
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>7000 XT</h2>
                                     <h2 className={css.ttmaq1}>7000 XT</h2>
-                                    <h3 className={css.destaque}>O que torna o 7000XT sua melhor escolha?</h3>
+                                    <h3 className={css.destaque}>Referência mundial em cabeçotes florestais</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        A linha extreme conta com o link em ferro fundido, chassis mais robusto, além de reforços e proteções que aportam estabilidade e durabilidade na estrutura do cabeçote, é a ferramenta ideal para os ambientes mais agressivos.
-                                        <br/>
-                                        O Log Max 7000XT está equipado com uma serra topo. Ter uma serra em ambas as extremidades do cabeçote torna mais fácil trabalhar com ramificações pesadas árvores de folhas largas, seja no corte ou no processamento, além de reduzir perdas.
+                                        Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação. 
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/7000XT Log Max.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

@@ -31,9 +31,9 @@ export default function Mobile(){
                 O Logset 5F GT é um forwarder versátil e compacto. é extremamentevbem adaptado para operações de desbaste, mas também pode ser usado para operações menores de corte raso. Trata-se de um forwarder de 12 toneladas com motor econômico, projetado para transportar cargas máximas. Os grandes pneus de 26,5” e a grande distância ao solo tornam esta máquina a escolha certa para vários tipos de terreno.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_5F GT_EN_0.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

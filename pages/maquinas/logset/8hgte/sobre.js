@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -25,9 +26,9 @@ export default function Sobre(){
                                         O Logset 8H GTE é um harvester 8x8 ágil e potente, que gira com muita facilidade. É adequado para operações de desbaste, mas tem um desempenho ainda melhor em corte raso, de médio e grande porte, principalmente em terrenos acidentados.
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_8H GTE_BLACK_EN_V.1.0.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

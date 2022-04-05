@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 
@@ -26,9 +27,9 @@ export default function Sobre(){
                                         PESA TRACK LOADER PTL 20 é uma máquina fabricada no Brasil e projetada para atender o mercado florestal, possui lança reta de 5680mm e braço de 2900mm para uma maior performance no carregamento. Fabricada para se sobressair em aplicações de carga e descarga, a PTL 20 apresenta potência otimizada e sistemas para máxima produção. A construção reforçada é evidente de ponta a ponta para garantir uma longa vida útil e segurança do operador.
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/PTL 20 PESA TRACK LOADER - visualização.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

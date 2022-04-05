@@ -15,7 +15,7 @@ export default function Mobile(){
                     <h1 className={'ttmaq1'}>7000 C</h1>
                     <div>
                         <p className={'textomob'}>
-                            Lorem Ipsum dolor sit amet
+                        Referência mundial em cabeçotes florestais
                         </p>
                         <div className={'imgposi'}>
                             <Image src="/maquinas/7000c.png" alt="maquina" width={350} height={250} />
@@ -28,16 +28,11 @@ export default function Mobile(){
             <div className={'desc'}>
                 <Container>
                 <p className={'textodesc'}>
-                É fabricado com uma estrutura robusta e tem um excelente desempenho para troncos pesados e muito ramificados.
-
-Log Max 7000C combina alto potencial de tração com velocidade de alimentação rápida e é um dos nossos cabeçotes mais populares.<br/>
-Temos no 7000C duas opções para a tração.
-A versão com redutor proporciona 41,7KN de força a uma velocidade de 3,9m/s, ideal para florestas mais densas e arvores mais pesadas.
-A versão sem o redutor proporciona 35,9KNde força a uma velocidade de 5,3 m/s. Estas opções garantem melhor consumo de acordo com a floresta utilizada. 
+                Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação.  
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/7000C Log Max.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

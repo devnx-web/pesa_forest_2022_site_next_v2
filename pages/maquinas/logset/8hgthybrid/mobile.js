@@ -31,9 +31,9 @@ export default function Mobile(){
                 O Logset 8H GTE Hybrid é um poderoso harvester de tamanho médio. O motor diesel funciona a um ritmo constante, enquanto o sistema híbrido fornece até 104 kW (142 hp) de potência adicional, necessária em um típico ciclo de corte e processamento. Isso permite ao harverster executar facilmente várias tarefas ao mesmo tempo, mantendo a carga  constante do motor.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_8H GTE Hybrid_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

@@ -31,9 +31,9 @@ export default function Mobile(){
                 Logset12H GTE Hybrid – É o harvester mais produtivo do mundo. É um verdadeiro gigante para a colheita lucrativa em larga escala. Este gigante amigável tem tudo: tecnologia híbrida revolucionária, sistema hidráulico de circuito duplo, grua  forte, transmissão robusta,  estabilidade, confiabilidade e conforto em um grande pacote.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_12H GTE Hybrid_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

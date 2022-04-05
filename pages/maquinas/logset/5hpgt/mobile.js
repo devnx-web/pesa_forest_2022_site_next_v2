@@ -30,9 +30,9 @@ export default function Mobile(){
                 <p className={'textodesc'}>
                 O Logset 5HP GT é o menor harvester da linha Logset. O  tamanho compacto combinado com o poderoso motor torna o harvester versátil, mesmo sendo projetado principalmente para operações de desbaste. O equipamento  é fácil de manobrar e gira sem esforço. As rodas de 34 polegadas na parte traseira permitem que a máquina opere em vários tipos de terreno.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET 5HP GT_EN_web.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

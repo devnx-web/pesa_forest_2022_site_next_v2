@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -19,17 +20,15 @@ export default function Sobre(){
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>E6</h2>
                                     <h2 className={css.ttmaq1}>E6</h2>
-                                    <h3 className={css.destaque}>Robustez extra</h3>
+                                    <h3 className={css.destaque}>Referência mundial em cabeçotes florestais</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        Desenvolvido para cumprir os mais altos requisitos quanto ao descasque do eucalipto. Utilizando cinco facas de desgalhamento especialmente projetadas, e rolos especiais para descascar madeira.
-                                        <br/>
-                                        Para aumentar ainda mais a estabilidade e durabilidade, trazemos o Log Max E6 com o Heavy Duty Kit (HD Kit). É um conjunto de reforços e proteções que vêm da fábrica para proteger as partes vitais do cabeçote quando operado em ambientes de colheita mais agressivos, além de permitir seu uso em condições extremas sem surpresas.
+                                        Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação. 
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/E6 Log Max.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Container, Row, Col } from 'reactstrap';
 import Detalhesmaquinaresponsive from "../../../components/detalhesmaquinaresponsive";
 import Maqpth18mob from "../../../home/maqpth18mob";
+import Link from "next/link"
 
 
 export default function Sobre(){
@@ -19,19 +20,15 @@ export default function Sobre(){
                                 <Col md="5">
                                     <h2 className={css.ttmaq2}>6000V</h2>
                                     <h2 className={css.ttmaq1}>6000V</h2>
-                                    <h3 className={css.destaque}>O novo Log Max 6000V finalmente chegou.</h3>
+                                    <h3 className={css.destaque}>Referência mundial em cabeçotes florestais</h3>
                                     <div>
                                         <p className={css.textomaq}>
-                                        O campeão de vendas 6000B foi melhorado ainda mais para atender às demandas do mercado.
-Com o objetivo de sempre fornecer os melhores produtos, nós continuamente desenvolvemos nossos
-cabeçotes. Nossa filosofia é trabalhar junto ao cliente para que possamos entender as demandas no setor
-florestal e com isso podermos implementar aos nossos produtos as melhorias que tornarão o processo de
-colheita mais suave, com menos hora de máquina parada, e muita produtividade..
+                                        Referência mundial em cabeçotes florestais. Os cabeçotes Log são de grande versatilidade e ideias para cada tipo de operação. 
                                         </p>
                                     </div>
-                                    <div className={css.botaosaber}>
+                                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/6000V Log Max.pdf"><a target="_blank"><div className={css.botaosaber}>
                                         FAZER DOWNLOAD CATÁLOGO
-                                    </div>
+                                    </div></a></Link>
                                 </Col>
                             </Row>
                         </Container>

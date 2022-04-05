@@ -31,9 +31,9 @@ export default function Mobile(){
                 O Logset 6HP GTE é um harvester de médio porte 8x8, estável e econômico. A máquina é projetada para operações de desbaste menores e corte raso, de médio porte.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_6HP GTE_EN_web.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

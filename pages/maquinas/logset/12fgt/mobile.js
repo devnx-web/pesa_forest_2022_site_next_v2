@@ -31,9 +31,9 @@ export default function Mobile(){
                 O Logset 12F GT é o maior forwarder da linha Logset. Com capacidade de carga de 20 toneladas, acessa qualquer terreno, com extrema qualidade operacional e alta performance.
 
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/2021_LOGSET_12F GT_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

@@ -29,9 +29,9 @@ export default function Mobile() {
                     É um forwarder de 18 toneladas de capacidade e tem uma estrutura excepcionalmente robusta e confiável.
 
                     </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_10F GT_EN.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>

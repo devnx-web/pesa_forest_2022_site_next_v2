@@ -37,9 +37,9 @@ export default function Mobile(){
                     AGCO Power, com 214 kW (291 hp), combinado com a grua Mesera 240H, é
                     a máquina perfeita para desafiar operações de abate.
                 </p>
-                    <div className={'botaodw'}>
+                    <Link href="https://s3.us-central-1.wasabisys.com/arquivos.devnx.com.br/pesa/forest/catalogos/LOGSET_8H GT_PT_web.pdf"><a target="_blank"><div className={'botaodw'}>
                         FAZER DOWNLOAD CATÁLOGO
-                    </div>
+                    </div></a></Link>
                 </Container>
             </div>
         </div>
