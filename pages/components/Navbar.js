@@ -44,6 +44,7 @@ export default function Navbar() {
                                                         </Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
+                                                    
                                                     <div style={{float: 'right'}}>
                                                     <div style={{width: 150,}} className={css.dropdowncontent2}>
                                                         
@@ -115,92 +116,7 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
 
-                                                <div className={css.dropdown2}>
-                                                    <button style={{ margin: 0, marginBottom: 15, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>LogSet</a></Link>
-                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
-                                                    </button>
-                                                    <div style={{float: 'right'}}>
-                                                    <div className={css.dropdowncontent3}>
-                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
-                                                            LogSet
-                                                        </div> */}
-                                                        <div className="d-flex align-items-center">
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
-                                                                    <a>4FGT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgt">
-                                                                    <a>5FGT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">
-                                                                    <a>5FPGT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">
-                                                                    <a>5HPGT</a>
-                                                                </Link>
-                                                      </div>
-                                                        <div className="d-flex align-items-center">
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6fgt">
-                                                                    <a>6FGT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">
-                                                                    <a>6HPGT</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">
-                                                                    <a>6HPGTE</a>
-                                                                </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8fgt">
-                                                                    <a>8FGT</a>
-                                                                </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
-                                                                <a>8HGT</a>
-                                                            </Link>
-                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgte">
-                                                                    <a>8HGTE</a>
-                                                                </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
-                                                                <a>8HGTE Hybrid</a>
-                                                            </Link>
-
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/10fgt">
-                                                                <a>10FGT</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
-                                                                <a>12HGTE Hybrid</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th45">
-                                                                <a>TH45</a>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                        <Link className={css.nomemaq} href="/maquinas/logset/th55">
-                                                                <a>TH55</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65">
-                                                                <a>TH65</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65euca">
-                                                                <a>TH65EUCA</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th75">
-                                                                <a>TH75 </a>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="d-flex align-items-center">
-                                                        <Link className={css.nomemaq} href="/maquinas/logset/th85">
-                                                                <a>TH85</a>
-                                                            </Link>
-                                                            <Link className={css.nomemaq} href="/maquinas/logset/th95">
-                                                                <a>TH95</a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </div>
+                                                
 
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
@@ -239,7 +155,7 @@ export default function Navbar() {
                                                 </div>
                                                 <div className={css.dropdown2}>
                                                     <button style={{ marginTop: -20, }} className={css.dropbtn2}>
-                                                        <Link className={css.link} href="/maquinas"><a>Weiler</a></Link>
+                                                        <Link className={css.link} href="/maquinas"><a className={css.border}>Weiler</a></Link>
                                                         {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
                                                     </button>
                                                     <div style={{float: 'right'}}>
@@ -310,6 +226,95 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
 
+                                                <div className={css.dropdown2}>
+                                                    <button style={{ margin: 0, marginBottom: 15, }} className={css.dropbtn2}>
+                                                        <Link className={css.link} href="/maquinas"><a>LogSet</a></Link>
+                                                        {/* <Image className={css.image} src="/arrowright.svg" alt="logo" width={15} height={15} /> */}
+                                                    </button>
+                                                    <div style={{float: 'right'}}>
+                                                    <div className={css.dropdowncontent3}>
+                                                        {/* <div style={{marginLeft: 5,}} className="p-2 pb-0 fs-5">
+                                                            LogSet
+                                                        </div> */}
+                                                        <div className="d-flex align-items-center">
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/4fgt">
+                                                                    <a>4FGT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fgt">
+                                                                    <a>5FGT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5fpgt">
+                                                                    <a>5FPGT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/5hpgt">
+                                                                    <a>5HPGT</a>
+                                                                </Link>
+                                                      </div>
+                                                        <div className="d-flex align-items-center">
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6fgt">
+                                                                    <a>6FGT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgt">
+                                                                    <a>6HPGT</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/6hpgte">
+                                                                    <a>6HPGTE</a>
+                                                                </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8fgt">
+                                                                    <a>8FGT</a>
+                                                                </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgt">
+                                                                <a>8HGT</a>
+                                                            </Link>
+                                                                <Link className={css.nomemaq} href="/maquinas/logset/8hgte">
+                                                                    <a>8HGTE</a>
+                                                                </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/8hgthybrid">
+                                                                <a>8HGTE Hybrid</a>
+                                                            </Link>
+
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/10fgt">
+                                                                <a>10FGT</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/12fgt">
+                                                                <a>12FGT</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/12hybrid">
+                                                                <a>12HGTE Hybrid</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th45">
+                                                                <a>TH45</a>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                        <Link className={css.nomemaq} href="/maquinas/logset/th55">
+                                                                <a>TH55</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65">
+                                                                <a>TH65</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th65euca">
+                                                                <a>TH65EUCA</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th75">
+                                                                <a>TH75 </a>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="d-flex align-items-center">
+                                                        <Link className={css.nomemaq} href="/maquinas/logset/th85">
+                                                                <a>TH85</a>
+                                                            </Link>
+                                                            <Link className={css.nomemaq} href="/maquinas/logset/th95">
+                                                                <a>TH95</a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
                                                 
                                             </div>
                                         </div>
