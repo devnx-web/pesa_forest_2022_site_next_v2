@@ -13,6 +13,15 @@
     }
 }
 
+.image{
+    text-align: right;
+}
+
+.alignlogo{
+    text-align: right;
+    margin-top: -35px;
+}
+
 .bgheader {
     background-color: black;
     padding: 10px;

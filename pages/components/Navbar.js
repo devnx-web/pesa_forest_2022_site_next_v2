@@ -230,6 +230,9 @@ export default function Navbar() {
                                                             <Link href="/maquinas/quadco/24c">
                                                                 <a>24 C</a>
                                                             </Link>
+                                                            <Link href="/maquinas/quadco/27sc">
+                                                                <a>27 SC</a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                     </div>
