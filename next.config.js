@@ -5,5 +5,10 @@ const nextConfig = {
   },
   reactStrictMode: true,
 }
+module.exports = {
+  images: {
+    domains: ['arquivos.devnx.com.br/'],
+  },
+};
+// module.exports = nextConfig
 
-module.exports = nextConfig

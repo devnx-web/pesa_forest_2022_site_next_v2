@@ -1,5 +1,6 @@
 import PrimeiraSessao from "./primeiraSessao";
 import Banner from './banner'
+import Mobile from "./mobile";
 
 
 function Maquina({ data }) {
@@ -10,13 +11,20 @@ function Maquina({ data }) {
 
     return (
         <div>
-            <Banner
+            <Banner  
                 banner={data.maquina_banner}
                 titulo={data.maquina_titulo}
                 descricao={data.maquina_descricao}
 
             />
-            <PrimeiraSessao
+            <PrimeiraSessao  
+                imgPrincipal={data.s1_imgPrincipal}
+                titulo={data.s1_titulo}
+                fraseDestaque={data.s1_fraseDestaque}
+                textoDescricao={data.s1_textoDescricao}
+                downloadCatalogo={data.s1_downCatalogo}
+            /> 
+            <Mobile 
                 imgPrincipal={data.s1_imgPrincipal}
                 titulo={data.s1_titulo}
                 fraseDestaque={data.s1_fraseDestaque}

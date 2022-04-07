@@ -10,7 +10,7 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
         <div className={style.bgsobre}>
             <Container className={'pt-5 pb-5'}>
                 <div className={css.ocultamob}>
-                    <div className={css.imgmaquina} style={{ backgroundImage: `url(https://arquivos.devnx.com.br/pesa/${imgPrincipal})` }}>
+                    <div className={css.imgmaquina} style={{ backgroundImage: `url(https://arquivos.devnx.com.br/${imgPrincipal})` }}>
                         <Container>
                             <Row>
                                 <Col md="5">
@@ -21,9 +21,12 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                         <p className={css.textomaq}>{textoDescricao}</p>
                                     </div>
                                     <div className={css.botaosaber}>
-                                        {/* <Link to={downloadCatalogo}>
-                                            <a>FAZER DOWNLOAD CATÁLOGO</a>
-                                        </Link> */}
+                                    <Link href={`https://arquivos.devnx.com.br/${downloadCatalogo}`}>
+                                        <a target="_blank">
+                                            <div >
+                                             FAZER DOWNLOAD CATÁLOGO
+                                            </div>
+                                        </a></Link>
                                     </div>
                                 </Col>
                             </Row>
