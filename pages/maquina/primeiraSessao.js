@@ -22,7 +22,7 @@ export default function PrimeiraSessao({ imgPrincipal, titulo, fraseDestaque, te
                                     </div>
                                     <div className={css.botaosaber}>
                                     <Link href={`https://arquivos.devnx.com.br/${downloadCatalogo}`}>
-                                        <a target="_blank">
+                                        <a className={css.link} target="_blank">
                                             <div >
                                              FAZER DOWNLOAD CATÁLOGO
                                             </div>

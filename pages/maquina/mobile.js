@@ -22,7 +22,7 @@ export default function Mobile({imgPrincipal,titulo,fraseDestaque,textoDescricao
                         </p>
                         
                         <div className={'imgposi'} >
-                            <img src={imggg} alt="maquina" width={"100%"} />
+                            <img src={imggg} alt="maquina" width={"90%"} />
                             {/* <Image src={imggg} alt="maquina" width={350} height={250} /> */}
                             {/* <div style={{ backgroundImage: `url(https://arquivos.devnx.com.br/${imgPrincipal})` }}>
                                 aa

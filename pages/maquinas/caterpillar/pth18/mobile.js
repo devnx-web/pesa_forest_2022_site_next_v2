@@ -19,7 +19,7 @@ export default function Mobile(){
                             Lorem Ipsum dolor sit amet
                         </p>
                         <div className={'imgposi'}>
-                            <Image src="/pth18.png" alt="maquina" width={380} height={280} />
+                            <Image src="/pth18.png" alt="maquina" width={345} height={240} />
                         </div>
                     </div>
 

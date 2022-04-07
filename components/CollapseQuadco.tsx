@@ -42,18 +42,18 @@ export default function Collapse() {
 
                                 <Row>
                                     <Col>
-                                    <div><Link href="/maquinas/quadco/18c"><a className="textofaq">18 C</a></Link></div>
-                                <div><Link href="/maquinas/quadco/22sc"><a className="textofaq">22SC</a></Link></div>
+                                    <div><Link href="/maquina/maquina_18c"><a className="textofaq">18 C</a></Link></div>
+                                <div><Link href="/maquina/maquina_22sc"><a className="textofaq">22SC</a></Link></div>
                                     </Col>
 
                                     <Col>
-                                    <div><Link href="/maquinas/quadco/22c"><a className="textofaq">22 C</a></Link></div>
+                                    <div><Link href="/maquina/maquina_22c"><a className="textofaq">22 C</a></Link></div>
                                     
-                                <div><Link href="/maquinas/quadco/24c"><a className="textofaq">24 C</a></Link></div>
+                                <div><Link href="/maquina/maquina_24c"><a className="textofaq">24 C</a></Link></div>
                                     </Col>
 
                                     <Col>
-                                    <div><Link href="/maquinas/quadco/27sc"><a className="textofaq">27 SC</a></Link></div>
+                                    <div><Link href="/maquina/maquina_27sc"><a className="textofaq">27 SC</a></Link></div>
                                     
                                     </Col>
                                 </Row>
