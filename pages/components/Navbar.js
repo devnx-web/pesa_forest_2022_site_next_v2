@@ -261,6 +261,26 @@ export default function Navbar() {
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                                <div>
+                                                                <Link className={css.nomemaq} href="/maquinas/weiler/b670a">
+                                                                        <a>B670A</a>
+                                                                    </Link>
+
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/h157">
+                                                                        <a>H157</a>
+                                                                    </Link>
+                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h457">
+                                                                        <a>H457</a>
+                                                                    </Link>
+                                                            
+                                                        <Link className={css.nomemaq} href="/maquinas/weiler/h458">
+                                                                        <a>H458</a>
+                                                                    </Link>
+
+                                                                    <Link className={css.nomemaq} href="/maquinas/weiler/m860">
+                                                                    <a>M860</a>
+                                                                </Link>
+                                                                </div>
                                                     </div>
                                                     </div>
                                                 </div>
