@@ -29,7 +29,7 @@ export default function Header() {
                                     </Link>
                                     <div className={css.dropdown}>
                                         <button className={css.dropbtn}>
-                                            <Link>
+                                            <Link href="/maquinas">
                                                 <a className={css.link}> PRODUTOS </a>
                                             </Link>
                                             <Image className={css.image} src="/down.svg" alt="logo" width={20} height={20} />
