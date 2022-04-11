@@ -8,6 +8,8 @@ const nextConfig = {
 module.exports = {
   images: {
     domains: ['arquivos.devnx.com.br/'],
+    loader: 'imgix',
+    path: '',
   },
 };
 // module.exports = nextConfig

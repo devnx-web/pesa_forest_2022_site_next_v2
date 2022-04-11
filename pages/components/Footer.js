@@ -18,18 +18,26 @@ export default function Footer() {
                                 <Col md="4">
                                     <h2 className={css.textacompanhe}>NOS ACOMPANHE NAS REDES</h2>
                                     <div className={css.flex}>
-                                        <a href="https://web.facebook.com/pesaforestpr" rel="noreferrer" target="_blank" className={css.icone}>
-                                            <Image src="/facebook.png" alt="logo" width={16} height={16} />
-                                        </a>
-                                        <a href="https://www.instagram.com/pesaforest/" rel="noreferrer" target="_blank" className={css.icone}>
-                                            <Image src="/instagram.png" alt="logo" width={16} height={16} />
-                                        </a>
-                                        <a href="https://www.youtube.com/channel/UC5VrF3OGPWOVF4hM4sVMiHw" rel="noreferrer" target="_blank" className={css.icone}>
-                                            <Image src="/youtube.png" alt="logo" width={16} height={16} />
-                                        </a>
-                                        <a href="https://br.linkedin.com/company/pesa-forestpr" rel="noreferrer" target="_blank" className={css.icone}>
-                                            <Image src="/linkedin.png" alt="logo" width={16} height={16} />
-                                        </a>
+                                        <Link href="https://www.instagram.com/pesaforest/" rel="noreferrer">
+                                            <a className={css.icone}>
+                                                <Image src="/instagram.png" alt="logo" width={16} height={16} />
+                                            </a>
+                                        </Link>
+                                            <Link href="https://www.youtube.com/channel/UC5VrF3OGPWOVF4hM4sVMiHw" rel="noreferrer">
+                                            <a className={css.icone}>
+                                                <Image src="/youtube.png" alt="logo" width={16} height={16} />
+                                            </a>
+                                        </Link>
+                                        <Link href="https://br.linkedin.com/company/pesa-forestpr" rel="noreferrer">
+                                            <a className={css.icone}>
+                                                <Image src="/linkedin.png" alt="logo" width={16} height={16} />
+                                            </a>
+                                        </Link>
+                                        <Link href="https://web.facebook.com/pesaforestpr" rel="noreferrer">
+                                            <a target="_blank" className={css.icone}>
+                                                <Image src="/facebook.png" alt="logo" width={16} height={16} />
+                                            </a>
+                                        </Link>
                                     </div>
                                 </Col>
                                 <Col md="2">
@@ -126,14 +134,6 @@ export default function Footer() {
                                 </a>
                             </Link>
                             </div>
-
-                            {/* <div>
-                            <Link className={css.link} href="https://g.page/pesacat?share">
-                                <a target="_blank" className={css.textofooter}>
-                                BR-116, 11807 - Hauer, Curitiba - PR, 81690-100
-                                </a>
-                            </Link>
-                            </div> */}
                         </Col>
                     </Row>
                 </div>
