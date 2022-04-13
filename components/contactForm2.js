@@ -1,6 +1,9 @@
 import { Col, Container, Input, Row } from "reactstrap";
 import React, { useState } from "react";
 import css from './formulario.module.css'
+import { toast, ToastContainer } from 'react-nextjs-toast'
+import axios from 'axios'
+// import api from '../pages/api/api'
 
 const ContactForm2 = () => {
     const segmentos = [
@@ -13,7 +16,10 @@ const ContactForm2 = () => {
         { id: 7, text: 'Pavimentação' },
     ];
     const [form, setForm] = useState({
-        email: "", message: "", name: "", segment: ''
+        email: "", message: "", name: "", segment: '',idEmpresa:4, pagina:"form_forest_contato_site", telefone:'',model:''
+    });
+    const api = axios.create({
+        baseURL: 'https://phpstack-423803-1938873.cloudwaysapps.com/api/integracao/json_pp/'
     });
 
     function Segment() {
@@ -29,29 +35,30 @@ const ContactForm2 = () => {
             </select>
         )
     }
-    // async function formSubmit() {
-    //     if(form.email === ''||form.message === ''||form.name === '') {
-    //         return  toast.notify('Preencha todos os campos', {
-    //             title: "Preencha os Campos",
-    //             type: "error"
-    //         });
-    //     }
-    //     const {data: addForm } = await api.post('form_forest_contato_site', form);
-    //     if (addForm.success) {
-    //         toast.notify(addForm.success, {
-    //             title: "Sucesso",
-    //             type: "success"
-    //         });
-    //
-    //         setForm({ email: "", message: "", name: "",segment: "" })
-    //     }
-    // }
+    async function formSubmit() {
+         if(form.email === ''||form.message === ''||form.name === '') {
+            return  toast.notify('Preencha todos os campos', {
+               title: "Preencha os Campos",
+                 type: "error"
+            });
+        }
+        console.log(form)
+        const {data: addForm } = await api.post('form_forest_contato_site', form);
+         if (addForm.success) {
+            toast.notify(addForm.success, {
+                title: "Sucesso",
+                type: "success"
+            });
+    
+             setForm({ email: "", message: "", name: "",segment: "" })
+        }
+    }
 
     return (
 
         <div className={css.bgbanner}>
             <Container>
-                {/*<ToastContainer />*/}
+                <ToastContainer />
                 <div>
                     <h3 className={css.subtt}>PREENCHA O FORMULÁRIO</h3>
                     <h3 className={css.titulofale}>FALE COM A PESA FOREST</h3>
@@ -114,7 +121,7 @@ const ContactForm2 = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className={css.botaoform}>
+                                    <div onClick={formSubmit} className={css.botaoform}>
                                         <span>ENVIAR MENSAGEM</span>
                                     </div>
                                 </div>

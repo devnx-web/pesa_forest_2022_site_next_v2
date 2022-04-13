@@ -1,35 +1,40 @@
 
 import React, { useState } from 'react'
 import css from "./contactForm.module.scss"
+import { toast, ToastContainer } from 'react-nextjs-toast'
+import axios from 'axios'
 
 import { Input, Container } from "reactstrap";
 
 const ContactForm = () => {
-    // const [form, setForm] = useState({
-    //     email: "", message: "", name: ""
-    // });
-    //
-    // async function formSubmit() {
-    //     if(form.email === ''||form.message === ''||form.name === '') {
-    //        return  toast.notify('Preencha todos os campos', {
-    //             title: "Preencha os Campos",
-    //             type: "error"
-    //         });
-    //     }
-    //     const {data: addForm } = await api.post('form_forest_contato_site', form);
-    //     if (addForm.success) {
-    //         toast.notify(addForm.success, {
-    //             title: "Sucesso",
-    //             type: "success"
-    //         });
-    //
-    //         setForm({ email: "", message: "", name: "" })
-    //     }
-    // }
+     const [form, setForm] = useState({
+         email: "", message: "", name: ""
+     });
+     const api = axios.create({
+         baseURL: 'https://phpstack-423803-1938873.cloudwaysapps.com/api/integracao/json_pp/'
+     });
+    
+     async function formSubmit() {
+         if(form.email === ''||form.message === ''||form.name === '') {
+            return  toast.notify('Preencha todos os campos', {
+                 title: "Preencha os Campos",
+                 type: "error"
+             });
+         }
+         const {data: addForm } = await api.post('form_forest_contato_site', form);
+         if (addForm.success) {
+             toast.notify(addForm.success, {
+                 title: "Sucesso",
+                 type: "success"
+             });
+    
+             setForm({ email: "", message: "", name: "" })
+         }
+     }
 
     return (
         <>
-            {/*<ToastContainer />*/}
+            <ToastContainer />
             <div style={{ paddingLeft: 200, paddingRight: 200, paddingBottom: 50 }}>
                 <div>
                     <div>
