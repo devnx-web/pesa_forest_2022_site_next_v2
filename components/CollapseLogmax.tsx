@@ -42,15 +42,15 @@ export default function Collapse() {
 
                                 <Row>
                                     <Col>
-                                    <Link href="/maquinas/logmax/5000d"><a className="textofaq">5000D</a></Link>
-                                    <Link href="/maquinas/logmax/6000v"><a className="textofaq">6000V</a></Link>
+                                    <Link href="/maquina/maquina_5000d"><a className="textofaq">5000D</a></Link>
+                                    <Link href="/maquina/maquina_6000v"><a className="textofaq">6000V</a></Link>
                                     </Col>
                                     <Col>
-                                    <Link href="/maquinas/logmax/7000c"><a className="textofaq">7000C</a></Link>
-                                    <Link href="/maquinas/logmax/7000xt"><a className="textofaq">7000XT</a></Link>
+                                    <Link href="/maquina/maquina_7000c"><a className="textofaq">7000C</a></Link>
+                                    <Link href="/maquina/maquina_7000xt"><a className="textofaq">7000XT</a></Link>
                                     </Col>
                                 </Row>
-                                <div><Link href="/maquinas/logmax/e6"><a className="textofaq">E6</a></Link></div>
+                                <div><Link href="/maquina/maquina_e6"><a className="textofaq">E6</a></Link></div>
                             </div>
                         </div>
                     </button>

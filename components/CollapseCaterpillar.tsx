@@ -42,15 +42,15 @@ export default function Collapse() {
 
                                 <Row>
                                     <Col>
-                                    <div><Link href="/maquinas/caterpillar/pth18"><a className="textofaq">PTH18</a></Link></div>
-                                    <div><Link href="/maquinas/caterpillar/pth20"><a className="textofaq">PTH20</a></Link></div>
-                                    <div><Link href="/maquinas/caterpillar/psm36"><a className="textofaq">PSM36</a></Link></div>
+                                    <div><Link href="/maquina/maquina_pth18"><a className="textofaq">PTH18</a></Link></div>
+                                    <div><Link href="/maquina/maquina_pth20"><a className="textofaq">PTH20</a></Link></div>
+                                    <div><Link href="/maquina/maquina_psm36"><a className="textofaq">PSM36</a></Link></div>
                                     </Col>
 
                                     <Col>
-                                    <div><Link href="/maquinas/caterpillar/ptl20"><a className="textofaq">PTL20</a></Link></div>
-                                    <div><Link href="/maquinas/caterpillar/pth25"><a className="textofaq">PTH25</a></Link></div>
-                                    <div><Link href="/maquinas/caterpillar/psm20"><a className="textofaq">PSM20</a></Link></div>
+                                    <div><Link href="/maquina/maquina_ptl20"><a className="textofaq">PTL20</a></Link></div>
+                                    <div><Link href="/maquina/maquina_pth25"><a className="textofaq">PTH25</a></Link></div>
+                                    <div><Link href="/maquina/maquina_psm20"><a className="textofaq">PSM20</a></Link></div>
                                     </Col>
                                 </Row>
                                 

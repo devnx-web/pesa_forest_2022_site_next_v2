@@ -19,7 +19,7 @@
 
 .alignlogo{
     text-align: right;
-    margin-top: -35px;
+    margin-top: -37px;
 }
 
 .bgheader {
@@ -79,6 +79,7 @@
     display: block;
     width: 30px;
     height: 30px;
+    margin-top: 15px;
 }
 .menuToggle .label .span {
     display: none;
@@ -102,6 +103,7 @@
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    margin-top: 6px;
 }
 
 .menuToggle .label .div:first-child {
