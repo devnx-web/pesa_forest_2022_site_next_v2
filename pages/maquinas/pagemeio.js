@@ -186,7 +186,7 @@ export default function Pagemeio(){
                             <div className={css.bgslide}>
                             <h4 className={css.subtt}>PEÇAS</h4>
                                    <h4 className={css.ttcard}>Quadco</h4>
-                            <Image src="/maquinas/quadco-22c.png" alt="logo" width={300} height={180} />
+                                   <Image src="/maquinas/quadco-18c.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
                                 </p>

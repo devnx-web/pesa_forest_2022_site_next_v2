@@ -18,7 +18,7 @@ export default function Formulario() {
                     te atender!
                 </p>
 
-                <Row>
+                <Row className={css.cards}>
                 <Col md={4} className={css.cardEndereco}>
                 <div className={css.titulo}>
                     Sede Curitiba

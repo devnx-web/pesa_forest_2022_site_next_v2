@@ -50,7 +50,7 @@ export default function Headermob() {
                 </ul>
                 
                 <div className={css.alignlogo}>
-                <Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42} />
+                <Link href="/"><a><Image className={css.image} src="/logo.jpg" alt="logo" width={160} height={42}/></a></Link>
                 </div>
             </div>
             </Col>

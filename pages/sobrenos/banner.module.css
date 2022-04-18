@@ -45,14 +45,18 @@
 
 @media (max-width: 600px){
     .titulo1{
-        font-size: 55px;
-        margin: 0;
+        font-size: 52px;
+        margin-bottom: 50px;
     }
 
     .titulo2{
         font-size: 50px;
     }
     .bgbanner{
-        height: 300px;
+        height: 350px;
+        background-position-x: -40px;
+    }
+    .texto{
+        margin-top: 15px;
     }
 }

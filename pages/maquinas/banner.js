@@ -9,7 +9,6 @@ export default function Banner(){
         <div className={css.bgbanner}>
             <Container>
                 <div>
-
                 </div>
             </Container>
         </div>

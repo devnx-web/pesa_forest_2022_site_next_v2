@@ -30,7 +30,6 @@
 .posicaott{
     position: absolute;
     top: 180px;
-
 }
 
 .texto {
@@ -39,5 +38,12 @@
     font-size: 17px;
     margin-top: -18px;
     margin-left: 2px;
+}
+
+@media (max-width: 600px){
+    .bgbanner{
+        height: 60vh;
+        background-position-x: -150px;
+    }
 }
 
