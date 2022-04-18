@@ -19,17 +19,17 @@ export default function Footer() {
                                     <h2 className={css.textacompanhe}>NOS ACOMPANHE NAS REDES</h2>
                                     <div className={css.flex}>
                                         <Link href="https://www.instagram.com/pesaforest/" rel="noreferrer">
-                                            <a className={css.icone}>
+                                            <a target="_blank" className={css.icone}>
                                                 <Image src="/instagram.png" alt="logo" width={16} height={16} />
                                             </a>
                                         </Link>
                                             <Link href="https://www.youtube.com/channel/UC5VrF3OGPWOVF4hM4sVMiHw" rel="noreferrer">
-                                            <a className={css.icone}>
+                                            <a target="_blank" className={css.icone}>
                                                 <Image src="/youtube.png" alt="logo" width={16} height={16} />
                                             </a>
                                         </Link>
                                         <Link href="https://br.linkedin.com/company/pesa-forestpr" rel="noreferrer">
-                                            <a className={css.icone}>
+                                            <a target="_blank" className={css.icone}>
                                                 <Image src="/linkedin.png" alt="logo" width={16} height={16} />
                                             </a>
                                         </Link>
@@ -86,7 +86,7 @@ export default function Footer() {
                             </div>
 
                             <div>
-                            <Link className={css.link} href="/maquinas/caterpillar/pth18">
+                            <Link className={css.link} href="/maquina/maquina_pth18">
                                 <a className={css.textofooter}>
                                     PTH 18
                                 </a>
@@ -100,7 +100,7 @@ export default function Footer() {
                             </Link> */}
 
                             <div>
-                            <Link className={css.link} href="/maquinas/caterpillar/ptl20">
+                            <Link className={css.link} href="/maquina/maquina_ptl20">
                             <a className={css.textofooter}>
                                      PTL 20
                                  </a>
@@ -122,7 +122,7 @@ export default function Footer() {
                             <h2 className={css.titulofooter}>INFORMAÇÕES DE CONTATO</h2>
                             <div>
                             <Link className={css.link} href="tel:08009407372">
-                                <a className={css.textofooter}>
+                                <a target="_blank" className={css.textofooter}>
                                     0800 940 7372
                                 </a>
                             </Link>
@@ -130,7 +130,7 @@ export default function Footer() {
 
                             <div>
                             <Link className={css.link} href="mailto:marketing@pesa.com.br">
-                                <a className={css.textofooter}>marketing@pesa.com.br
+                                <a target="_blank" className={css.textofooter}>marketing@pesa.com.br
                                 </a>
                             </Link>
                             </div>

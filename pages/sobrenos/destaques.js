@@ -19,7 +19,7 @@ export default function Destaques(){
                     <div className={css.maquina1}></div>
                     <div className={css.name}>PTH 18</div>
                         <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
-                     <Link href="/maquinas/caterpillar/pth18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
+                     <Link href="/maquina/maquina_pth18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
 
@@ -29,7 +29,7 @@ export default function Destaques(){
                         <div className={css.name}>PTL 20</div>
                         <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
 
-                        <Link href="/maquinas/caterpillar/ptl20" ><a><button className={css.button}>Saiba Mais</button></a></Link>
+                        <Link href="/maquina/maquina_ptl20" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
 
@@ -39,7 +39,7 @@ export default function Destaques(){
                         <div className={css.name}>S 550</div>
                         <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
 
-                        <Link href="/maquinas/weiler/s550" ><a><button className={css.button}>Saiba Mais</button></a></Link>
+                        <Link href="/maquina/maquina_s550" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
 
@@ -49,7 +49,7 @@ export default function Destaques(){
                         <div className={css.name}>5FP GT</div>
                         <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
 
-                        <Link href="/maquinas/logset/5fpgt" ><a><button className={css.button}>Saiba Mais</button></a></Link>
+                        <Link href="/maquina/maquina_5fpgt" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
                 

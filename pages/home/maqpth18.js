@@ -23,7 +23,7 @@ export default function Maqpth18() {
                                 </p>
                             </div>
                             <div className={css.botaosaber}>
-                                <Link href="/maquinas/caterpillar/pth18">
+                                <Link href="/maquina/maquina_pth18">
                                     <a className={css.link}> SABER MAIS </a>
                                 </Link>
                             </div>

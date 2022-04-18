@@ -20,3 +20,9 @@
 .link:hover{
     color: black;
 }
+
+@media (max-width: 600px){
+    .titulo{
+        margin-top: 20px;
+    }
+}
