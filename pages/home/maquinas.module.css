@@ -32,7 +32,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     line-height: 65px;
 
 }
@@ -189,6 +188,10 @@
         height: 4px;
         margin-top: -15px;
         background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    }
+
+    .ttnossa2{
+        font-size: 65px;
     }
 }
 

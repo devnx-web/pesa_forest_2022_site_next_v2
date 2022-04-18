@@ -118,3 +118,13 @@
 .textofooter:hover{
     color: black
 }
+
+@media(max-width: 600px){
+    .textofooter{
+        font-size: 15px;
+    }
+
+    .titulofooter{
+        font-size: 19px;
+    }
+}

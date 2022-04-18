@@ -42,8 +42,18 @@
 
 @media (max-width: 600px){
     .bgbanner{
-        height: 60vh;
-        background-position-x: -150px;
+        height: 50vh;
+        background-position-x: -100px;
+    }
+
+    .titulo1{
+        font-size: 85px;
+        margin-top: -50px;
+    }
+
+    .titulo2{
+        font-size: 70px;
+        margin-top: -90px;
     }
 }
 

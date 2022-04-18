@@ -118,7 +118,7 @@ export default function Footer() {
 
                             <Link href="/politica-de-privacidade"><a className={css.textofooter}><br/>Politica de Privacidade</a></Link>
                         </Col>
-                        <Col md={3} xs="6">
+                        <Col className={css.column} md={3} xs="6">
                             <h2 className={css.titulofooter}>INFORMAÇÕES DE CONTATO</h2>
                             <div>
                             <Link className={css.link} href="tel:08009407372">
