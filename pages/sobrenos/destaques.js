@@ -18,7 +18,7 @@ export default function Destaques(){
                     <div className={css.bgmaquina}>
                     <div className={css.maquina1}></div>
                     <div className={css.name}>PTH 18</div>
-                        <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
+                        <div className={css.textomaq}>PESA TRACKER HARVESTER PTH-18 é uma máquina projetada para atender o Mercado Florestal, possui um cabeçote que processa as árvores individualmente, ou seja, cada árvore é derrubada, desgalhada, destopada e traçada separadamente.</div>
                      <Link href="/maquina/maquina_pth18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>

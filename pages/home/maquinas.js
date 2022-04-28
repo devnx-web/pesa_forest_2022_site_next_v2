@@ -59,6 +59,7 @@ export default function Maquinas() {
                     <Col md="6">
                         <div>
                             <Slider {...settings}>
+                                <Link href="/maquina/maquina_ptl20"><a>
                                 <div style={{ width: 250 }}>
                                     <div className={css.bgslide}>
                                         <div className={css.position}>
@@ -67,6 +68,9 @@ export default function Maquinas() {
                                         </div>
                                     </div>
                                 </div>
+                                </a></Link>
+
+                                <Link href="/maquina/maquina_pth18"><a>
                                 <div style={{ width: 250 }}>
                                     <div className={css.bgslide2}>
                                         <div className={css.position}>
@@ -75,6 +79,9 @@ export default function Maquinas() {
                                         </div>
                                     </div>
                                 </div>
+                                </a></Link>
+
+                                <Link href="/maquina/maquina_b757"><a>
                                 <div style={{ width: 250 }}>
                                     <div className={css.bgslide3}>
                                         <div className={css.position}>
@@ -83,6 +90,7 @@ export default function Maquinas() {
                                         </div>
                                     </div>
                                 </div>
+                                </a></Link>
                             </Slider>
                         </div>
                     </Col>

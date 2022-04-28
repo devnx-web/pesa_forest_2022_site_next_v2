@@ -59,9 +59,9 @@ export default function Footer() {
                             <h2 className={css.titulofooter}>MAPA DO SITE</h2>
 
                             <div>
-                            <Link className={css.link} href="/contato">
+                            <Link className={css.link} href="/maquinas">
                                 <a className={css.textofooter}>
-                                     Contato 
+                                     Produtos
                                 </a>
                             </Link>
                             </div>
@@ -69,7 +69,15 @@ export default function Footer() {
                             <div>
                             <Link className={css.link} href="/sobrenos">
                                 <a className={css.textofooter}>
-                                    Sobre nós
+                                    Sobre a PESA Forest
+                                </a>
+                            </Link>
+                            </div>
+
+                            <div>
+                            <Link className={css.link} href="/contato">
+                                <a className={css.textofooter}>
+                                    Contato
                                 </a>
                             </Link>
                             </div>
@@ -80,7 +88,7 @@ export default function Footer() {
                             <div>
                             <Link className={css.link} href="/maquinas">
                                 <a>
-                                    <h2 className={css.titulofooter}>MAQUINAS</h2>
+                                    <h2 className={css.titulofooter}>PRODUTOS</h2>
                                 </a>
                             </Link>
                             </div>
@@ -121,16 +129,16 @@ export default function Footer() {
                         <Col className={css.column} md={3} xs="6">
                             <h2 className={css.titulofooter}>INFORMAÇÕES DE CONTATO</h2>
                             <div>
-                            <Link className={css.link} href="tel:08009407372">
+                            <Link className={css.link} href="https://api.whatsapp.com/send?phone=554121032211&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20PESA%20Forest%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!">
                                 <a target="_blank" className={css.textofooter}>
-                                    0800 940 7372
+                                (41) 2103-2211
                                 </a>
                             </Link>
                             </div>
 
                             <div>
-                            <Link className={css.link} href="mailto:marketing@pesa.com.br">
-                                <a target="_blank" className={css.textofooter}>marketing@pesa.com.br
+                            <Link className={css.link} href="mailto:lima_rogerio@pesa.com.br">
+                                <a target="_blank" className={css.textofooter}>lima_rogerio@pesa.com.br
                                 </a>
                             </Link>
                             </div>

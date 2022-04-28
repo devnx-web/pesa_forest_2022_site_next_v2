@@ -23,7 +23,7 @@ export default function Home() {
           <Maqpth18mob />
         </div>
         <Operacao />
-        <Opinioes />
+        {/* <Opinioes /> */}
         <Formulario />
       </div>
     </div>
