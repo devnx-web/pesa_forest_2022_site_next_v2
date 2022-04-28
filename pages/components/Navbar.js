@@ -210,6 +210,11 @@ export default function Navbar() {
                                                                         <a>B670</a>
                                                                     </Link>
                                                                     </div>
+                                                                    <div>
+                                                                    <Link className={css.nomemaq} href="/maquina/maquina_b670a">
+                                                                        <a>B670 A</a>
+                                                                    </Link>
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
@@ -261,26 +266,50 @@ export default function Navbar() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                                <div>
-                                                                <Link className={css.nomemaq} href="/maquina/maquina_b670a">
-                                                                        <a>B670A</a>
-                                                                    </Link>
 
+                                                            <div className={css.dropdown4}>
+                                                                <button className={css.dropbtn4}>
+                                                                    <Link href="/maquinas">
+                                                                        <a>
+                                                                            Harversters
+                                                                        </a>
+                                                                    </Link>
+                                                                </button>
+                                                                <div className={css.dropdowncontent4}>
+                                                                <div>
                                                                     <Link className={css.nomemaq} href="/maquina/maquina_h157">
                                                                         <a>H157</a>
                                                                     </Link>
-                                                        <Link className={css.nomemaq} href="/maquina/maquina_h457">
+                                                                    </div>
+                                                                    <div>
+                                                                    <Link className={css.nomemaq} href="/maquina/maquina_h457">
                                                                         <a>H457</a>
                                                                     </Link>
-                                                            
-                                                        <Link className={css.nomemaq} href="/maquina/maquina_h458">
+                                                                    </div>
+                                                                    <div>
+                                                                         <Link className={css.nomemaq} href="/maquina/maquina_h458">
                                                                         <a>H458</a>
                                                                     </Link>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
 
-                                                                    <Link className={css.nomemaq} href="/maquina/maquina_m860">
+                                                            <div className={css.dropdown4}>
+                                                                <button className={css.dropbtn4}>
+                                                                    <Link href="/maquinas">
+                                                                        <a>
+                                                                            Mulcher
+                                                                        </a>
+                                                                    </Link>
+                                                                </button>
+                                                                <div className={css.dropdowncontent4}>
+                                                                <div>
+                                                                <Link className={css.nomemaq} href="/maquina/maquina_m860">
                                                                     <a>M860</a>
                                                                 </Link>
+                                                                    </div>
                                                                 </div>
+                                                            </div>
                                                     </div>
                                                     </div>
                                                 </div>

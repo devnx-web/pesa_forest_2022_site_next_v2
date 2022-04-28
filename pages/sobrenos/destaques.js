@@ -18,7 +18,7 @@ export default function Destaques(){
                     <div className={css.bgmaquina}>
                     <div className={css.maquina1}></div>
                     <div className={css.name}>PTH 18</div>
-                        <div className={css.textomaq}>PESA TRACKER HARVESTER PTH-18 é uma máquina projetada para atender o Mercado Florestal, possui um cabeçote que processa as árvores individualmente, ou seja, cada árvore é derrubada, desgalhada, destopada e traçada separadamente.</div>
+                        <div className={css.textomaq}>PESA TRACKER HARVESTER PTH-18 é uma máquina projetada para atender o Mercado Florestal, possui um cabeçote que processa as árvores individualmente.<br/><br/></div>
                      <Link href="/maquina/maquina_pth18" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
                 </Col>
@@ -27,7 +27,7 @@ export default function Destaques(){
                     <div className={css.bgmaquina}>
                         <div className={css.maquina2}></div>
                         <div className={css.name}>PTL 20</div>
-                        <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
+                        <div className={css.textomaq}>PESA TRACK LOADER PTL 20 é uma máquina fabricada no Brasil e projetada para atender o mercado florestal, possui lança reta de 5680mm e braço de 2900mm para uma maior performance no carregamento. </div>
 
                         <Link href="/maquina/maquina_ptl20" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
@@ -37,7 +37,7 @@ export default function Destaques(){
                     <div className={css.bgmaquina}>
                         <div className={css.maquina3}></div>
                         <div className={css.name}>S 550</div>
-                        <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
+                        <div className={css.textomaq}>Proporcionam maior confiabilidade e durabilidade com transmissão Powershift e lock up, que fornece uma tração potente enquanto um sistema hidráulico multifunção forte melhora o desempenho geral.</div>
 
                         <Link href="/maquina/maquina_s550" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
@@ -47,7 +47,7 @@ export default function Destaques(){
                     <div className={css.bgmaquina}>
                         <div className={css.maquina4}></div>
                         <div className={css.name}>5FP GT</div>
-                        <div className={css.textomaq}>Lorem ipsum dolor sit amet. Et dolorem dolores ea quia laudantium est empora ipsam rem quia minus.</div>
+                        <div className={css.textomaq}>Logset 5FP GT é um forwarder versátil. É compacto e ágil para operações de desbaste, mas tem potência suficiente para operações de corte raso. <br/><br/><br/></div>
 
                         <Link href="/maquina/maquina_5fpgt" ><a><button className={css.button}>Saiba Mais</button></a></Link>
                     </div>
