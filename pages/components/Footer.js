@@ -101,6 +101,14 @@ export default function Footer() {
                             </Link>
                             </div>
 
+                            <div>
+                            <Link className={css.link} href="/maquina/maquina_pth20">
+                                <a className={css.textofooter}>
+                                    PTH 20
+                                </a>
+                            </Link>
+                            </div>
+
                             {/* <Link className={css.link} href="/maquinas/caterpillar/pth20">
                                 <a>
                                     <h4 className={css.textofooter}>PTH 20</h4>
