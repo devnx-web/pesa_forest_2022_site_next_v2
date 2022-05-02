@@ -17,6 +17,7 @@
 
 }
 
+
 .ttmaq1{
     color: #000000;
     font-family: "Bebas Neue";
@@ -126,6 +127,10 @@
 @media (max-width: 600px) {
     .formwidth{
         padding: 0;
+    }
+    
+    .inputform{
+        background-color: white;
     }
 }
 

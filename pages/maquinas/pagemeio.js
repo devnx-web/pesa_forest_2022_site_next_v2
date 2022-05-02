@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Contactform from "../components/contatoForm"
 import Slider from "react-slick";
 import CollapseLogmax from "../../components/CollapseLogmax.tsx";
 import CollapseLogset from "../../components/CollapseLogset.tsx";
@@ -192,6 +193,17 @@ export default function Pagemeio(){
                                 </p>
                                 <CollapseQuadco/>
                             </div>
+                            <div className={css.backgroundform}>
+                            <div>
+                    <h2 className={css.ttmaq2}>ENTRE EM CONTATO</h2>
+                    <h2 className={css.ttmaq1}>ENTRE EM CONTATO</h2>
+                </div>
+                <p className={css.textocontato}>
+                    Para entrar em contato conosco, basta preencher o formulário abaixo!<br/> Nossa equipe está pronta para
+                    te atender!
+                </p>
+                            <Contactform/>
+                        </div>
                         </div>
                         </Container>
             </div>

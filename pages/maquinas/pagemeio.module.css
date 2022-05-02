@@ -1,6 +1,6 @@
 
 .bgpage {
-    background: transparent linear-gradient(155deg, #ffffff 0%, #979797 100%);
+    background: transparent linear-gradient(155deg, #ffffff 0%, #d8d8d8 100%);
     padding: 30px 0 80px 0;
     border-top: solid;
     border-top-width: 1px;
@@ -393,13 +393,18 @@
         display: none;
     }
 
+    .textocontato{
+        text-align: center;
+        font-family: Univers;
+    }
+
     .ttmaq1{
-        font-size: 27px;
-        margin-top: -60px;
+        font-size: 37px;
+        margin-top: -50px;
     }
 
     .ttmaq2{
-        font-size: 85px;
+        font-size: 58px;
         margin-bottom: 10px;
     }
     .ocultamob {
@@ -434,8 +439,6 @@
         height: 10px !important;
     }
 }
-
-
 
 @media (min-width: 1000px) {
     .ocultadesk {

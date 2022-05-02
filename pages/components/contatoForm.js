@@ -64,6 +64,17 @@ const ContactForm = () => {
                 </div>
 
                 <div>
+                    <div><label className={css.label}>TELEFONE</label></div>
+                    <Input
+                        value={form.telefone}
+                        onChange={(val) => setForm({
+                            ...form,
+                            telefone: val.target.value
+                        })}
+                        className={css.inputform} type="number" placeholder="Digite seu telefone..." />
+                </div>
+
+                <div>
                                     <label className={css.label}>SELECIONAR MODELO</label>
                                     <select className={css.inputform} value={form.segment} onChange={(event => { setForm({ ...form, model: event.target.value }) })}>
                                         <option className={css.selectoption} value="PTH 18">PTH 18</option>
