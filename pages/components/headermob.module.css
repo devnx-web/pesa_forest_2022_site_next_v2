@@ -202,6 +202,11 @@
     color: white;
 }
 
+.input{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
 
 @media (min-width: 600px){
     .navigation{

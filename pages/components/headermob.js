@@ -12,7 +12,7 @@ export default function Headermob() {
             <Row>
                 <Col>
             <div className={css["menuToggle"] + " " + css["div"]}>
-                <input className={css.input} name="toggle" type="checkbox" />
+                <input className={css.input} name="toggle" type="checkbox"/>
                 <label className={css.label} htmlFor="toggle">
                     <span className={css.span}>menu</span>
                     <div className={css.div}></div>
