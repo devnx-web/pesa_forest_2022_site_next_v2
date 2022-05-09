@@ -1,16 +1,49 @@
-import React from "react";
+import React, { useState } from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import Footercop from "./footercop";
 import { Container, Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import css from './footer.module.css'
+import axios from 'axios';
+import { toast, ToastContainer } from 'react-nextjs-toast'
+import { Input } from "reactstrap";
 
-export default function Footer() {
+
+    const Footer = () => {
+        const [form, setForm] = useState({
+            email: "", idEmpresa:4, pagina:"form_footer"
+        });
+        const api = axios.create({
+            baseUrl: 'https://phpstack-423803-1938873.cloudwaysapps.com/api/integracao/json_pp/'
+        });
+
+
+        async function formSubmit() {
+            if (form.email === '' ) {
+                return toast.notify('Preencha todos os campos', {
+                    title: "Preencha os campos",
+                    type: "error"
+                });
+            }
+            const { data: addForm } = await api.post('form_footer', form);
+            if (addForm.success) {
+                toast.notify(addForm.success, {
+                    title: "Sucesso",
+                    type: "success"
+                });
+
+                setForm({ email: "" })
+            }
+        }
+    
+
+
     return (
-        <div>
+        <>
         <div className={css.bgfooter}>
             <Container>
+            <ToastContainer />
                 <div>
                     <div className={css.cardredes}>
                         <div>
@@ -44,10 +77,18 @@ export default function Footer() {
                                     <h2 className={css.textoligado}>FIQUE LIGADO NAS <br /> NOVIDADES!</h2>
                                 </Col>
                                 <Col md="4">
-                                    <input className={css.inputemail} type="text" placeholder="E-mail" />
+                                    <Input
+                                    value={form.email}
+                                    onChange={(val) => setForm({
+                                        ...form,
+                                        email: val.target.value
+                                    })}
+                                    className={css.inputemail} type="text" placeholder="E-mail" />
                                 </Col>
                                 <Col>
-                                    <div className={css.botao}>
+                                    <div 
+                                    onClick={formSubmit}
+                                    className={css.botao}>
                                         INSCREVER
                                     </div>
                                 </Col>
@@ -156,7 +197,7 @@ export default function Footer() {
             </Container>
         </div>
         <Footercop/>
-        </div>
+        </>
     )
-
-}
+}  
+export default Footer
