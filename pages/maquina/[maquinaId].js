@@ -1,6 +1,7 @@
 import PrimeiraSessao from "./primeiraSessao";
 import Banner from './banner'
 import Mobile from "./mobile";
+import Formulario from "../contato/formulario";
 
 
 function Maquina({ data }) {
@@ -31,6 +32,7 @@ function Maquina({ data }) {
                 textoDescricao={data.s1_textoDescricao}
                 downloadCatalogo={data.s1_downCatalogo}
             />
+            <Formulario/>
         </div>
     )
 }

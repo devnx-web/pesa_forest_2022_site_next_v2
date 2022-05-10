@@ -77,7 +77,7 @@ export default function Pagemeio(){
                                     <h4 className={css.ttcard}>Cartepillar</h4>
                                     <Image className={css.imgmaq} src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
                                     <p className={css.textocard}>
-                                    A Caterpillar atua em todos os continentes, principalmente em três segmentos principais: Setores de Construção, Setores de Recursos e Energia e Transporte, além de fornecer financiamento e serviços relacionados por meio do seu segmento de Produtos Financeiros. 
+                                    A Caterpillar atua em todos os continentes, principalmente em três segmentos principais: Setores de Construção, Setores de Recursos e Energia e Transporte, além de fornecer financiamento e serviços relacionados por meio do seu segmento de Produtos Financeiros. <br/><br/>
                                     </p>
                                     <CollapseCaterpillar/>
                             </div>
@@ -112,7 +112,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Weiler</h4>
                             <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            São os mais inovadores do mercado e proporcionam maior produtividade e grande eficiência de consumo de combustível. Incluindo o Sistema PowerDirect Plus e o Motor de Montagem Transversal combinado com um sistema hidráulico avançado multifuncional.<br/><br/>
                                 </p>
                                 <CollapseWeiler/>
                                 </div>
@@ -124,7 +124,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Quadco</h4>
                             <Image src="/maquinas/quadco-22c.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            Os modelos C permitem melhor alavancagem ao manusear madeira alta com torre estendida e acumulação mais rápida. Eles apresentam braços fundidos mais fortes e duráveis com contornos para suporte máximo ao acumular, bem como um acionamento de disco ultra-confiável com rolamentos facilmente ajustáveis.
                                 </p>
                                 <CollapseQuadco/>
                             </div>
@@ -142,7 +142,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                     <h4 className={css.ttcard}>Cartepillar</h4>
                                     <Image className={css.imgmaq} src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
                                     <p className={css.textocard}>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                                    A Caterpillar atua em todos os continentes, principalmente em três segmentos principais: Setores de Construção, Setores de Recursos e Energia e Transporte, além de fornecer financiamento e serviços relacionados por meio do seu segmento de Produtos Financeiros. 
                                     </p>
                                     <CollapseCaterpillar/>
                             </div>
@@ -154,7 +154,8 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Logmax</h4>
                             <Image src="/maquinas/peca-logmax.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            O projeto e as atualizações dos cabeçotes Log Max sempre prezam sua multi-aplicabilidade.
+Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicação multi-marcas, e assim seguimos até os dias atuais, isso torna os nossos produtos a escolha que irá otimizar a operação, ao menor custo de madeira produzida.
                                 </p>
                                 <CollapseLogmax/>
                             </div>
@@ -166,7 +167,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Logset</h4>
                             <Image src="/maquinas/5f-gt-transparente.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            Logset produz soluções CTL. A gama de máquinas logset contém sete forwarders, sete harversters e sete cabeçotes de colheita florestal diferentes. Todos os produtos são fabricados na fábrica da empresa. A rede de distribuição da logset abrange 21 países, e as máquinas logset trabalham em mais de 25 países.
                                 </p>
                                 <CollapseLogset/>
                             </div>
@@ -178,7 +179,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Weiler</h4>
                             <Image src="/maquinas/b458.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            São os mais inovadores do mercado e proporcionam maior produtividade e grande eficiência de consumo de combustível. Incluindo o Sistema PowerDirect Plus e o Motor de Montagem Transversal combinado com um sistema hidráulico avançado multifuncional.
                                 </p>
                                 <CollapseWeiler/>
                                 </div>
@@ -190,7 +191,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                                    <h4 className={css.ttcard}>Quadco</h4>
                                    <Image src="/maquinas/quadco-18c.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus odio nisi, eu venenatis metus tincidunt nec. Duis eu dolor tincidunt eros gravida malesuada eu ac elit. Donec eu leo scelerisque, tristique ligula a, fringilla dolor.
+                            Os modelos C permitem melhor alavancagem ao manusear madeira alta com torre estendida e acumulação mais rápida. Eles apresentam braços fundidos mais fortes e duráveis com contornos para suporte máximo ao acumular, bem como um acionamento de disco ultra-confiável com rolamentos facilmente ajustáveis.
                                 </p>
                                 <CollapseQuadco/>
                             </div>
