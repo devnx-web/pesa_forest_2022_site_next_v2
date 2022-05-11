@@ -122,7 +122,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
                             <div className={css.bgslide}>
                             <h4 className={css.subtt}>PEÇAS</h4>
                                    <h4 className={css.ttcard}>Quadco</h4>
-                            <Image src="/maquinas/quadco-22c.png" alt="logo" width={300} height={180} />
+                            <Image src="/maquinas/quadco-22C.png" alt="logo" width={300} height={180} />
                             <p className={css.textocard}>
                             Os modelos C permitem melhor alavancagem ao manusear madeira alta com torre estendida e acumulação mais rápida. Eles apresentam braços fundidos mais fortes e duráveis com contornos para suporte máximo ao acumular, bem como um acionamento de disco ultra-confiável com rolamentos facilmente ajustáveis.
                                 </p>
