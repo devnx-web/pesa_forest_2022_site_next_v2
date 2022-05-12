@@ -21,8 +21,9 @@ export default function Sobre() {
                                     {/* <h3 className={css.destaque}>Frase destaque</h3> */}
                                     <div>
                                         <p className={css.textomaq}>
-                                            A PESA Forest oferece uma linha completa de equipamentos florestais para atender às necessidades de sua aplicação - das principais máquinas que auxiliam na construção de estradas, em serrarias e reflorestamento, até máquinas criadas para fins específicos, que colhem, extraem e carregam.
-                                            <br/><br/>Conta com uma linha de produtos de grandes marcas como Caterpillar, Weiller, Quadco, e Logmax . É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal. </p>
+                                        A PESA Forest oferece há mais de 25 anos uma completa solução para atender a indústria florestal, com as mais renomadas marcas: Caterpillar, Weiler, Quadco, Logmax e Logset. 
+                                        Iniciando na construção e manutenção de estradas, passando por colheita, baldeio e carregamento, nos sistemas CTL e Full Tree, até máquinas para operações em pátios de madeira.É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal.
+                                        </p>
                                     </div>
                                 </Col>
                             </Row>
