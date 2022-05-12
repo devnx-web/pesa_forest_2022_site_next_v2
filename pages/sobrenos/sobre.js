@@ -21,7 +21,7 @@ export default function Sobre() {
                                     {/* <h3 className={css.destaque}>Frase destaque</h3> */}
                                     <div>
                                         <p className={css.textomaq}>
-                                        A PESA Forest oferece há mais de 25 anos uma completa solução para atender a indústria florestal, com as mais renomadas marcas: Caterpillar, Weiler, Quadco, Logmax e Logset. 
+                                        A PESA Forest oferece há mais de 25 anos uma completa solução para atender a indústria florestal, com as mais renomadas marcas: Caterpillar, Weiler, Quadco, Logmax e Logset. <br/>
                                         Iniciando na construção e manutenção de estradas, passando por colheita, baldeio e carregamento, nos sistemas CTL e Full Tree, até máquinas para operações em pátios de madeira.É tudo o que você precisa para ter produtividade, agilidade, e versatilidade para a sua operação florestal.
                                         </p>
                                     </div>
