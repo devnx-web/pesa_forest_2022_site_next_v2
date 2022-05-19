@@ -15,10 +15,10 @@ import CollapseCaterpillar from "../../components/CollapseCaterpillar.tsx";
 
 
 const settings = {
-    dots: false,
+    dots: true,
     arrows: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5500,
     speed: 500,
     slidesToShow: 3,

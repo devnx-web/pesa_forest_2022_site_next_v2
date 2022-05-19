@@ -100,6 +100,14 @@ import { Input } from "reactstrap";
                             <h2 className={css.titulofooter}>MAPA DO SITE</h2>
 
                             <div>
+                            <Link className={css.link} href="/">
+                                <a className={css.textofooter}>
+                                     Home
+                                </a>
+                            </Link>
+                            </div>
+
+                            <div>
                             <Link className={css.link} href="/maquinas">
                                 <a className={css.textofooter}>
                                      Produtos
@@ -135,17 +143,17 @@ import { Input } from "reactstrap";
                             </div>
 
                             <div>
-                            <Link className={css.link} href="/maquina/maquina_pth18">
+                            <Link className={css.link} href="/maquinas">
                                 <a className={css.textofooter}>
-                                    PTH 18
+                                    Caterpillar
                                 </a>
                             </Link>
                             </div>
 
                             <div>
-                            <Link className={css.link} href="/maquina/maquina_pth20">
+                            <Link className={css.link} href="/maquinas">
                                 <a className={css.textofooter}>
-                                    PTH 20
+                                    Logmax
                                 </a>
                             </Link>
                             </div>
@@ -157,9 +165,25 @@ import { Input } from "reactstrap";
                             </Link> */}
 
                             <div>
-                            <Link className={css.link} href="/maquina/maquina_ptl20">
+                            <Link className={css.link} href="/maquinas">
                             <a className={css.textofooter}>
-                                     PTL 20
+                                     Quadco
+                                 </a>
+                            </Link>
+                            </div>
+
+                            <div>
+                            <Link className={css.link} href="/maquinas">
+                            <a className={css.textofooter}>
+                                     Weiler
+                                 </a>
+                            </Link>
+                            </div>
+
+                            <div>
+                            <Link className={css.link} href="/maquinas">
+                            <a className={css.textofooter}>
+                                     Logset
                                  </a>
                             </Link>
                             </div>
