@@ -8,7 +8,9 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                <Script id="GTM-WCK92HL"/>
+            <Script src="https://www.googletagmanager.com/ns.html?id=GTM-WCK92HL"
+height="0" width="0" style="display:none;visibility:hidden" />
+                
                 <title>Pesa Forest</title>
             </Head>
             <Navbar />
