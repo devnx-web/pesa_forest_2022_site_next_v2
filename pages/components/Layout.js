@@ -7,8 +7,8 @@ import Script from 'next/script'
 export default function Layout({ children }) {
     return (
         <>
-        <Script id="GTM-WCK92HL"/>
             <Head>
+                <Script id="GTM-WCK92HL"/>
                 <title>Pesa Forest</title>
             </Head>
             <Navbar />
