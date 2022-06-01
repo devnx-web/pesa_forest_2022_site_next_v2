@@ -10,40 +10,39 @@ import { toast, ToastContainer } from 'react-nextjs-toast'
 import { Input } from "reactstrap";
 
 
-    const Footer = () => {
-        const [form, setForm] = useState({
-            email: "", idEmpresa:4, pagina:"form_footer"
-        });
-        const api = axios.create({
-            baseUrl: 'https://phpstack-423803-1938873.cloudwaysapps.com/api/integracao/json_pp/'
-        });
+const Footer = () => {
+    const [form, setForm] = useState({
+        email: "", idEmpresa:4, pagina:"form_forest_contato_site"
+    });
+    const api = axios.create({
+        baseURL: 'https://phpstack-423803-1938873.cloudwaysapps.com/api/integracao/json_pp/'
+    });
 
-
-        async function formSubmit() {
-            if (form.email === '' ) {
-                return toast.notify('Preencha todos os campos', {
-                    title: "Preencha os campos",
-                    type: "error"
-                });
-            }
-            const { data: addForm } = await api.post('form_footer', form);
-            if (addForm.success) {
-                toast.notify(addForm.success, {
-                    title: "Sucesso",
-                    type: "success"
-                });
-
-                setForm({ email: "" })
-            }
+    async function formSubmit() {
+        if (form.email === '' ) {
+            return toast.notify('Preencha todos os campos', {
+                title: "Preencha os Campos",
+                type: "error"
+            });
         }
+         const { data: addForm } = await api.post('form_forest_contato_site', form);
+         if (addForm.success) {
+             toast.notify(addForm.success, {
+                 title: "Sucesso",
+                 type: "success"
+             });
+
+             setForm({ email: "" })
+         }
+    }
     
 
 
     return (
         <>
         <div className={css.bgfooter}>
-            <Container>
             <ToastContainer />
+            <Container>
                 <div>
                     <div className={css.cardredes}>
                         <div>
