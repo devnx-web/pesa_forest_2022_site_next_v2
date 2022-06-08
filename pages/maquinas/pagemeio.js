@@ -139,7 +139,7 @@ Desde seu primeiro projeto, em 1980, a Log Max sempre prezou pela sua aplicaçã
             <div className={css.slide}>
                             <div className={css.bgslide}>
                                     <h4 className={css.subtt}>MÁQUINAS</h4>
-                                    <h4 className={css.ttcard}>Cartepillar</h4>
+                                    <h4 className={css.ttcard}>Caterpillar</h4>
                                     <Image className={css.imgmaq} src="/maquinas/pth20-harvester.png" alt="logo" width={300} height={180} />
                                     <p className={css.textocard}>
                                     A Caterpillar atua em todos os continentes, principalmente em três segmentos principais: Setores de Construção, Setores de Recursos e Energia e Transporte, além de fornecer financiamento e serviços relacionados por meio do seu segmento de Produtos Financeiros. 

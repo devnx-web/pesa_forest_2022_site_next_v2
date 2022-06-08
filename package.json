@@ -29,7 +29,8 @@
     "react-slick": "^0.28.1",
     "reactstrap": "^9.0.1",
     "sass-loader": "^12.6.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
